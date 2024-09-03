@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/","noteIcon":""}
+{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

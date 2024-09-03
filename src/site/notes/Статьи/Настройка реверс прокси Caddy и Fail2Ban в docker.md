@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/stati/nastrojka-revers-proksi-caddy-i-fail2-ban-v-docker/","noteIcon":""}
+{"dg-publish":true,"permalink":"/stati/nastrojka-revers-proksi-caddy-i-fail2-ban-v-docker/"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
-children:: 
+> [!urls]- Заметки по статье
 
 ---
 ## **Вступление, или немного о том зачем и почему**
