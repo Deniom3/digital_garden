@@ -1,0 +1,48 @@
+---
+{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-samba/"}
+---
+
+Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
+
+---
+
+Установка samba
+```shell
+sudo apt install samba -y
+```
+
+Включение службы
+```shell
+sudo systemctl enable smbd
+sudo systemctl start smbd
+```
+
+Для проверки можно воспользоваться командой:
+```shell
+sudo systemctl status smbd
+```
+
+Конфигурация прописана в файле `/etc/samba/smb.conf`:
+```shell
+sudo nano /etc/samba/smb.conf
+```
+
+Пример конфигурации для доступа с авторизацией:
+```shell
+[immich]
+path = /mnt/immich
+valid users = @deniom
+guest ok = no
+browsable = yes
+writable = yes
+```
+
+Установка samba пароля:
+```shell
+sudo smbpasswd -a deniom
+```
+
+После изменения параметров перезагрузить:
+```shell
+sudo systemctl restart smbd
+```

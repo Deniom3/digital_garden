@@ -49,8 +49,8 @@ services:
     volumes:
       - /DATA/AppData/readeck:/readeck
     environment:
-      - ST_TELEGRAM_CHAT_IDS=779979797
-      - ST_TELEGRAM_BOT_TOKEN=7127345363:AAEarsdfsdtnYsZZasdasdx0OfFcDc1NLU
+      - ST_TELEGRAM_CHAT_IDS=<CHAT_ID>
+      - ST_TELEGRAM_BOT_TOKEN=<TELEGRAM_BOT_TOKEN>
       - ST_TELEGRAM_MESSAGE_TEMPLATE={subject}\n\n{body}\n\n{attachments_details}
     ports:
       - 2525:2525

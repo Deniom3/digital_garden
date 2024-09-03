@@ -1,0 +1,16 @@
+---
+{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-ssh-dlya-ne-root-polzovatelya-linux/"}
+---
+
+Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
+
+---
+После [[Хобби/Команды и настройки/Создание нового пользователя Linux\|создания нового пользователя]] необходимо настроить ssh.
+
+```shell
+sudo mkdir -p /home/deniom/.ssh
+sudo touch /home/deniom/.ssh/authorized_keys
+sudo chmod 700 /home/deniom/.ssh
+sudo chmod 600 /home/deniom/.ssh/authorized_keys
+sudo chown -R deniom:deniom /home/deniom/.ssh
+```
