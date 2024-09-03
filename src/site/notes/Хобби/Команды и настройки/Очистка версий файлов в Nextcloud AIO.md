@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/ochistka-versij-fajlov-v-nextcloud-aio/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Очистка версий файлов в Nextcloud AIO.md","permalink":"/komandy-i-nastrojki/ochistka-versij-fajlov-v-nextcloud-aio/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

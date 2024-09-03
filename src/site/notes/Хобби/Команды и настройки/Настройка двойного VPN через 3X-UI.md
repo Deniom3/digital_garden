@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-dvojnogo-vpn-cherez-3-x-ui/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка двойного VPN через 3X-UI.md","permalink":"/komandy-i-nastrojki/nastrojka-dvojnogo-vpn-cherez-3-x-ui/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

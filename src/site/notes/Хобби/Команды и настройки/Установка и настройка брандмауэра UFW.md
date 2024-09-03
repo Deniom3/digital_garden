@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/ustanovka-i-nastrojka-brandmauera-ufw/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка и настройка брандмауэра UFW.md","permalink":"/komandy-i-nastrojki/ustanovka-i-nastrojka-brandmauera-ufw/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

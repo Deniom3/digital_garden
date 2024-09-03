@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/komanda-vyklyucheniya-okna-avtorizaczii-nextloud/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Команда выключения окна авторизации Nextloud.md","permalink":"/komandy-i-nastrojki/komanda-vyklyucheniya-okna-avtorizaczii-nextloud/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

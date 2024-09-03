@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/rabota-s-obrazami-docker/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Работа с образами Docker.md","permalink":"/komandy-i-nastrojki/rabota-s-obrazami-docker/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

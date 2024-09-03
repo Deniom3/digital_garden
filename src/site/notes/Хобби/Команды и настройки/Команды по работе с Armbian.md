@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/komandy-po-rabote-s-armbian/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Команды по работе с Armbian.md","permalink":"/komandy-i-nastrojki/komandy-po-rabote-s-armbian/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

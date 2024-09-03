@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-podklyucheniya-k-serveru-po-ssh-s-ispolzovaniem-klyucha/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка подключения к серверу по SSH с использованием ключа.md","permalink":"/komandy-i-nastrojki/nastrojka-podklyucheniya-k-serveru-po-ssh-s-ispolzovaniem-klyucha/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

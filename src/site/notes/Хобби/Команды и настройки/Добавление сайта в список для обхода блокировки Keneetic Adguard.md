@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/dobavlenie-sajta-v-spisok-dlya-obhoda-blokirovki-keneetic-adguard/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Добавление сайта в список для обхода блокировки Keneetic Adguard.md","permalink":"/komandy-i-nastrojki/dobavlenie-sajta-v-spisok-dlya-obhoda-blokirovki-keneetic-adguard/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

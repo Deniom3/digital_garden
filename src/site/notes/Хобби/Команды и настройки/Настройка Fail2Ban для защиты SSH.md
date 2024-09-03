@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-fail2-ban-dlya-zashhity-ssh/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка Fail2Ban для защиты SSH.md","permalink":"/komandy-i-nastrojki/nastrojka-fail2-ban-dlya-zashhity-ssh/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

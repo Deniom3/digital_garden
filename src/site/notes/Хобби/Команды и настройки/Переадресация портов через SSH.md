@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/pereadresacziya-portov-cherez-ssh/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Переадресация портов через SSH.md","permalink":"/komandy-i-nastrojki/pereadresacziya-portov-cherez-ssh/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

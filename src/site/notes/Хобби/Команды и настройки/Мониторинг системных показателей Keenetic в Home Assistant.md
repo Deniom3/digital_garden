@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/monitoring-sistemnyh-pokazatelej-keenetic-v-home-assistant/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Мониторинг системных показателей Keenetic в Home Assistant.md","permalink":"/komandy-i-nastrojki/monitoring-sistemnyh-pokazatelej-keenetic-v-home-assistant/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

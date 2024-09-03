@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-vklyucheniya-wg-na-keenetic-po-raspisaniyu/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка включения WG на Keenetic по расписанию.md","permalink":"/komandy-i-nastrojki/nastrojka-vklyucheniya-wg-na-keenetic-po-raspisaniyu/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

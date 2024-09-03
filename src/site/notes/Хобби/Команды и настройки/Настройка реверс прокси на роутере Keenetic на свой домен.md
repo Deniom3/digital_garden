@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-revers-proksi-na-routere-keenetic-na-svoj-domen/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка реверс прокси на роутере Keenetic на свой домен.md","permalink":"/komandy-i-nastrojki/nastrojka-revers-proksi-na-routere-keenetic-na-svoj-domen/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

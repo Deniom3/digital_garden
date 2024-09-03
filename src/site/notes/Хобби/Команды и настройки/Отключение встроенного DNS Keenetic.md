@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/otklyuchenie-vstroennogo-dns-keenetic/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Отключение встроенного DNS Keenetic.md","permalink":"/komandy-i-nastrojki/otklyuchenie-vstroennogo-dns-keenetic/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

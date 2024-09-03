@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/vklyuchenie-ufw-dlya-kontejnerov-doker/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Включение ufw для контейнеров докер.md","permalink":"/komandy-i-nastrojki/vklyuchenie-ufw-dlya-kontejnerov-doker/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

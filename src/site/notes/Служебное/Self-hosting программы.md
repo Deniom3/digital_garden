@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sluzhebnoe/self-hosting-programmy/","created":"2024-07-14"}
+{"dg-publish":true,"dg-path":"Self-hosting программы.md","permalink":"/self-hosting-programmy/","created":"2024-07-14"}
 ---
 
 ### Используемые программы:

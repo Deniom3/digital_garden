@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/rabota-s-docker-compose/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Работа с docker compose.md","permalink":"/komandy-i-nastrojki/rabota-s-docker-compose/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

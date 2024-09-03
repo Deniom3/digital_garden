@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-samba/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка samba.md","permalink":"/komandy-i-nastrojki/nastrojka-samba/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

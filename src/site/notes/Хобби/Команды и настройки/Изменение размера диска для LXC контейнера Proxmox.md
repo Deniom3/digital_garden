@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение размера диска для LXC контейнера Proxmox.md","permalink":"/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-obhoda-blokirovok-na-routere-s-open-wrt/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка обхода блокировок на роутере с OpenWrt.md","permalink":"/komandy-i-nastrojki/nastrojka-obhoda-blokirovok-na-routere-s-open-wrt/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

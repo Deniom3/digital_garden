@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-crowd-sec-v-dokere/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка CrowdSec в докере.md","permalink":"/komandy-i-nastrojki/nastrojka-crowd-sec-v-dokere/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

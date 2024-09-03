@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/perezapusk-podklyucheniya-bluetooth-over-usbip/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Перезапуск подключения bluetooth over usbip.md","permalink":"/komandy-i-nastrojki/perezapusk-podklyucheniya-bluetooth-over-usbip/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

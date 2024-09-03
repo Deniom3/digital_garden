@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/nastrojka-isklyuchenij-ip-dlya-fail2-ban/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка исключений IP для Fail2Ban.md","permalink":"/komandy-i-nastrojki/nastrojka-isklyuchenij-ip-dlya-fail2-ban/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

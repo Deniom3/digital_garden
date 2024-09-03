@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sluzhebnoe/rabota-s-obsidian/"}
+{"dg-publish":true,"dg-path":"Работа с Obsidian.md","permalink":"/rabota-s-obsidian/"}
 ---
 
 # Вспомогательное

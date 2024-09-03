@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/otklyuchenie-avtorizaczii-parolem-v-ssh/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Отключение авторизации паролем в ssh.md","permalink":"/komandy-i-nastrojki/otklyuchenie-avtorizaczii-parolem-v-ssh/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

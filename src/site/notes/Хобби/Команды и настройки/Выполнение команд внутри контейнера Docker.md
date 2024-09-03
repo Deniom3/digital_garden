@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/vypolnenie-komand-vnutri-kontejnera-docker/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Выполнение команд внутри контейнера Docker.md","permalink":"/komandy-i-nastrojki/vypolnenie-komand-vnutri-kontejnera-docker/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

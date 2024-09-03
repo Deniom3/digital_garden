@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/upravlenie-adguard-home/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Управление Adguard Home.md","permalink":"/komandy-i-nastrojki/upravlenie-adguard-home/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

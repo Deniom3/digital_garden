@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hobbi/komandy-i-nastrojki/obnovlenie-hom-ed-zigbee-iz-pesochniczy-razrabotki/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Обновление HOMEd Zigbee из песочницы разработки.md","permalink":"/komandy-i-nastrojki/obnovlenie-hom-ed-zigbee-iz-pesochniczy-razrabotki/"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]
