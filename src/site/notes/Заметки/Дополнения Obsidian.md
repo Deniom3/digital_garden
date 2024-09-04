@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-03T16:28:13+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-05T01:23:58+03:00"}
 ---
 
 1. [[Заметки/Дополнение Projects\|Дополнение Projects]] - очень сильный инструмент для работы с однотипными заметками на основе метаданных
@@ -45,7 +45,8 @@
 41. [[Заметки/Дополнение Dataview\|Дополнение Dataview]] - запросы по заметкам 
 42. ~~[[Заметки/Дополнение Note Refactor\|Дополнение Note Refactor]]~~ - расширяет функционал по работе с текстом заметки
 43. [[Заметки/Дополнение File Explorer Count\|Дополнение File Explorer Count]] - вывод количества файлов в папке в менеджере файлов
-44. [[Заметки/Дополнение Smart Second Brain\|Дополнение Smart Second Brain]] - подключении LLM к obsidian
+44. ~~[[Заметки/Дополнение Smart Second Brain\|Дополнение Smart Second Brain]]~~ - подключении LLM к obsidian
+45. [[Заметки/Дополнение Digital Garden\|Дополнение Digital Garden]] - публикация заметок как блог
 
 
 > [!note]- Попробовать плагины
