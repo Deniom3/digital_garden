@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-hraneniya-rezervnyh-kopij-proxmox-backup-server/","created":"2024-07-03 20:03"}
+{"dg-publish":true,"permalink":"/zametki/sistema-hraneniya-rezervnyh-kopij-proxmox-backup-server/","created":"2024-07-03 20:03","updated":"2024-09-03T16:36:07+03:00"}
 ---
 
 Это система организации хранения резервных копий виртуальных машин и LXC контейнеров для системы виртуализации [[Заметки/Система виртуализации Proxmox Virtual Environment\|proxmox]]. Позволяет удобно и компактно хранить резервные копии в виде чанков в которых сохраняется изменение данных а не создается полная копия.

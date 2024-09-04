@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/primery-nastrojki-hraneniya-fajlov-dlya-sonarr-radarr/","created":"2024-09-02-02-06-23"}
+{"dg-publish":true,"permalink":"/stati/primery-nastrojki-hraneniya-fajlov-dlya-sonarr-radarr/","created":"2024-09-02-02-06-23","updated":"2024-09-03T16:38:04+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-monitoringa-i-upravleniya-ibp-network-ups-tools/","created":"2024-07-03 22:06"}
+{"dg-publish":true,"permalink":"/zametki/sistema-monitoringa-i-upravleniya-ibp-network-ups-tools/","created":"2024-07-03 22:06","updated":"2024-09-03T16:35:55+03:00"}
 ---
 
 Опенсорс решения для управления источниками бесперебойного питания. Позволяет выполнять сетевое и локальное управление и мониторинг состояния устройств которые имеют USB или Ethernet интерфейс подключения.

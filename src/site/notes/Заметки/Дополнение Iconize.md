@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-iconize/","created":"2024-07-13 15:16"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-iconize/","created":"2024-07-13 15:16","updated":"2024-09-03T16:30:16+03:00"}
 ---
 
 Позволяет устанавливать иконки на папки и файлы.

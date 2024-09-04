@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-minimal-settings/","created":"2024-07-13 15:14"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-minimal-settings/","created":"2024-07-13 15:14","updated":"2024-09-03T16:30:12+03:00"}
 ---
 
 Плагин для настройки сторонней темы [Minimal](https://github.com/kepano/obsidian-minimal). Позволяет гибко выполнять настройки темы, включать отдельные пресеты или изменять цветовую гамму.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-paste-image-rename/","created":"2024-07-13 14:50"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-paste-image-rename/","created":"2024-07-13 14:50","updated":"2024-09-03T16:29:12+03:00"}
 ---
 
 Автоматически переименовывает файлы вложений которые добавляются в заметку перетягиванием.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/rekomendacziya-po-nastrojki-sonnar-raddar-v-dokere/","created":"2024-09-02-01-53-37"}
+{"dg-publish":true,"permalink":"/stati/rekomendacziya-po-nastrojki-sonnar-raddar-v-dokere/","created":"2024-09-02-01-53-37","updated":"2024-09-03T16:38:09+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]

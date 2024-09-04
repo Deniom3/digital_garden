@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/zapros-poslednih-zametok-za-segodnya-dlya-obsidian/"}
+{"dg-publish":true,"permalink":"/zametki/zapros-poslednih-zametok-za-segodnya-dlya-obsidian/","updated":"2024-09-03T16:33:00+03:00"}
 ---
 
 dataviewjs

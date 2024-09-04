@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/programma-avtomaticheskogo-obnovleniya-docker-watchtower/","created":"2024-07-11 21:10"}
+{"dg-publish":true,"permalink":"/zametki/programma-avtomaticheskogo-obnovleniya-docker-watchtower/","created":"2024-07-11 21:10","updated":"2024-09-03T16:36:13+03:00"}
 ---
 
 Программа для автоматического обновления docker контейнеров, выполняет отслеживание выхода обновлений и выполняет обновление с уведомлениями например в телеграмм.

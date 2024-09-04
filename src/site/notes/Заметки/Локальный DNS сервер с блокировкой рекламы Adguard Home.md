@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/lokalnyj-dns-server-s-blokirovkoj-reklamy-adguard-home/","created":"2024-07-04 00:59"}
+{"dg-publish":true,"permalink":"/zametki/lokalnyj-dns-server-s-blokirovkoj-reklamy-adguard-home/","created":"2024-07-04 00:59","updated":"2024-09-03T16:35:12+03:00"}
 ---
 
 Локальный и быстрый DNS сервер с возможностью гибкой настройки вышестоящих серверов DNS. Можно делать перезапись DNS записей и выполнять блокировку по спискам (для блокировки рекламы или доступа к сайтам). Имеет функционал DHCP сервера и удобный интерфейс мониторинга.

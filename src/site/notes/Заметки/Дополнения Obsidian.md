@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19"}
+{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-03T16:28:13+03:00"}
 ---
 
 1. [[Заметки/Дополнение Projects\|Дополнение Projects]] - очень сильный инструмент для работы с однотипными заметками на основе метаданных

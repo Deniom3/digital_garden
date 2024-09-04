@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/programma-dlya-peresylki-elektronnyh-pisem-v-uvedomleniya-mailrise/","created":"2024-08-25 22:26"}
+{"dg-publish":true,"permalink":"/zametki/programma-dlya-peresylki-elektronnyh-pisem-v-uvedomleniya-mailrise/","created":"2024-08-25 22:26","updated":"2024-09-03T16:39:01+03:00"}
 ---
 
 Является более функциональной альтернативой [[Заметки/Пересылка писем в telegram\|SmtpToTelegram]] основана на [[Заметки/Система отправки уведомлений Apprise\|Apprise]]. На вход принимает сообщения по smtp и переформирует их в уведомления на базе Apprise.

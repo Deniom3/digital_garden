@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/menedzher-parolej-vaultwarden/","created":"2024-07-03 19:56"}
+{"dg-publish":true,"permalink":"/zametki/menedzher-parolej-vaultwarden/","created":"2024-07-03 19:56","updated":"2024-09-03T16:34:54+03:00"}
 ---
 
 Удобный селф хостинг менеджер паролей, не официальный форк менеджера паролей Bitwarden для личной установки. Совместим со всеми версиями Bitwarden приложения. 

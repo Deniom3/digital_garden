@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Комбинации клавиш Obsidian.md","permalink":"/kombinaczii-klavish-obsidian/"}
+{"dg-publish":true,"dg-path":"Комбинации клавиш Obsidian.md","permalink":"/kombinaczii-klavish-obsidian/","updated":"2024-07-07T13:59:21+03:00"}
 ---
 
 ## Основные комбинации

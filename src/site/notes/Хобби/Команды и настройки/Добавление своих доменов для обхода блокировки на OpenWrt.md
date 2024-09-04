@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Добавление своих доменов для обхода блокировки на OpenWrt.md","permalink":"/komandy-i-nastrojki/dobavlenie-svoih-domenov-dlya-obhoda-blokirovki-na-open-wrt/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Добавление своих доменов для обхода блокировки на OpenWrt.md","permalink":"/komandy-i-nastrojki/dobavlenie-svoih-domenov-dlya-obhoda-blokirovki-na-open-wrt/","updated":"2024-09-03T16:10:19+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

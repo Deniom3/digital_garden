@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка Bluetooth на Debian.md","permalink":"/komandy-i-nastrojki/ustanovka-bluetooth-na-debian/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка Bluetooth на Debian.md","permalink":"/komandy-i-nastrojki/ustanovka-bluetooth-na-debian/","updated":"2024-09-03T16:14:32+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

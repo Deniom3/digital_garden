@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-git/","created":"2024-07-13 14:31"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-git/","created":"2024-07-13 14:31","updated":"2024-09-03T16:28:46+03:00"}
 ---
 
 Дополнение предназначено для организации копирования в Git хранилища заметок Obsidian.

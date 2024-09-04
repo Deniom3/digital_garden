@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/nastrojka-revers-proksi-caddy-i-fail2-ban-v-docker/"}
+{"dg-publish":true,"permalink":"/stati/nastrojka-revers-proksi-caddy-i-fail2-ban-v-docker/","updated":"2024-09-03T15:44:59+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Обновление прошивки zigbee устройства по OTA HOMEd.md","permalink":"/komandy-i-nastrojki/obnovlenie-proshivki-zigbee-ustrojstva-po-ota-hom-ed/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Обновление прошивки zigbee устройства по OTA HOMEd.md","permalink":"/komandy-i-nastrojki/obnovlenie-proshivki-zigbee-ustrojstva-po-ota-hom-ed/","updated":"2024-09-03T16:12:47+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

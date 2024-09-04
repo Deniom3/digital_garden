@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка Certbot с плагином cloudflare dns.md","permalink":"/komandy-i-nastrojki/ustanovka-certbot-s-plaginom-cloudflare-dns/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка Certbot с плагином cloudflare dns.md","permalink":"/komandy-i-nastrojki/ustanovka-certbot-s-plaginom-cloudflare-dns/","updated":"2024-09-03T16:14:38+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

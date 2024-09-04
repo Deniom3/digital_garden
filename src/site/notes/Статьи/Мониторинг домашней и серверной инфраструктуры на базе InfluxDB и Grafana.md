@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-domashnej-i-servernoj-infrastruktury-na-baze-influx-db-i-grafana/"}
+{"dg-publish":true,"permalink":"/stati/monitoring-domashnej-i-servernoj-infrastruktury-na-baze-influx-db-i-grafana/","updated":"2024-09-03T15:46:22+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]

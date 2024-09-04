@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/lenta-i-kalendar-zadach-v-obsidian/","created":"2024-07-17 20:20"}
+{"dg-publish":true,"permalink":"/zametki/lenta-i-kalendar-zadach-v-obsidian/","created":"2024-07-17 20:20","updated":"2024-09-03T16:33:16+03:00"}
 ---
 
 На базе плагина [[Заметки/Дополнение Obsidian Tasks\|Tasks]] и [[Заметки/Дополнение Dataview\|Dataview]]  можно настроить отображение задач как ленту событий с разбиением по дням и динамическими отборами или как календарь задач.

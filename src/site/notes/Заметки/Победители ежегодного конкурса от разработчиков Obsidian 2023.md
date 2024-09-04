@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/pobediteli-ezhegodnogo-konkursa-ot-razrabotchikov-obsidian-2023/","created":"2024-06-30"}
+{"dg-publish":true,"permalink":"/zametki/pobediteli-ezhegodnogo-konkursa-ot-razrabotchikov-obsidian-2023/","created":"2024-06-30","updated":"2024-09-03T16:33:39+03:00"}
 ---
 
 **Forwarded from [Про Obsidian на русском](https://t.me/obsidianru/266)**

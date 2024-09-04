@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-list-callouts/","created":"2024-07-01"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-list-callouts/","created":"2024-07-01","updated":"2024-09-03T16:25:44+03:00"}
 ---
 
 Продолжаем наводить красоту. Плагин List Callouts: иконка + заливка строки цветом, которые через хоткей в одно движение можно вставить **в строку списка**. 

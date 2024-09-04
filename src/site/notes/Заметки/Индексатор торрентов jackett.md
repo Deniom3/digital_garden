@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/indeksator-torrentov-jackett/","created":"2024-09-02 01:20"}
+{"dg-publish":true,"permalink":"/zametki/indeksator-torrentov-jackett/","created":"2024-09-02 01:20","updated":"2024-09-03T16:40:16+03:00"}
 ---
 
 Универсальный индексатор торрент трекеров для поиска файлов по нескольким сайтам размещения торрентов.

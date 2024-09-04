@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Обновление 3X-UI.md","permalink":"/komandy-i-nastrojki/obnovlenie-3-x-ui/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Обновление 3X-UI.md","permalink":"/komandy-i-nastrojki/obnovlenie-3-x-ui/","updated":"2024-09-03T16:12:23+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

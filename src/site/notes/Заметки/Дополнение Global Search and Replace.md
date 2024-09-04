@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-global-search-and-replace/","created":"2024-07-13 14:45"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-global-search-and-replace/","created":"2024-07-13 14:45","updated":"2024-09-03T16:29:02+03:00"}
 ---
 
 Дополнение позволяет пройти поиском с заменой по всем заметкам в базе. Использую ситуативно при пересмотре структуры свойств заметок.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-statusov-obrabotki-istochnikov-v-obsidian/","created":"2024-07-07 22:19"}
+{"dg-publish":true,"permalink":"/zametki/sistema-statusov-obrabotki-istochnikov-v-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-03T16:25:02+03:00"}
 ---
 
 В моей базе применяется упрощенная система статусов на основе эмодзи. 

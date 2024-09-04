@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/fajrvoll-dlya-servera-crowd-sec/","created":"2024-07-31 22:40"}
+{"dg-publish":true,"permalink":"/zametki/fajrvoll-dlya-servera-crowd-sec/","created":"2024-07-31 22:40","updated":"2024-09-03T16:36:23+03:00"}
 ---
 
 Файрволл для защиты серверов, альтернатива [[Заметки/Блокировщик неавторизованного сетевого доступа Fail2Ban\|Fail2Ban]]. Наиболее простой способ интеграции в связке с [[Заметки/Реверс прокси Traefik\|Traefik]] необходимо использовать конфигурацию [[Хобби/Конфиги/Traefik Crowdsek\|Traefik Crowdsek]].

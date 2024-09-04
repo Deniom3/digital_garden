@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Перенос настроек между роутерами Keenetic.md","permalink":"/komandy-i-nastrojki/perenos-nastroek-mezhdu-routerami-keenetic/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Перенос настроек между роутерами Keenetic.md","permalink":"/komandy-i-nastrojki/perenos-nastroek-mezhdu-routerami-keenetic/","updated":"2024-09-03T16:13:50+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]

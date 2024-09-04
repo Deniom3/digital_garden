@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/generator-staticheskih-sajtov-quartz/","created":"2024-08-29"}
+{"dg-publish":true,"permalink":"/zametki/generator-staticheskih-sajtov-quartz/","created":"2024-08-29","updated":"2024-09-03T16:33:54+03:00"}
 ---
 
 GitHub - jackyzha0/quartz: 🌱 быстрый генератор статических сайтов с питанием от батареек, который преобразует контент Markdown в полностью функциональные веб-сайты

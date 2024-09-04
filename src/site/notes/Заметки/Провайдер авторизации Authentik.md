@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/provajder-avtorizaczii-authentik/","created":"2024-07-19 00:35"}
+{"dg-publish":true,"permalink":"/zametki/provajder-avtorizaczii-authentik/","created":"2024-07-19 00:35","updated":"2024-09-03T16:36:29+03:00"}
 ---
 
 Провайдер единой централизованной аутентификации. Позволяет организовать единое окно входа для всех сервисов.

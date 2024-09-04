@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sonarr-dlya-otslezhivaniya-i-zagruzki-serialov/","created":"2024-09-02 00:57"}
+{"dg-publish":true,"permalink":"/zametki/sonarr-dlya-otslezhivaniya-i-zagruzki-serialov/","created":"2024-09-02 00:57","updated":"2024-09-03T16:38:21+03:00"}
 ---
 
 Программа для автоматического отслеживания и загрузки сериалов с торрентов или torznab относится к семейству программ Arr. Имеет ряд интеграций с сервисами отслеживания просмотра такими как IMDB или программы [[Заметки/Plex для организации и просмотра фильмов и сериалов\|Plex]] и позволяет автоматически добавлять сериалы для отсаживания и последующей загрузки.

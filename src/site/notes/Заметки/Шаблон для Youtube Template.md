@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/shablon-dlya-youtube-template/","created":"2024-09-03 20:01"}
+{"dg-publish":true,"permalink":"/zametki/shablon-dlya-youtube-template/","created":"2024-09-03 20:01","updated":"2024-09-03T20:03:11+03:00"}
 ---
 
 Шаблон заметки для плагина по обработке видео с ютуба в обсидиан:

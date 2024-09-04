@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-banners/","created":"2024-07-13 14:57"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-banners/","created":"2024-07-13 14:57","updated":"2024-09-03T16:29:33+03:00"}
 ---
 
 Позволяет добавлять картинки в шапку заметки, удобно использовать для дашбордов и MOC заметок.

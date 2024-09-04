@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка Rest Api на роутере Keenetic.md","permalink":"/komandy-i-nastrojki/nastrojka-rest-api-na-routere-keenetic/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка Rest Api на роутере Keenetic.md","permalink":"/komandy-i-nastrojki/nastrojka-rest-api-na-routere-keenetic/","updated":"2024-09-03T16:12:11+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

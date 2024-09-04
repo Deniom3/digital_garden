@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/api-klyuch-google-dlya-obsidian/","created":"2024-07-09 11:13"}
+{"dg-publish":true,"permalink":"/zametki/api-klyuch-google-dlya-obsidian/","created":"2024-07-09 11:13","updated":"2024-09-03T20:00:27+03:00"}
 ---
 
 Ключ Api необходим для работы некоторых интеграций например для поиска книг [[Заметки/Дополнение Book Search\|Дополнение Book Search]] и [[Заметки/Дополнение Youtube Template\|Дополнение Youtube Template]].

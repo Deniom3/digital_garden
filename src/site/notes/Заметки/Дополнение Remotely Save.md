@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-remotely-save/","created":"2024-07-13 15:06"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-remotely-save/","created":"2024-07-13 15:06","updated":"2024-09-03T16:29:56+03:00"}
 ---
 
 Настраивает автоматическую отправку в любое облако например через WebDav.

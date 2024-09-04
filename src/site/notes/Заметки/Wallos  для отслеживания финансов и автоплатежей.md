@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/wallos-dlya-otslezhivaniya-finansov-i-avtoplatezhej/","created":"2024-07-01"}
+{"dg-publish":true,"permalink":"/zametki/wallos-dlya-otslezhivaniya-finansov-i-avtoplatezhej/","created":"2024-07-01","updated":"2024-09-03T16:38:55+03:00"}
 ---
 
 Интересное приложение по отслеживанию расходов и отслеживанию подписок

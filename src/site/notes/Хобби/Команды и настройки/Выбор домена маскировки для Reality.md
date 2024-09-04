@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Выбор домена маскировки для Reality.md","permalink":"/komandy-i-nastrojki/vybor-domena-maskirovki-dlya-reality/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Выбор домена маскировки для Reality.md","permalink":"/komandy-i-nastrojki/vybor-domena-maskirovki-dlya-reality/","updated":"2024-09-03T16:10:00+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

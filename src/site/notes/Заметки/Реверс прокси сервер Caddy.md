@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/revers-proksi-server-caddy/","created":"2024-07-03 19:51"}
+{"dg-publish":true,"permalink":"/zametki/revers-proksi-server-caddy/","created":"2024-07-03 19:51","updated":"2024-09-03T16:40:01+03:00"}
 ---
 
 Просто http сервер для публикации сайтов и организации реверс прокси. Для настройки используется файл конфигурации Caddyfile с json описанием сайтов. Имеет большое количество модулей и расширений, может гибко настраиваться.

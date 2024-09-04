@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-umnogo-doma-hom-ed/","created":"2024-07-04 15:44"}
+{"dg-publish":true,"permalink":"/zametki/sistema-umnogo-doma-hom-ed/","created":"2024-07-04 15:44","updated":"2024-09-03T16:36:01+03:00"}
 ---
 
 Комплекс программ с открым исходным кодом для организации системы умного дома на базе zigbee. Включает в себя ряд сервисов основные из которых HOMEd zigbee и HOMEd web. Может использоваться для подключения zigbee устройств к умному дому Home Assistant а так же имеет компоненту для подключения к умному дому Яндекс.

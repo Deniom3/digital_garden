@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-otpravki-uvedomlenij-apprise/","created":"2024-08-25 22:28"}
+{"dg-publish":true,"permalink":"/zametki/sistema-otpravki-uvedomlenij-apprise/","created":"2024-08-25 22:28","updated":"2024-09-03T16:39:05+03:00"}
 ---
 
 Программа для пересылки уведомлений в различные системы и менеджеры с поддержкой большого количества вариантов отправки. Является библиотекой для единого варианта отправки уведомлений в различные системы.

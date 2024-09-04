@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/nastrojka-cloudflare-tunel-vmeste-s-traefik/","created":"2024-08-18 01:15"}
+{"dg-publish":true,"permalink":"/zametki/nastrojka-cloudflare-tunel-vmeste-s-traefik/","created":"2024-08-18 01:15","updated":"2024-09-03T16:37:23+03:00"}
 ---
 
 Для переадресации запросов через [[Заметки/Cloudflare Tunel\|Cloudflare Tunel]]  на внутренний [[Заметки/Реверс прокси Traefik\|Traefik]] необходимо выполнить дополнительные настройки для передачи заголовков. 

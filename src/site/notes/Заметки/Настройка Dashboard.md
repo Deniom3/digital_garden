@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/nastrojka-dashboard/","created":"2024-06-26"}
+{"dg-publish":true,"permalink":"/zametki/nastrojka-dashboard/","created":"2024-06-26","updated":"2024-09-03T16:33:05+03:00"}
 ---
 
 ### **⚙️ Dashboard++**

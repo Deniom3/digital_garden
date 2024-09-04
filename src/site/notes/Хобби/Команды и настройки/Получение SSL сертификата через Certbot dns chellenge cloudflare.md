@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Получение SSL сертификата через Certbot dns chellenge cloudflare.md","permalink":"/komandy-i-nastrojki/poluchenie-ssl-sertifikata-cherez-certbot-dns-chellenge-cloudflare/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Получение SSL сертификата через Certbot dns chellenge cloudflare.md","permalink":"/komandy-i-nastrojki/poluchenie-ssl-sertifikata-cherez-certbot-dns-chellenge-cloudflare/","updated":"2024-09-03T16:09:14+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

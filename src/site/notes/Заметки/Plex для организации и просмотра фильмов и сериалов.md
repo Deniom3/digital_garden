@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/plex-dlya-organizaczii-i-prosmotra-filmov-i-serialov/","created":"2024-09-02 01:11"}
+{"dg-publish":true,"permalink":"/zametki/plex-dlya-organizaczii-i-prosmotra-filmov-i-serialov/","created":"2024-09-02 01:11","updated":"2024-09-03T16:38:40+03:00"}
 ---
 
 Удобная и красивая программа для просмотра видео и отслеживания пожеланий. Имеет клиенты под любую платформу и поставляется бесплатно для серверов и компьютеров. Для мобильных устройств и телевизоров необходимо покупать подписку или единоразово купить доступ к приложению.

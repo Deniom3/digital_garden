@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/panel-dlya-x-ray-proksi-3-x-ui/","created":"2024-07-03 19:45"}
+{"dg-publish":true,"permalink":"/zametki/panel-dlya-x-ray-proksi-3-x-ui/","created":"2024-07-03 19:45","updated":"2024-09-03T16:35:18+03:00"}
 ---
 
 Универсальная панель для настройки различных прокси соединений на базе x-ray.

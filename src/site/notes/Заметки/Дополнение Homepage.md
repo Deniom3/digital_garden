@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-homepage/","created":"2024-07-13 15:05"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-homepage/","created":"2024-07-13 15:05","updated":"2024-09-03T16:29:47+03:00"}
 ---
 
 Плагин позволяет указать одну из заметок как домашнюю страницу и настроить ее поведение в программе. Так же добавляет кнопку возвращения к домашней странице.

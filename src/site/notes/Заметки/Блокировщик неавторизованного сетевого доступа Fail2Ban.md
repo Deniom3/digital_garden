@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/blokirovshhik-neavtorizovannogo-setevogo-dostupa-fail2-ban/","created":"2024-07-03 20:50"}
+{"dg-publish":true,"permalink":"/zametki/blokirovshhik-neavtorizovannogo-setevogo-dostupa-fail2-ban/","created":"2024-07-03 20:50","updated":"2024-09-03T16:40:09+03:00"}
 ---
 
 Опенсорс программа для мониторинга доступа к серверам и блокировки неавторизованного доступа. Работает на основе анализа логов других систем типа ssh или реверс прокси. Обязательный элемент безопасности внешнего сервера.

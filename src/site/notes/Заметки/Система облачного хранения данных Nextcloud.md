@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-oblachnogo-hraneniya-dannyh-nextcloud/","created":"2024-07-03 23:30"}
+{"dg-publish":true,"permalink":"/zametki/sistema-oblachnogo-hraneniya-dannyh-nextcloud/","created":"2024-07-03 23:30","updated":"2024-09-03T16:35:48+03:00"}
 ---
 
 Комплекс докер программ для организации частного облака аналога Google документы имеет огромное количество плагинов и дополнительного софта от организации библиотеки фотографий до звонков и т.д.

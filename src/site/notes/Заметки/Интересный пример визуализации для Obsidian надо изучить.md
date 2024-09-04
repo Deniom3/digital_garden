@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/interesnyj-primer-vizualizaczii-dlya-obsidian-nado-izuchit/","created":"2024-07-03"}
+{"dg-publish":true,"permalink":"/zametki/interesnyj-primer-vizualizaczii-dlya-obsidian-nado-izuchit/","created":"2024-07-03","updated":"2024-09-03T16:33:48+03:00"}
 ---
 
 

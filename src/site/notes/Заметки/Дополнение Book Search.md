@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-book-search/","created":"2024-07-09 14:16"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-book-search/","created":"2024-07-09 14:16","updated":"2024-09-03T16:26:16+03:00"}
 ---
 
 Дополнение выполняет поиск книг по названию или автору используя [[Заметки/Api ключ Google для Obsidian\|Api Google Books]].

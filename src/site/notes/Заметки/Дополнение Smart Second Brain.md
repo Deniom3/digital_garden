@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-smart-second-brain/","tags":["🤖"],"created":"2024-07-19"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-smart-second-brain/","tags":["🤖"],"created":"2024-07-19","updated":"2024-09-03T16:30:48+03:00"}
 ---
 
 

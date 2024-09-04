@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/osobennosti-nastrojki-hraneniya-multimedia-pri-ispolzovanii-arr-prilozhenij/","created":"2024-09-02 01:39"}
+{"dg-publish":true,"permalink":"/zametki/osobennosti-nastrojki-hraneniya-multimedia-pri-ispolzovanii-arr-prilozhenij/","created":"2024-09-02 01:39","updated":"2024-09-03T16:37:55+03:00"}
 ---
 
 Для корректной загрузки файлов с помощью программ стека Arr ([[Заметки/Sonarr для отслеживания и загрузки сериалов\|Sonarr]], [[Заметки/Radarr для отслеживания и загрузки фильмов\|Radarr]]) установленных в докере необходимо правильно выполнить настройку путей монтирования. Если этого не выполнить после каждой загрузки будет выполняться не перемещение в целевую папку а копирование что приведет к быстрому забиванию диска.

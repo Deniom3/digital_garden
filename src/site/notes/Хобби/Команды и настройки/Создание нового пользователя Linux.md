@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Создание нового пользователя Linux.md","permalink":"/komandy-i-nastrojki/sozdanie-novogo-polzovatelya-linux/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Создание нового пользователя Linux.md","permalink":"/komandy-i-nastrojki/sozdanie-novogo-polzovatelya-linux/","updated":"2024-09-03T16:14:20+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

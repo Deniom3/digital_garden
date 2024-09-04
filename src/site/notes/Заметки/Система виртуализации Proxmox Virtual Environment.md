@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-virtualizaczii-proxmox-virtual-environment/","created":"2024-07-03 20:11"}
+{"dg-publish":true,"permalink":"/zametki/sistema-virtualizaczii-proxmox-virtual-environment/","created":"2024-07-03 20:11","updated":"2024-09-03T16:35:42+03:00"}
 ---
 
 Открытая система виртуализации с удобным веб интерфейсом и большим количеством возможностей.

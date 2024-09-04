@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение политики доступа клиента через rest api keenetic в Home Assistant.md","permalink":"/komandy-i-nastrojki/izmenenie-politiki-dostupa-klienta-cherez-rest-api-keenetic-v-home-assistant/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение политики доступа клиента через rest api keenetic в Home Assistant.md","permalink":"/komandy-i-nastrojki/izmenenie-politiki-dostupa-klienta-cherez-rest-api-keenetic-v-home-assistant/","updated":"2024-09-03T16:10:26+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

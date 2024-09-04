@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/programma-dlya-sbora-dannyh-monitoringa-telegraf/","created":"2024-07-03 22:27"}
+{"dg-publish":true,"permalink":"/zametki/programma-dlya-sbora-dannyh-monitoringa-telegraf/","created":"2024-07-03 22:27","updated":"2024-09-03T16:35:26+03:00"}
 ---
 
 Агент для сбора различных серверных аналитик с открытым исходным кодом. Позволяет собирать различные данные для организации мониторинга систем и передавать их в различные системы сбора и обработки статистики. В основном используется в связке с influxdb, но так же может писать в логи и в mqtt и и.д.

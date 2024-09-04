@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Восстановление доступа SSH Entware.md","permalink":"/komandy-i-nastrojki/vosstanovlenie-dostupa-ssh-entware/"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Восстановление доступа SSH Entware.md","permalink":"/komandy-i-nastrojki/vosstanovlenie-dostupa-ssh-entware/","updated":"2024-09-03T16:09:50+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
