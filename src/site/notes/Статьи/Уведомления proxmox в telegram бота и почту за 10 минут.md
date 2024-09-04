@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2024-09-04T23:22:32+03:00"}
+{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2024-09-04T23:27:30+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
@@ -64,13 +64,13 @@ services:
 
 Переходим в настройку proxmox, нас интересует раздел notification у центра обработки данных.
 
-[![image.png.3bf178612b732d7b99a669f116d9b2d4.png](https://readeck.deniom.ru/bm/YN/YNCtLg69eED3RPa3uMpZer/_resources/GD62Zb68j3MVfzrbRK2qQB.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.3bf178612b732d7b99a669f116d9b2d4.png "Увеличить изображение")
+![Уведомления proxmox в telegram бота и почту за 10 минут-1.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%A3%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20proxmox%20%D0%B2%20telegram%20%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D1%87%D1%82%D1%83%20%D0%B7%D0%B0%2010%20%D0%BC%D0%B8%D0%BD%D1%83%D1%82-1.png)
 
 Создадим новую цель уведомлений smtp с данными для нашего сервиса пересылки (сервер это ip нашего сервера на котором запущен докер контейнер пересылки):
 
- [![image.thumb.png.6940bb0928f5261bf4ecbd4bc0e80274.png](https://readeck.deniom.ru/bm/YN/YNCtLg69eED3RPa3uMpZer/_resources/NRZPzqmJoHQaeCX7SQsDeq.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.8522aaeee69f00e0eaeb61f3f7a19d8c.png)
+ ![Уведомления proxmox в telegram бота и почту за 10 минут.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%A3%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20proxmox%20%D0%B2%20telegram%20%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D1%87%D1%82%D1%83%20%D0%B7%D0%B0%2010%20%D0%BC%D0%B8%D0%BD%D1%83%D1%82.png)
 
-Фактически отправитель и получатель могут быть вообще любыми адресами у сервиса нет контроля релевантности адресов кроме общего шаблона <name>@domein
+Фактически отправитель и получатель могут быть вообще любыми адресами у сервиса нет контроля релевантности адресов кроме общего шаблона .\<name>@domein
 
 Фактически все у нас есть возможность отправлять уведомления proxmox в телеграмм, нажимаем test и видимо сообщение от бота.
 
