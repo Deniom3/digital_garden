@@ -1,0 +1,47 @@
+on:
+  push:
+    branches:
+      - chris-changes
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['20.x']
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Run a build step here if your project requires
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build
+          
+        ##
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: digital-garden
+          directory: dist
+          # Optional: Switch what branch you are publishing to.
+          # By default this will be the branch which triggered this workflow
+          #branch: chris-changes
+          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
+          #wranglerVersion: '3'
