@@ -1,7 +1,8 @@
-on:
-  push:
-    branches:
-      - chris-changes
+#on:
+#  push:
+#    branches:
+#      - chris-changes
+on: [push]
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
