@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-routerov-openwrt-v-influxdb-v2-i-grafana/","updated":"2024-09-03T15:46:08+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-routerov-openwrt-v-influxdb-v2-i-grafana/","updated":"2024-09-05T19:36:53+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
@@ -42,21 +42,22 @@ opkg install luci-app-statistics collectd collectd-mod-cpu collectd-mod-conntrac
 
 В основных настройках обязательно указываем уникальное имя хоста (под этим именем данные будут собираться в системе influxdb)
 
-[![image.png.bd455534c52fa0629120a7290c3d6427.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/MU6qprvoDNSncZArsPAKgv.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.bd455534c52fa0629120a7290c3d6427.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana.png)
 
 Нам необходимо включить все компоненты сбора статистики. Все настройки плагинов можно оставлять в режиме по умолчанию.
 
 При открытии окна настроек плагина может сбиваться состояние настроек и полей.
 
-[![image.png.9848bf530e776f7af3108ef2510d1327.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/HbAVKgtkQaPUB7aZrd4KP2.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.9848bf530e776f7af3108ef2510d1327.png "Увеличить изображение")[![image.png.3fad6d1cb9f85138b5dc64c9584d9bd1.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/cG7VxNkYAVjRoSKQRdh7RA.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.3fad6d1cb9f85138b5dc64c9584d9bd1.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-1.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-1.png)
 
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-2.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-2.png)
 Переходим к настройке плагинов вывода, перед настройкой плагинов вывода обязательно примените настройки.
 
-[![image.thumb.png.52b39b2b70864f8c312703923cd326d6.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/iGfVGMTCbGZbKzXUQ4d6Lu.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.f6be42e850968eac875ea08d45f57fe1.png)
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-3.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-3.png)
 
 Выключаем плагин RRDTool, он отвечает за хранение статистики на устройстве для вывода в виде графиков. И переходим к настройке плагина network.
 
-[![image.png.df2321b2c857ba534ecfb85402dad42c.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/mwyzmL5xmdJntuUuw55sDw.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.df2321b2c857ba534ecfb85402dad42c.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-4.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-4.png)
 
 Нам необходимо заполнить только параметры интерфейса telegraf, который будет принимать данные collectd. В моем случае это 192.168.0.137.
 
@@ -68,7 +69,7 @@ opkg install luci-app-statistics collectd collectd-mod-cpu collectd-mod-conntrac
 
 Но перед запуском докер контейнера telegraf нам необходимо забрать с роутера файл для сопоставления наборов данных collectd.
 
-[![image.png.15ad95b6a086d30d48e33a0dc75df277.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/jKouFZonkDQxYhTcd4tByW.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.15ad95b6a086d30d48e33a0dc75df277.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-5.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-5.png)
 
 По умолчанию файл размещен по пути /usr/share/collectd/types.db
 
@@ -76,7 +77,7 @@ opkg install luci-app-statistics collectd collectd-mod-cpu collectd-mod-conntrac
 
 Переходим к настройке telegraf. Заходим в influxBD и создаем новую корзину openwrt и конфигурацию telegraf. Нам нужен источник данных socket listener
 
-[![image.png.f8f5c1999d021c126f4ac9e9d31884c5.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/TbFCX4Yzx5FGUnhqV8sAPT.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.f8f5c1999d021c126f4ac9e9d31884c5.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-6.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-6.png)
 
 Заменяем шаблонный конфиг, и даем понятное название
 
@@ -145,7 +146,7 @@ opkg install luci-app-statistics collectd collectd-mod-cpu collectd-mod-conntrac
 
 Копируем полученный токен, он нам понадобиться для модификации конфигурации. Host изменять не надо, устанавливаем только токен в место параметра.
 
-[![image.thumb.png.d46b89011bbee29eb92529ab694f83b9.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/kiTFfti5Aveent4yHQn2Zp.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.89244446cde6bd110021adfeaf1168a8.png)
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-7.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-7.png)
 
 Более подробно этот момент разбирался в первой части [[Статьи/Мониторинг proxmox с использованием InfluxDB v2 и Grafana\|Мониторинг proxmox с использованием InfluxDB v2 и Grafana]].
 
@@ -172,21 +173,21 @@ services:
 
 Проверяем что данные появились в базе
 
-[![image.png.08c6b0f8dcd25a5b60c3e404196e2e57.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/Q3CoEpP5xwtSXEnKvDWosx.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.08c6b0f8dcd25a5b60c3e404196e2e57.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-8.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-8.png)
 
 ## **Подключение** **Grafana**
 
 Работа с Grafana уже является стандартной и подробно разбирать я ее не буду, приведу пример как настроено у меня. Создан API токен на чтение корзины openwrt, и выполнено подключение в режиме Flux.
 
-[![image.png.38365a2925c72de2fcb0097372579079.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/CoD7FELP66HiTJqZd28Dwt.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.38365a2925c72de2fcb0097372579079.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-9.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-9.png)
 
-[![image.png.b7285fd0d5daa3e57a0db1ead43b8f5c.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/HUiLYhzWCmmyoeJwPSDdnj.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.b7285fd0d5daa3e57a0db1ead43b8f5c.png "Увеличить изображение")
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-10.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-10.png)
 
 В моем примере я использовал шаблон [https://grafana.com/grafana/dashboards/18565-openwrt-collectd-flux/](https://grafana.com/grafana/dashboards/18565-openwrt-collectd-flux/)
 
 В результате имеем такой дашборд
 
-[![image.thumb.png.f58cce18e2c859d556bda38fa0f55884.png](https://readeck.deniom.ru/bm/Jr/JrmXc3nss7wJsuexvaYFJg/_resources/kfn5Kn6GcFBmX7wLx3t2CG.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.7299a051b0be1fc8a01e8591a7f395a3.png)
+![Мониторинг роутеров openwrt в influxdb v2 и grafana-11.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%BE%D0%B2%20openwrt%20%D0%B2%20influxdb%20v2%20%D0%B8%20grafana-11.png)
 
 ## **Заключение**
 

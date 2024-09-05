@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-domashnej-i-servernoj-infrastruktury-na-baze-influx-db-i-grafana/","updated":"2024-09-03T15:46:22+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-domashnej-i-servernoj-infrastruktury-na-baze-influx-db-i-grafana/","updated":"2024-09-05T19:35:14+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
@@ -53,9 +53,9 @@ InfluxDB — система управления базами данных с о
 
 Немного примеров интерфейса:
 
-[![image.png.0439f61f442a5b88d1211db78ce65d29.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/AMs8VyjgnW54F6i6aHcASD.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.0439f61f442a5b88d1211db78ce65d29.png "Увеличить изображение") 
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana.png)
 
-[![image.png.cbbfd9c9e907a1849be5ecfd2dc61efc.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/cChLWru9imvJK6dRGxeVdx.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.cbbfd9c9e907a1849be5ecfd2dc61efc.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-1.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-1.png)
 
 ## **Общая схема работы системы**
 
@@ -120,11 +120,11 @@ volumes:
 
 Нас встречает приветственное меню Influx для первоначальной настройки
 
-[![image.png.b7f4f42662de4b7d0643e46b1b0dec6d.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/4FN2y3xJtZWt7VMgHs7eUy.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.b7f4f42662de4b7d0643e46b1b0dec6d.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-2.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-2.png)
 
 Заполняем данные, инициализации. Тут отдельно надо уточнить про поля организации и корзины. Фактически influx делит все ваши данные на изолированные базы на верхнем уровне организации и на более низком уровне корзины bucket, если проводить аналогии с первой версией bucket это старые вариации базы данных, именно в них попадают данные. При сборе данных нам будет важны эти параметры, но bucket можно спокойно создавать и удалять сколько надо из интерфейса.
 
-[![image.thumb.png.580a745a5fde2e89f793921ce506cbfe.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/ccGJob92jRW5rf2CAmPcnH.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.c91955835530de4a9c5f0ab3f1605ac9.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-3.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-3.png)
 
 На следующей странице будет токен для api администратора, обязательно его сохраните это важно!!! 
 
@@ -138,21 +138,21 @@ volumes:
 
 Заходим по адресу http://ServerIP:3000 где нас встречает окно авторизации. Если не были заданы пароль и пользователь по умолчанию при инициализации то заходим с данными admin\admin и меняем пароль.
 
-[![image.png.b44e1e9c9ae8e21945e237016f94a77d.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/VHhHXLN7gDHnqMRkyt8dD8.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.b44e1e9c9ae8e21945e237016f94a77d.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-4.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-4.png)
 
 Для настройки пользователей переходим в раздел **Administration – Users and access - Users**
 
-[![image.png.35c3c90154459daafc17edfbed82f1eb.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/2zyWs67VcFHrDwCD9GTTZe.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.35c3c90154459daafc17edfbed82f1eb.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-5.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-5.png)
 
 Для подключения Grafana к influxdb создаем токен доступа к корзине данных. Для этого возвращаемся в influxdb в меню идем **Load Data – API Tokens** и создаем **Custom API Token** даем ему право только на чтение (если не собираетесь запросами графаны менять данные) и даете понятное название. Больше нечего давать не надо. Сохраняем себе токен, он понадобиться для настройки Grafana.
 
-[![image.png.9e0bd4f480b8fdc5eb636efb1a93baa2.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/MDm9uVFkscZxb8JUnNipoc.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.9e0bd4f480b8fdc5eb636efb1a93baa2.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-6.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-6.png)
 
 Обратите внимание кнопка копирования может не сработать!!!
 
 Возвращаемся в Grafana и добавляем новый источник данных. Для этого переходим в connections и выбираем новый источник данных influxdb.
 
-[![image.png.fd9ed8533ddb957dc9e3bca0081daf57.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/5xXy5ozu7V4zN2dhTAoqUX.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.fd9ed8533ddb957dc9e3bca0081daf57.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-7.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-7.png)
 
 Вторая версия InfluxDB использует как основной вариант языка запросов flux но многие существующие шаблоны используют старый вариант на базе influxQL, но в самой Grafana при использовании такого варианта нет возможности авторизации по токену, а авторизация во второй версии является обязательной. Для этого необходимо отдельно добавит строку Custom HTTP Headers. Альтернатива использовать логин и пароль для InfluxDB Details, но это не рекомендуемый вариант.
 
@@ -167,15 +167,15 @@ volumes:
 
 Ниже пример настроек:
 
-[![image.png.b345846670618ca4234eeebe2a650db5.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/4RBqUv8c2oh4Avv5zjrV9a.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.b345846670618ca4234eeebe2a650db5.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-8.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-8.png)
 
-[![image.png.706d8ccbc71faccbcc36cf8ea23cb0a6.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/b4b4YuccUBtn9EcsFao9fa.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.706d8ccbc71faccbcc36cf8ea23cb0a6.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-9.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-9.png)
 
 Для варианта с языком flux все несколько проще:
 
-[![image.png.484e0c250e894f3c15acef4f3263551d.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/mWXrJMkD9W8QSXty6HmyNH.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.484e0c250e894f3c15acef4f3263551d.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-10.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-10.png)
 
-[![image.png.75456fc18fb9eaface13236c4cc4a850.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/2KQpzRUjFy2ccbKJbE6SFq.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.75456fc18fb9eaface13236c4cc4a850.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-11.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-11.png)
 
 В поле токен пишем только сам токен без каких-либо дополнений.
 
@@ -187,16 +187,17 @@ volumes:
 
 Заходим в inffluxdb по адресу http://IPSerever:8086, нас интересует пункт меню telegraf
 
-[![image.thumb.png.ca26b714815917881314a6859ad4cd8f.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/7GMT8BBMesb9oRCSgmEVyN.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.c27a0c31b85529dd652ddc675976e272.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-12.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-12.png)
 
 Создаем новую конфигурацию и выбираем что хотим собирать и куда складывать данные.
 
 В конструкторе есть возможность выбрать только один вариант, так что нам придется его изменить.
 
-[![image.thumb.png.a32e182568d60d5aa31cb6c61235ee32.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/euZsAYx4iZqCJCRLFwCtu2.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.33c9b55f7690d99599ebc205b12b8019.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-13.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-13.png)
+
 Получим шаблон настроек, который заменяем на нужный нам:
 
-[![image.thumb.png.a812f0434512937f05d0f08328a4909c.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/ePx8JuarpD3MpsRMfMT88m.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.cd708acd2966d616ef0975c13d1df36e.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-14.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-14.png)
 Текст шаблона для получения основных показателей:
 
 ```conf
@@ -244,11 +245,11 @@ volumes:
 
 **Копируем себе токен из первого поля все что идет после export INFLUX_TOKEN=**
 
-[![image.thumb.png.03e224a8ef33626a037de49913e6c1ca.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/57DwGsxxiCasndQky8Hjyt.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.7a9e5b3c36427579d453567672198b35.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-15.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-15.png)
 
 Почему мы используем этот вариант для докера если у нас не получиться быстро загрузить конфиг по ссылке? Все очень просто теперь у нас всегда есть заготовленный шаблон конфига в самой системе influxdb.
 
-[![image.thumb.png.8f63356bdc6d631517de7eb057d34ae4.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/goTFxYhiaPNrBntq6YQLWY.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.9f60f55dbfe8dd9530e8ab1f4ef93361.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-16.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-16.png)
 
 Нажимаем на название конфига и у нас открывается окно с полным шаблоном конфига, нам надо найти секцию [outputs.influxdb_v2] и в ней указать token который получили раньше. Формально это не рекомендуется и в продакшен все же так делать не стоит но у нас этот токен и так строго ограничен на запись одной конкретной корзины данных, так что пойдет.
 
@@ -283,7 +284,7 @@ services:
 
 После размещения конфига запускаем контейнер и проверяем что данные начали поступать в базу. Для этого идем в **influxdb – data explorer**
 
-[![image.thumb.png.e9ba43dded3a4875bb0b9083e870c4d5.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/P6oA65vq7X5duCbAwp983o.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.ac240348c86581ae1876ebdc7d82ee0a.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-17.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-17.png)
 
 Все теперь данные собираются и пишутся в базу, а Grafana уже может эти данные получать и визуализировать.
 
@@ -295,15 +296,15 @@ services:
 
 Идем в меню Grafana пункт Dashboards
 
-[![image.thumb.png.3e9aadd7eccf0a602c180d86923248fc.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/EQYfzJDmEdra2QKVW3HhMU.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.3956dc3294aa4a692f5b726dce2bd840.png)
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-18.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-18.png)
 
 Создаем новый путем импорта шаблона, можно использовать или номер шаблона или json.
 
-[![image.png.5d86bfe08e69d4e4cf7ce42822107813.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/XUVJSv6ATKpYH2u65U72bL.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.5d86bfe08e69d4e4cf7ce42822107813.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-19.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-19.png)
 
 Указываем источник, для данного примера нам надо вариант обычный вариант
 
-[![image.png.7a711bda27a655fe4ffa4db08cc3e615.png](https://readeck.deniom.ru/bm/b3/b3BfsjtZRwhvDgV4treJMV/_resources/ezBhSJr24MGpxec2Vtqrxc.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.7a711bda27a655fe4ffa4db08cc3e615.png "Увеличить изображение")
+![Мониторинг домашней и серверной инфраструктуры на базе InfluxDB и Grafana-20.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20InfluxDB%20%D0%B8%20Grafana-20.png)
 
 Вот и все мы молодцы и имеем красивую панель мониторинга со всей информацией по серверу
 

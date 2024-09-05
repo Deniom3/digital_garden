@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2024-09-04T23:27:30+03:00"}
+{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2024-09-05T19:39:28+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
@@ -42,12 +42,12 @@
 ```yaml
 version: '3'
 services:
- readeck:
+ SmtpToTelegram:
     container_name: SmtpToTelegram
     image: kostyaesmukov/smtp_to_telegram:latest
     restart: unless-stopped
     volumes:
-      - /DATA/AppData/readeck:/readeck
+      - /DATA/AppData/SmtpToTelegram:/SmtpToTelegram
     environment:
       - ST_TELEGRAM_CHAT_IDS=<CHAT_ID>
       - ST_TELEGRAM_BOT_TOKEN=<TELEGRAM_BOT_TOKEN>

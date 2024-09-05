@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/nastrojka-lokalnogo-menedzhera-parolej-vaultwarden/","updated":"2024-09-03T15:45:36+03:00"}
+{"dg-publish":true,"permalink":"/stati/nastrojka-lokalnogo-menedzhera-parolej-vaultwarden/","updated":"2024-09-05T19:27:39+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
@@ -169,7 +169,7 @@ cd
 ![Pasted image 20240620161201.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/Pasted%20image%2020240620161201.png)
 Создаем нового пользователя
 
-[![image.thumb.png.2203bae5632ec7baa2f96f2bb21f77e6.png](https://readeck.deniom.ru/bm/hx/hx8uwiEV7q4RPXm2ucDKZM/_resources/AGsPETEEahPMhXbWb958jw.png)](https://openode.xyz/uploads/monthly_2023_06/image.png.bcc5c0950d7d6eb11a2a8d7f4b3d00fd.png)
+![Настройка локального менеджера паролей Vaultwarden.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%B9%20Vaultwarden.png)](https://openode.xyz/uploads/monthly_2023_06/image.png.bcc5c0950d7d6eb11a2a8d7f4b3d00fd.png)
 
 И видим такое сообщение
 

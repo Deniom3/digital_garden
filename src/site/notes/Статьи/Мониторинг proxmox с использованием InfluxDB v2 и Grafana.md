@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-proxmox-s-ispolzovaniem-influx-db-v2-i-grafana/","updated":"2024-09-03T15:46:34+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-proxmox-s-ispolzovaniem-influx-db-v2-i-grafana/","updated":"2024-09-05T19:39:09+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
@@ -26,21 +26,21 @@
 
 Для мониторинга состояния proxmox VE нам необходимо создать новую корзину для данных в influxDB для этого заходим в influxDB в раздел **Load Data -> Bucket**
 
-[![image.thumb.png.b5170f7f72c14e6e433c674a8631774e.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/ebLKMweht4S9izkSYXEyC4.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.09582208e1b7a8d1e3baf92288d64fa5.png)
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana.png)
 
 При создании есть возможность выставить как долго хранить данные, я выбрал вариант never так как не вижу проблем в разрастании базы на текущий момент.
 
-[![image.png.14b4dbbb3e1bf628060486bf4e5289d6.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/6grzGVEK9hcvECgtibFnfC.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.14b4dbbb3e1bf628060486bf4e5289d6.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-1.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-1.png)
 
 Теперь необходимо создать токен доступа для корзины, который будет давать права на запись в базу.
 
 Переходим в меню управления API токенами и создаем новый custom token
 
-[![image.png.cf38fa480f4242c16cef6c23995d97e0.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/Sn8nHojUroLnTMVEeNLZkb.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.cf38fa480f4242c16cef6c23995d97e0.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-2.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-2.png)
 
 Даем права на запись для созданной корзины данных.
 
-[![image.png.a9b031c88647746176341e9a52441412.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/njXpJEBQBwYmM7qgJjs355.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.a9b031c88647746176341e9a52441412.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-3.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-3.png)
 
 Сохраняем себе полученный токен
 
@@ -48,19 +48,19 @@
 
 Переходим в proxmox, нас интересует раздел сервер метрик.
 
-[![image.png.8fe23319defbb3de1e4229483f9c9321.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/ThHvc5WekQ2aYmh7H4QnPk.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.8fe23319defbb3de1e4229483f9c9321.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-4.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-4.png)
 
 Создаем новую запись influxDB. Указываем в поле база данных имя корзины, а в поле маркер полученный токен записи.
 
-[![image.png.6776e7cbbad079831f06548db337e1b9.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/hZivATHGT3zv2Fpkf5JbbJ.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.6776e7cbbad079831f06548db337e1b9.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-5.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-5.png)
 
 Проверяем что в ifluxBD появились данные.
 
-[![image.thumb.png.6bab575557b0910e184095355e99499f.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/M3zU9BQvTht3MVH5uwYFXp.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.24869f926f7f7ad200949fa008a1b93d.png)
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-6.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-6.png)
 
 Теперь нам надо еще собирать данные о температуре сервера proxmox не зависимо от api proxmox. Я для этого буду использовать шаблон созданный в прошлый раз для system\-monitoring, он доступен в разделе telegraf.
 
-[![image.thumb.png.c13f04225ea446f34d069d3be0765e0f.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/HL2jGisSXKpoHob7JRsE3H.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.c35af1985bfded044db1dc57b3891097.png)
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-7.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-7.png)
 
 Так как это хост система в данном случае я буду использовать пакетный вариант telegraf
 
@@ -86,13 +86,13 @@ apt-get update &amp;&amp; apt-get install telegraf
 
 Дальше нам необходимо получить нашу конфигурацию system\-monitoring, для этого переходим в шаблоны telegraf открываем наш шаблон и копируем от туда токен доступа
 
-[![image.png.949e2b4ebb50ae17a19c370956ba3cdf.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/MbLKsio2y2iVq9hz3YhpCq.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.949e2b4ebb50ae17a19c370956ba3cdf.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-8.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-8.png)
 
 Закрываем это окно сам файл нам не понадобится, нам нужна инструкция по установке.
 
-[![image.png.69ea0c21ade7752598e7238d70b2b189.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/SXU4e9KyhFQZdmC8zNQJGV.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.69ea0c21ade7752598e7238d70b2b189.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-9.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-9.png)
 
-[![image.png.3e96e28f5b8e85aea46718c70edd2c2a.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/JGFwbTEXGLe273hRtrKfjy.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.3e96e28f5b8e85aea46718c70edd2c2a.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-10.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-10.png)
 
 Возвращаемся в оболочку proxmox и выполняем две команды как расписано в инструкции заменив <InfluxToken\> на скопированный ранее токен.
 
@@ -100,25 +100,25 @@ apt-get update &amp;&amp; apt-get install telegraf
 
 Проверяем что данные поступают в корзину и Grafana
 
-[![image.png.5ed6a73fbc82513c9f989d8a11bd4ffc.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/fCaQ9X8JkRHEfujtAfhPtC.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.5ed6a73fbc82513c9f989d8a11bd4ffc.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-11.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-11.png)
 
-[![image.png.21bf9af490543dbd94b310f904f5f8a4.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/MND6fijTEEo9J3bYowA3ut.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.21bf9af490543dbd94b310f904f5f8a4.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-12.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-12.png)
 
 Обратите внимание что Grafana дополнительно настраивать для данной корзины не надо, а для корзины proxmox надо.
 
 Для этого переходим в управления токенами API и создаем токен на чтение корзины proxmox для Grafana.
 
-[![image.png.3dd6352ac57ecdae79767ff937adfc26.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/Y9zavyavUcrCEy7BCtcGC8.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.3dd6352ac57ecdae79767ff937adfc26.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-13.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-13.png)
 
 Подробно настройку Grafa я разбирал в прошлой публикации, тут приведу только результат настроек.
 
-[![image.png.4eeb0182869d6bb9f9947eaed972766b.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/VWsfaAoosdHJqzoyx3p78T.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.4eeb0182869d6bb9f9947eaed972766b.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-14.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-14.png)
 
-[![image.png.9851a1a8876c9eb73f1232d0cccadb5f.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/DPsA6VEsvxokdoEjdRFJnb.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.9851a1a8876c9eb73f1232d0cccadb5f.png "Увеличить изображение")
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-15.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-15.png)
 
 Пример панели proxmox в Grafana
 
-[![image.thumb.png.15e54aa45531fbce262160e714229621.png](https://readeck.deniom.ru/bm/Qq/QqHt6FkhspTbCDyRFRqcQE/_resources/4aYQzaMTHpfsHarZ6YqsCo.png)](https://openode.xyz/uploads/monthly_2024_04/image.png.3d6a03a6d552044affdf2095d43bb421.png)
+![Мониторинг proxmox с использованием InfluxDB v2 и Grafana-16.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20proxmox%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20InfluxDB%20v2%20%D0%B8%20Grafana-16.png)
 
 Я использовал шаблон: [https://grafana.com/grafana/dashboards/15356-proxmox-cluster-flux/](https://grafana.com/grafana/dashboards/15356-proxmox-cluster-flux/)
 
