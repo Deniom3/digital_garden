@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Модификация интерефейса Proxmox VE для вывода температуры.md","permalink":"/komandy-i-nastrojki/modifikacziya-interefejsa-proxmox-ve-dlya-vyvoda-temperatury/","updated":"2024-09-08T01:41:23+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Модификация интерефейса Proxmox VE для вывода температуры.md","permalink":"/komandy-i-nastrojki/modifikacziya-interefejsa-proxmox-ve-dlya-vyvoda-temperatury/","updated":"2024-09-08T01:44:01+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

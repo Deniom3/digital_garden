@@ -28,6 +28,8 @@
 - [[Заметки/Plex для организации и просмотра фильмов и сериалов\|Plex для организации и просмотра фильмов и сериалов]]
 - [[Заметки/FlareSolverr для обхода защиты cloudflare\|FlareSolverr для обхода защиты cloudflare]]
 - [[Заметки/Форк SmtpToTelegram с поддержкой тем телегарам\|Форк SmtpToTelegram с поддержкой тем телегарам]]
+- [[Заметки/Менеджер стеков докеров Dockge\|Менеджер стеков докеров Dockge]]
+- [[Заметки/Средство мониторинга Uptime Kuma\|Средство мониторинга Uptime Kuma]]
 ### Попробовать:
 - Изучить вариант автоматизации перезаписи DNS в adguard home https://registry.terraform.io/providers/gmichels/adguard/latest/docs/resources/rewrite
 ### Неиспользуемые программы:
