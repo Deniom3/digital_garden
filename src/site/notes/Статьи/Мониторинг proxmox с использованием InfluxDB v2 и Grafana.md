@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-proxmox-s-ispolzovaniem-influx-db-v2-i-grafana/","updated":"2024-09-05T19:39:09+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-proxmox-s-ispolzovaniem-influx-db-v2-i-grafana/","updated":"2024-09-09T23:44:56+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]

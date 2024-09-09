@@ -19,7 +19,6 @@
 ## Интересное
 - [[Заметки/Победители ежегодного конкурса от разработчиков Obsidian 2023\|Победители ежегодного конкурса от разработчиков Obsidian 2023]]
 - [[Заметки/Интересный пример визуализации для Obsidian надо изучить\|Интересный пример визуализации для Obsidian надо изучить]]
-
 ## В процессе настройки:
 - [[Статьи/Публикация вашей персональной системы управления знаниями с использованием obsidian, quartz, частных репозиториев, gitea, gitea actions и netlify\|Публикация вашей персональной системы управления знаниями с использованием obsidian, quartz, частных репозиториев, gitea, gitea actions и netlify]]
 - [[Заметки/Генератор статических сайтов quartz\|Генератор статических сайтов quartz]]
@@ -31,3 +30,4 @@
 > - [<] Изучить репу [GitHub - efemkay/obsidian-modular-css-layout: CSS Layout hack for Obsidian.md](https://github.com/efemkay/obsidian-modular-css-layout?tab=readme-ov-file)
 > - [<] Учебник: Как создать книжную полку в Obsidian.md – The Buccaneer's Bounty https://thebuccaneersbounty.wordpress.com/2021/08/21/tutorial-how-to-create-a-bookshelf-in-obsidian/
 > - [-] Попробовать плагин Share Note для обсидиан в варианте self hosted ❌ 2024-08-30
+> - [ ] Попробовать [[Заметки/Конвертация PDF в MD\|Конвертация PDF в MD]]
