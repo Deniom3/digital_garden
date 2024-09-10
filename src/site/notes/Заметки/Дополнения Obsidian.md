@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-10T02:08:10+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-10T21:43:14+03:00"}
 ---
 
 1. [[Заметки/Дополнение Projects\|Дополнение Projects]] - очень сильный инструмент для работы с однотипными заметками на основе метаданных
@@ -47,7 +47,9 @@
 43. [[Заметки/Дополнение File Explorer Count\|Дополнение File Explorer Count]] - вывод количества файлов в папке в менеджере файлов
 44. ~~[[Заметки/Дополнение Smart Second Brain\|Дополнение Smart Second Brain]]~~ - подключении LLM к obsidian
 45. [[Заметки/Дополнение Digital Garden\|Дополнение Digital Garden]] - публикация заметок как блог
-46. [GitHub - logancyang/obsidian-copilot: A ChatGPT Copilot in Obsidian](https://github.com/logancyang/obsidian-copilot) - подключение LLM к Obsidian
+46. [[Заметки/Дополнение Copilot\|Дополнение Copilot]] - ИИ в обсидиан
+47. ~~[[Заметки/Дополнение Share Note\|Дополнение Share Note]]~~ - поделиться заметками по ссылкам
+48. [[Заметки/Дополнение Lazy\|Дополнение Lazy]] - настройка задержки запуска плагинов Obsidian
 
 
 > [!note]- Попробовать плагины
@@ -56,8 +58,6 @@
 > - [GitHub - OliverBalfour/obsidian-pandoc: Pandoc document export plugin for Obsidian (https://obsidian.md)](https://github.com/OliverBalfour/obsidian-pandoc) - формирование документов из заметок
 > - [GitHub - RafaelGB/obsidian-db-folder: Obsidian Plugin to Allow Notion like database based on folders](https://github.com/RafaelGB/obsidian-db-folder) - альтернатива project и dataviewer
 > - [GitHub - ivan-lednev/obsidian-day-planner: An Obsidian plugin for day planning with a clean UI and a simple task format](https://github.com/ivan-lednev/obsidian-day-planner) - подключение гугл календаря и расширенные возможности по работе с задачами
-> - [GitHub - alangrainger/share-note: Instantly share an Obsidian note with the full theme exactly like you see in your vault. Data is shared encrypted by default, and only you and the person you send it to have the key.](https://github.com/alangrainger/share-note) - публикация заметок, возможен селф хостед вариант
 > - [[Заметки/Дополнение Modal Form\|Дополнение Modal Form]]
-> - https://github.com/alangrainger/obsidian-lazy-plugins
 > - [GitHub - wrenger/obsidian-languagetool: LanguageTool Plugin for Obsidian](https://github.com/wrenger/obsidian-languagetool)
 
