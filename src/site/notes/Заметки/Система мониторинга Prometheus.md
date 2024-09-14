@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-monitoringa-prometheus/","created":"2024-09-10 23:51","updated":"2024-09-11T00:54:53+03:00"}
+{"dg-publish":true,"permalink":"/zametki/sistema-monitoringa-prometheus/","created":"2024-09-10 23:51","updated":"2024-09-14T23:55:11+03:00"}
 ---
 
 Универсальная система сбора и обработки метрик для организации систем мониторинга различных программ и компьютерных систем. Сбор показателей выполняется по принципу что каждый сервис публикует о себе информацию а Prometheus периодически их опрашивает.
@@ -25,6 +25,9 @@
 > - [[Заметки/Мониторинг OpenWRT с использованием Prometheus\|Мониторинг OpenWRT с использованием Prometheus]]
 > - [[Заметки/Мониторинг proxmox через Prometheus\|Мониторинг proxmox через Prometheus]]
 > - [[Хобби/Команды и настройки/Установка node exporter как служба\|Настройка мониторинга хоста proxmox]]
+> - [[Заметки/Мониторинг traefik через Prometheus\|Мониторинг traefik через Prometheus]]
+> - [[Заметки/Мониторинг Crowdsec с использованием Prometheus\|Мониторинг Crowdsec с использованием Prometheus]]
+> - [[Заметки/Мониторинг AdguardHome с использованием Prometheus\|Мониторинг AdguardHome с использованием Prometheus]]
 
 ---
 > [!urls]- Упоминания:

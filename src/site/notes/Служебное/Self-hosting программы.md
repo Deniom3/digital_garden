@@ -32,12 +32,18 @@
 - [[Заметки/Средство мониторинга Uptime Kuma\|Средство мониторинга Uptime Kuma]]
 ### Попробовать:
 - Изучить вариант автоматизации перезаписи DNS в adguard home https://registry.terraform.io/providers/gmichels/adguard/latest/docs/resources/rewrite
+- [[Заметки/Сбор логов для мониторинга через Grafana Loki\|Сбор логов для мониторинга через Grafana Loki]]
+- [GitHub - allinurl/goaccess: GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser.](https://github.com/allinurl/goaccess) — это анализатор веб-журналов в реальном времени и интерактивный просмотрщик, работающий в терминале в системах *nix или через браузер.
+- [[Заметки/Базовый проект Docker для установки программ внутри Docker контейнера\|Базовый проект Docker для установки программ внутри Docker контейнера]]
 ### Неиспользуемые программы:
 - [[Заметки/Wallos  для отслеживания финансов и автоплатежей\|Wallos  для отслеживания финансов и автоплатежей]]
 - [[Заметки/Программа для пересылки электронных писем в уведомления mailrise\|Программа для пересылки электронных писем в уведомления mailrise]]
 - [[Заметки/Блокировщик неавторизованного сетевого доступа Fail2Ban\|Блокировщик неавторизованного сетевого доступа Fail2Ban]]
 - [[Заметки/Реверс прокси сервер Caddy\|Реверс прокси сервер Caddy]]
 - [[Заметки/Индексатор торрентов jackett\|Индексатор торрентов jackett]]
+- [[Заметки/Отслеживание состояние linux системы через веб версию htop\|Отслеживание состояние linux системы через веб версию htop]]
+- [[Заметки/Отслеживание состояние docker контейнеров с помошью What's up Docker\|Отслеживание состояние docker контейнеров с помошью What's up Docker]]
+- [[Заметки/Почтовый клиент Thunderbird в Docker\|Почтовый клиент Thunderbird в Docker]]
 ### Списки программ:
 - [GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - [GitHub - awesome-foss/awesome-sysadmin: A curated list of amazingly awesome open-source sysadmin resources.](https://github.com/awesome-foss/awesome-sysadmin)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-10T21:43:14+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-14T03:03:19+03:00"}
 ---
 
 1. [[Заметки/Дополнение Projects\|Дополнение Projects]] - очень сильный инструмент для работы с однотипными заметками на основе метаданных
@@ -49,7 +49,7 @@
 45. [[Заметки/Дополнение Digital Garden\|Дополнение Digital Garden]] - публикация заметок как блог
 46. [[Заметки/Дополнение Copilot\|Дополнение Copilot]] - ИИ в обсидиан
 47. ~~[[Заметки/Дополнение Share Note\|Дополнение Share Note]]~~ - поделиться заметками по ссылкам
-48. [[Заметки/Дополнение Lazy\|Дополнение Lazy]] - настройка задержки запуска плагинов Obsidian
+48. ~~[[Заметки/Дополнение Lazy\|Дополнение Lazy]]~~ - настройка задержки запуска плагинов Obsidian
 
 
 > [!note]- Попробовать плагины
@@ -60,4 +60,5 @@
 > - [GitHub - ivan-lednev/obsidian-day-planner: An Obsidian plugin for day planning with a clean UI and a simple task format](https://github.com/ivan-lednev/obsidian-day-planner) - подключение гугл календаря и расширенные возможности по работе с задачами
 > - [[Заметки/Дополнение Modal Form\|Дополнение Modal Form]]
 > - [GitHub - wrenger/obsidian-languagetool: LanguageTool Plugin for Obsidian](https://github.com/wrenger/obsidian-languagetool)
+> - [[Заметки/Дополнение Self-hosted LiveSync\|Дополнение Self-hosted LiveSync]]
 
