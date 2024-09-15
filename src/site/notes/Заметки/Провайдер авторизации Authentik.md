@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/provajder-avtorizaczii-authentik/","created":"2024-07-19 00:35","updated":"2024-09-12T19:35:31+03:00"}
+{"dg-publish":true,"permalink":"/zametki/provajder-avtorizaczii-authentik/","created":"2024-07-19 00:35","updated":"2024-09-16T00:49:34+03:00"}
 ---
 
 Провайдер единой централизованной аутентификации. Позволяет организовать единое окно входа для всех сервисов.
@@ -26,6 +26,7 @@
 > - [[Заметки/Пример OAuth2 OpenID аутентификации Authentik для Immich\|Пример OAuth2 OpenID аутентификации Authentik для Immich]]
 > - [[Заметки/Переключение встроенной авторизации на Authentik для GitTea\|Переключение встроенной авторизации на Authentik для GitTea]]
 > - [[Заметки/Доступ к Proxmox через Authentik\|Доступ к Proxmox через Authentik]]
+> - [[Заметки/Легковесная база данных CouchDB\|Настройка для CouchDB]]
 
 > [!hint] Важно
 > Можно настроить общую защиты по домену и в дальнейшем переопределять отдельными правилами для каждого приложения.

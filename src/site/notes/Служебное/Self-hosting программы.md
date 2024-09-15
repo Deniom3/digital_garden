@@ -30,6 +30,8 @@
 - [[Заметки/Форк SmtpToTelegram с поддержкой тем телегарам\|Форк SmtpToTelegram с поддержкой тем телегарам]]
 - [[Заметки/Менеджер стеков докеров Dockge\|Менеджер стеков докеров Dockge]]
 - [[Заметки/Средство мониторинга Uptime Kuma\|Средство мониторинга Uptime Kuma]]
+- [[Заметки/Легковесная база данных CouchDB\|Легковесная база данных CouchDB]]
+- [[Заметки/Система мониторинга Prometheus\|Система мониторинга Prometheus]]
 ### Попробовать:
 - Изучить вариант автоматизации перезаписи DNS в adguard home https://registry.terraform.io/providers/gmichels/adguard/latest/docs/resources/rewrite
 - [[Заметки/Сбор логов для мониторинга через Grafana Loki\|Сбор логов для мониторинга через Grafana Loki]]
@@ -42,7 +44,7 @@
 - [[Заметки/Реверс прокси сервер Caddy\|Реверс прокси сервер Caddy]]
 - [[Заметки/Индексатор торрентов jackett\|Индексатор торрентов jackett]]
 - [[Заметки/Отслеживание состояние linux системы через веб версию htop\|Отслеживание состояние linux системы через веб версию htop]]
-- [[Заметки/Отслеживание состояние docker контейнеров с помошью What's up Docker\|Отслеживание состояние docker контейнеров с помошью What's up Docker]]
+- [[Заметки/Отслеживание состояние docker контейнеров с помощью What's up Docker\|Отслеживание состояние docker контейнеров с помощью What's up Docker]]
 - [[Заметки/Почтовый клиент Thunderbird в Docker\|Почтовый клиент Thunderbird в Docker]]
 ### Списки программ:
 - [GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers](https://github.com/awesome-selfhosted/awesome-selfhosted)
