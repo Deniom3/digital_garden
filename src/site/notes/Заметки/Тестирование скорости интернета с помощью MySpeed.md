@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/testirovanie-skorosti-interneta-s-pomoshhyu-my-speed/","created":"2024-09-16 22:22","updated":"2024-09-16T23:04:11+03:00"}
+{"dg-publish":true,"permalink":"/zametki/testirovanie-skorosti-interneta-s-pomoshhyu-my-speed/","created":"2024-09-16 22:22","updated":"2024-09-16T23:16:15+03:00"}
 ---
 
 Программа MySpeed предназначена для автоматического измерения скорости интернета с удобной визуализацией и простой настройкой. Имеет простой и красивый дашборд и точку интеграции с prometheus.
@@ -8,6 +8,8 @@
 - Ookla (speed test)
 - LibreSpeed
 - Cloudflare
+
+Репозиторий: [GitHub - gnmyt/myspeed: A speed test analysis software that shows your internet speed for up to 30 days](https://github.com/gnmyt/myspeed)
 
 > [!note]
 > Основным преимуществом по сравнению с тестированием скорости интернета через SpeedTest на базе Home Assistant является несколько другой набор серверов и возможность жесткой настройки сервера тестирования (в Home Assistant сервера плавающие и могут пропадать).
