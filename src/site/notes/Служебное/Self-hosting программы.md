@@ -32,6 +32,7 @@
 - [[Заметки/Средство мониторинга Uptime Kuma\|Средство мониторинга Uptime Kuma]]
 - [[Заметки/Легковесная база данных CouchDB\|Легковесная база данных CouchDB]]
 - [[Заметки/Система мониторинга Prometheus\|Система мониторинга Prometheus]]
+- [[Заметки/Тестирование скорости интернета с помощью MySpeed\|Тестирование скорости интернета с помощью MySpeed]]
 ### Попробовать:
 - Изучить вариант автоматизации перезаписи DNS в adguard home https://registry.terraform.io/providers/gmichels/adguard/latest/docs/resources/rewrite
 - [[Заметки/Сбор логов для мониторинга через Grafana Loki\|Сбор логов для мониторинга через Grafana Loki]]
