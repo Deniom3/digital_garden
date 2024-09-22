@@ -1,8 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Adguard ertxpoer.md","permalink":"/docker-compose/adguard-ertxpoer/","updated":"2024-09-14T23:47:59+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Adguard ertxpoer.md","permalink":"/docker-compose/adguard-ertxpoer/","updated":"2024-09-17T12:43:18+03:00"}
 ---
 
+Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
+---
 ```yaml
 services:
   adguard-ertxpoer:

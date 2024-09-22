@@ -16,7 +16,9 @@
 
 
 
+Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
+---
 ```yaml
 services:
   adguard-ertxpoer:

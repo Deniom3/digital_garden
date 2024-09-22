@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sbor-dannyh-o-doker-kontejnerah-dlya-monitoringa-s-ispolzovaniem-cadvisor/","created":"2024-09-10 23:59","updated":"2024-09-14T23:54:23+03:00"}
+{"dg-publish":true,"permalink":"/zametki/sbor-dannyh-o-doker-kontejnerah-dlya-monitoringa-s-ispolzovaniem-cadvisor/","created":"2024-09-10 23:59","updated":"2024-09-17T21:15:14+03:00"}
 ---
 
 Сadvisor программа для сбора данных о контейнерах виртуализации (в основном докер но поддерживает и альтернативные варианты) которая может легко интегрироваться с Prometheus. Программа предоставляет полноценный веб интерфейс для просмотра всех данных мониторинга.
@@ -16,6 +16,9 @@
 
 
 
+Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
+
+---
 Стек предназначен для запуска на удаленной машине для сбора данных мониторинга о хост системе и докер контейнерах:
 
 ```yaml
@@ -52,10 +55,28 @@ networks: {}
 ```
 
 > [!bug] Внимание
-> Сadvisor запускается по умолчанию на порту 8080 который может быть занят в системе, для работы его может быть необходимо переопределить. В режиме bridge с указанием  `ports:  - 8082:8080`
+> Сadvisor запускается по умолчанию на порту 8080 который может быть занят в системе, для работы его может быть необходимо переопределить. В режиме bridge с указанием  `ports:  - 8090:8080`
 
 </div></div>
 
+
+## Настройка Prometheus
+
+Добавить в конфигурационный файл Prometheus новую задачу сбора данных:
+```yaml
+  - job_name: 'nodeexporter'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['monitoring.local:9100', 'gateway.local:9100', 'main.local:9100', 'nextcloud.local:9100', 'media.local:9100', 'immich.local:9100', 'armbian.local:9100']
+
+  - job_name: 'cadvisor'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['monitoring.local:8090', 'gateway.local:8090', 'main.local:8090', 'nextcloud.local:8090', 'media.local:8090', 'immich.local:8090', 'armbian.local:8090']
+
+```
+
+## Мониторинг в Grafana
 
 Для визуализации (при развертывании стека с [[Заметки/Данные о системе с использованием node exporter\|Node exporter]]) можно использовать панели Grafana:
 ![[docker_containers.json]]

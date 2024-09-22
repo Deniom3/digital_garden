@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/CrowdSec.md","permalink":"/docker-compose/crowd-sec/","updated":"2024-09-14T01:30:21+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/CrowdSec.md","permalink":"/docker-compose/crowd-sec/","updated":"2024-09-17T12:42:08+03:00"}
 ---
 
+Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
+
+---
 Предназначен для использования в связке с [[Заметки/Реверс прокси Traefik\|Traefik]]
 
 Для подключения к Traefik bouncer необходимо сгенерировать токен ключ командой:

@@ -1,11 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Monitoring.md","permalink":"/docker-compose/monitoring/","updated":"2024-09-11T01:07:57+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Monitoring.md","permalink":"/docker-compose/monitoring/","updated":"2024-09-17T21:13:33+03:00"}
 ---
 
 Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
 ---
-
 ```yaml
 services:
   influxdb:
@@ -88,6 +87,8 @@ services:
       - --path.sysfs=/host/sys
       - --collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($|/)
     restart: unless-stopped
+    ports:
+      - 9100:9100
     expose:
       - 9100
     networks:
@@ -108,7 +109,7 @@ services:
       - /cgroup:/cgroup:ro #doesn't work on MacOS only for Linux
     restart: unless-stopped
     ports:
-      - 8080:8080
+      - 8090:8080
     networks:
       - monitoring
     labels:
@@ -128,8 +129,8 @@ volumes:
   prometheus_data: {}
 networks:
   monitoring:
+    name: monitoring
     driver: bridge
-
 ```
 
 > [!note]

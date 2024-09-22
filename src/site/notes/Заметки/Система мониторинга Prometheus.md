@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sistema-monitoringa-prometheus/","created":"2024-09-10 23:51","updated":"2024-09-16T22:37:41+03:00"}
+{"dg-publish":true,"permalink":"/zametki/sistema-monitoringa-prometheus/","created":"2024-09-10 23:51","updated":"2024-09-17T21:47:52+03:00"}
 ---
 
 Универсальная система сбора и обработки метрик для организации систем мониторинга различных программ и компьютерных систем. Сбор показателей выполняется по принципу что каждый сервис публикует о себе информацию а Prometheus периодически их опрашивает.
@@ -12,7 +12,7 @@
 
 Репозиторий: [GitHub - prometheus/prometheus: The Prometheus monitoring system and time series database.](https://github.com/prometheus/prometheus)
 
-Докер файл для запуска основного кластера Prometheus представлен в стеке [[Хобби/Docker compose/Monitoring\|Monitoring]] составленном на основе [репозитория]([GitHub - stefanprodan/dockprom: Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager](https://github.com/stefanprodan/dockprom)).
+Докер файл для запуска основного кластера Prometheus представлен в стеке [[Хобби/Docker compose/Monitoring\|Monitoring]] составленном на основе [репозитория](https://github.com/stefanprodan/dockprom).
 
 Для визуализации (при развертывании [[Хобби/Docker compose/Monitoring\|стека]]) можно использовать панели Grafana для контроля состояния систем мониторинга:
 ![[monitor_services.json]]

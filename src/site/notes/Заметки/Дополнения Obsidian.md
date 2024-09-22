@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-15T23:08:34+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolneniya-obsidian/","created":"2024-07-07 22:19","updated":"2024-09-17T10:41:57+03:00"}
 ---
 
 1. [[Заметки/Дополнение Projects\|Дополнение Projects]] - очень сильный инструмент для работы с однотипными заметками на основе метаданных
@@ -51,6 +51,8 @@
 47. ~~[[Заметки/Дополнение Share Note\|Дополнение Share Note]]~~ - поделиться заметками по ссылкам
 48. ~~[[Заметки/Дополнение Lazy\|Дополнение Lazy]]~~ - настройка задержки запуска плагинов Obsidian
 49. [[Заметки/Дополнение Self-hosted LiveSync\|Дополнение Self-hosted LiveSync]] - динамическая синхронизация файлов с использованием self hosted базы данных
+50. [[Заметки/Дополнение custom attachment location\|Дополнение custom attachment location]] - синхронизация состояний присоединенных файлов 
+
 
 
 > [!note]- Попробовать плагины

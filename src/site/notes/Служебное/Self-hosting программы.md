@@ -38,6 +38,7 @@
 - [[Заметки/Сбор логов для мониторинга через Grafana Loki\|Сбор логов для мониторинга через Grafana Loki]]
 - [GitHub - allinurl/goaccess: GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser.](https://github.com/allinurl/goaccess) — это анализатор веб-журналов в реальном времени и интерактивный просмотрщик, работающий в терминале в системах *nix или через браузер.
 - [[Заметки/Базовый проект Docker для установки программ внутри Docker контейнера\|Базовый проект Docker для установки программ внутри Docker контейнера]]
+- https://github.com/hashicorp/terraform - автоматизация развертывания программ
 ### Неиспользуемые программы:
 - [[Заметки/Wallos  для отслеживания финансов и автоплатежей\|Wallos  для отслеживания финансов и автоплатежей]]
 - [[Заметки/Программа для пересылки электронных писем в уведомления mailrise\|Программа для пересылки электронных писем в уведомления mailrise]]

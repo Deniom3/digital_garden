@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Monitoring Node.md","permalink":"/docker-compose/monitoring-node/","updated":"2024-09-14T23:53:56+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Monitoring Node.md","permalink":"/docker-compose/monitoring-node/","updated":"2024-09-17T21:13:03+03:00"}
 ---
 
+Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
+
+---
 Стек предназначен для запуска на удаленной машине для сбора данных мониторинга о хост системе и докер контейнерах:
 
 ```yaml
@@ -38,4 +41,4 @@ networks: {}
 ```
 
 > [!bug] Внимание
-> Сadvisor запускается по умолчанию на порту 8080 который может быть занят в системе, для работы его может быть необходимо переопределить. В режиме bridge с указанием  `ports:  - 8082:8080`
+> Сadvisor запускается по умолчанию на порту 8080 который может быть занят в системе, для работы его может быть необходимо переопределить. В режиме bridge с указанием  `ports:  - 8090:8080`

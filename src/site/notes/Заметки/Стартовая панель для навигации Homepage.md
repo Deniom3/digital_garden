@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/startovaya-panel-dlya-navigaczii-homepage/","created":"2024-08-24 22:38","updated":"2024-09-16T23:15:57+03:00"}
+{"dg-publish":true,"permalink":"/zametki/startovaya-panel-dlya-navigaczii-homepage/","created":"2024-08-24 22:38","updated":"2024-09-18T18:11:25+03:00"}
 ---
 
 Панель с возможностью интеграции различных сервисов и мониторинга сервисов в реальном времени.
