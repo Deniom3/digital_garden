@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-reminder/","created":"2024-07-11 00:53","updated":"2024-09-03T16:28:29+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-reminder/","created":"2024-07-11 00:53","updated":"2024-09-23T22:39:23+03:00"}
 ---
 
 Плагин для напоминания по задачам в Obsidian
@@ -8,4 +8,7 @@
 
 ---
 > [!urls]- Упоминания:
-> - 
+> - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
+
+> [!info]-
+> Примечание:: Напоминания по задачам

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-sallout-manager/","created":"2024-07-10 01:11","updated":"2024-09-03T16:25:40+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-sallout-manager/","created":"2024-07-10 01:11","updated":"2024-09-23T22:27:32+03:00"}
 ---
 
 Относительно удобный плагин для вставки разных Callouts (группировок в тексте заметок) и создание своих оригинальных.
@@ -8,4 +8,7 @@
 
 ---
 > [!urls]- Упоминания:
-> - 
+> - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
+
+> [!info]-
+> Примечание:: Вставка блоков оформления Callaut

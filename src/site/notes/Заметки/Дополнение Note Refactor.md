@@ -1,10 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-note-refactor/","created":"2024-07-13 15:28","updated":"2024-09-03T16:30:35+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-note-refactor/","created":"2024-07-13 15:28","updated":"2024-09-23T22:51:58+03:00"}
 ---
 
-- [<] Изучить дополнение Note Refactor ➕ 2024-07-13
+Дополнение позволяет выполнять разделение заметки на отдельные подзаметки с гибкой настройкой разбиения.
 
+Репозиторий: [GitHub - lynchjames/note-refactor-obsidian: Allows for text selections to be copied (refactored) into new notes and notes to be split into other notes.](https://github.com/lynchjames/note-refactor-obsidian)
+
+- [x] Изучить дополнение Note Refactor ➕ 2024-07-13 ✅ 2024-09-23
 
 ---
 > [!urls]- Упоминания:
-> - 
+> - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
+
+> [!info]-
+> Примечание:: Разделение заметок
