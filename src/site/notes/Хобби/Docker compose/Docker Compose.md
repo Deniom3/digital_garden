@@ -21,11 +21,11 @@
 | [[Хобби/Docker compose/Keenetic-monitoring\|Keenetic-monitoring]]     | <ul><li>keenetic-monitoring</li></ul>                                                                                   |
 | [[Хобби/Docker compose/Monitoring Node\|Monitoring Node]]             | <ul><li>nodeexporter</li><li>cadvisor</li></ul>                                                                         |
 | [[Хобби/Docker compose/Monitoring\|Monitoring]]                       | <ul><li>pushgateway</li><li>cadvisor</li><li>nodeexporter</li><li>prometheus</li><li>grafana</li><li>influxdb</li></ul> |
-| [[Хобби/Docker compose/Multimedia\|Multimedia]]                       | <ul><li>sonarr</li><li>radarr</li><li>qbittorrent</li><li>jackett</li><li>plex</li></ul>                                |
 | [[Хобби/Docker compose/MySpeed\|MySpeed]]                             | <ul><li>MySpeed</li></ul>                                                                                               |
 | [[Хобби/Docker compose/NextloudAIO\|NextloudAIO]]                     | <ul><li>nextcloud</li></ul>                                                                                             |
-| [[Хобби/Docker compose/Portainer\|Portainer]]                         | <ul><li>portainer</li></ul>                                                                                             |
 | [[Хобби/Docker compose/Proxmox-backup-server\|Proxmox-backup-server]] | <ul><li>proxmox-backup-server</li></ul>                                                                                 |
+| [[Хобби/Docker compose/Portainer\|Portainer]]                         | <ul><li>portainer</li></ul>                                                                                             |
+| [[Хобби/Docker compose/Multimedia\|Multimedia]]                       | <ul><li>sonarr</li><li>radarr</li><li>qbittorrent</li><li>jackett</li><li>plex</li></ul>                                |
 | [[Хобби/Docker compose/Readeck\|Readeck]]                             | <ul><li>readeck</li></ul>                                                                                               |
 | [[Хобби/Docker compose/SmtpToTelegram\|SmtpToTelegram]]               | <ul><li>SmtpToTelegram</li></ul>                                                                                        |
 | [[Хобби/Docker compose/Telegraf-nut\|Telegraf-nut]]                   | <ul><li>telegraf</li></ul>                                                                                              |

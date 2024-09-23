@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/stati/nastrojka-razdelenie-trafika-s-ispolzovanie-wireguard/","updated":"2024-09-03T15:45:23+03:00"}
+{"dg-publish":true,"permalink":"/stati/nastrojka-razdelenie-trafika-s-ispolzovanie-wireguard/","updated":"2024-09-23T23:49:02+03:00"}
 ---
 
-Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
+Возврат:: [[Статьи/Оглавление статей\|к списку статей]] [[Статьи/Оглавление моих статей\|мои статьи]]
 > [!urls]- Заметки по статье
 
 ---

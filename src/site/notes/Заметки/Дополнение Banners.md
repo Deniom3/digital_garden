@@ -6,7 +6,7 @@
 
 Репозиторий: [GitHub - noatpad/obsidian-banners: An Obsidian plugin that adds banners to your notes](https://github.com/noatpad/obsidian-banners)
 
-- [<] Добавить баннеры в МОС заметки ➕ 2024-07-13
+- [x] Добавить баннеры в МОС заметки ➕ 2024-07-13 ✅ 2024-09-24
 
 ---
 > [!urls]- Упоминания:
