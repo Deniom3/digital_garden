@@ -64,5 +64,5 @@ networks: {}
 
 ---
 > [!urls]- Упоминания:
-> - [[Заметки/Программа визуализации статистики Grafana\|Grafana]]
-> - [[Заметки/Система мониторинга Prometheus\|Prometheus]]
+> - [[Заметки/Self-hosting. Grafana\|Grafana]]
+> - [[Заметки/Self-hosting. Prometheus\|Prometheus]]

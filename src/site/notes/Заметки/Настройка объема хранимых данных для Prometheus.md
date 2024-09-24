@@ -13,4 +13,4 @@
 
 ---
 > [!urls]- Упоминания:
-> - [[Заметки/Система мониторинга Prometheus\|Prometheus]]
+> - [[Заметки/Self-hosting. Prometheus\|Prometheus]]

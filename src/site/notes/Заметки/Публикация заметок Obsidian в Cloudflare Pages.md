@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/zametki/publikacziya-zametok-obsidian-v-cloudflare-pages/","created":"2024-09-05 01:25","updated":"2024-09-05T01:49:41+03:00"}
 ---
 
-Для публикации используется плагин [[Заметки/Дополнение Digital Garden\|Digital Garden]]:
+Для публикации используется плагин [[Заметки/Дополнение Obsidian. Digital Garden\|Digital Garden]]:
 1. Загрузить и установить плагин Digital Garden в Obsidian
 2. Создать новый репозиторий на основании шаблона [GitHub - oleeskild/digitalgarden](https://github.com/oleeskild/digitalgarden)  (репозиторий может быть приватным)
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/zametki/monitoring-traefik-cherez-prometheus/","created":"2024-09-11 01:12","updated":"2024-09-14T23:52:34+03:00"}
 ---
 
-[[Заметки/Реверс прокси Traefik\|Traefik]] поддерживает из коробки публикацию метрик в формате prometheus. В метриках доступна основная информация по работе прокси.
+[[Заметки/Self-hosting. Traefik\|Traefik]] поддерживает из коробки публикацию метрик в формате prometheus. В метриках доступна основная информация по работе прокси.
 
 Документация по настройке: [Traefik Prometheus Documentation - Traefik](https://doc.traefik.io/traefik/observability/metrics/prometheus/)
 ## Настройка Traefik
@@ -154,7 +154,7 @@ networks:
 
 ## Настройка Prometheus
 
-Добавить в конфигурационный файл [[Заметки/Система мониторинга Prometheus\|Prometheus]] новую задачу сбора данных:
+Добавить в конфигурационный файл [[Заметки/Self-hosting. Prometheus\|Prometheus]] новую задачу сбора данных:
 ```yaml
   - job_name: 'traefik'
     scrape_interval: 30s
@@ -174,16 +174,16 @@ networks:
 
 ![Мониторинг traefik через Prometheus.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20traefik%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20Prometheus.png)
 
-Можно использовать следующий дашборд для [[Заметки/Программа визуализации статистики Grafana\|Grafana]]:
+Можно использовать следующий дашборд для [[Заметки/Self-hosting. Grafana\|Grafana]]:
 ![[GrafanaTraefik.json]]
 
 Описание дашборда на официальном сайте: [Traefik | Grafana Labs](https://grafana.com/grafana/dashboards/4475-traefik/)
 
 ---
 > [!urls]- Упоминания:
-> - [[Заметки/Реверс прокси Traefik\|Traefik]]
-> - [[Заметки/Программа визуализации статистики Grafana\|Grafana]]
-> - [[Заметки/Система мониторинга Prometheus\|Prometheus]]
+> - [[Заметки/Self-hosting. Traefik\|Traefik]]
+> - [[Заметки/Self-hosting. Grafana\|Grafana]]
+> - [[Заметки/Self-hosting. Prometheus\|Prometheus]]
 
 > [!todo]-
 > - [x] Изучить вопрос настройки ➕ 2024-09-11 ⏳ 2024-09-11 ✅ 2024-09-12

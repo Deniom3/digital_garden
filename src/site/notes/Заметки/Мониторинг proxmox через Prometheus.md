@@ -13,9 +13,9 @@
 
 ---
 > [!urls]- Упоминания:
-> - [[Заметки/Система виртуализации Proxmox Virtual Environment\|Proxmox]]
-> - [[Заметки/Система мониторинга Prometheus\|Prometheus]]
-> - [[Заметки/Программа визуализации статистики Grafana\|Grafana]]
+> - [[Заметки/Self-hosting. Proxmox Virtual Environment\|Proxmox]]
+> - [[Заметки/Self-hosting. Prometheus\|Prometheus]]
+> - [[Заметки/Self-hosting. Grafana\|Grafana]]
 
 > [!todo]-
 > - [x] Изучить вопрос настройки ➕ 2024-09-11 ⏳ 2024-09-12 ✅ 2024-09-12

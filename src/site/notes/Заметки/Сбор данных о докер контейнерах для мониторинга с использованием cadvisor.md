@@ -84,5 +84,5 @@ networks: {}
 
 ---
 > [!urls]- Упоминания:
-> - [[Заметки/Программа визуализации статистики Grafana\|Grafana]]
+> - [[Заметки/Self-hosting. Grafana\|Grafana]]
 > - [[Заметки/Данные о системе с использованием node exporter\|node exporter]]

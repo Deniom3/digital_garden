@@ -52,8 +52,8 @@ nano /etc/config/prometheus-node-exporter-lua
 
 ---
 > [!urls]- Упоминания:
-> - [[Заметки/Система мониторинга Prometheus\|Prometheus]]
-> - [[Заметки/Программа визуализации статистики Grafana\|Grafana]]
+> - [[Заметки/Self-hosting. Prometheus\|Prometheus]]
+> - [[Заметки/Self-hosting. Grafana\|Grafana]]
 > - [[Заметки/Операционная система для роутеров OpenWrt\|OpenWrt]]
 
 > [!todo]-

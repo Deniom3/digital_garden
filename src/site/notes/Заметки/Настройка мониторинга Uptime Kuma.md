@@ -22,6 +22,6 @@ scrape_configs:
 
 ---
 > [!urls]- Упоминания:
-> - [[Заметки/Средство мониторинга Uptime Kuma\|Uptime Kuma]]
-> - [[Заметки/Система мониторинга Prometheus\|Prometheus]]
-> - [[Заметки/Программа визуализации статистики Grafana\|Grafana]]
+> - [[Заметки/Self-hosting. Uptime Kuma\|Uptime Kuma]]
+> - [[Заметки/Self-hosting. Prometheus\|Prometheus]]
+> - [[Заметки/Self-hosting. Grafana\|Grafana]]

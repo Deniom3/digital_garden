@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2024-09-11T01:08:17+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2024-09-24T22:30:42+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

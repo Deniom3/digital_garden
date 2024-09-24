@@ -19,7 +19,7 @@ sudo certbot certonly \
 
 # Установка 3x-ui
 
-Установить панель [[Заметки/Панель для x-ray прокси 3X-UI\|3x-ui]] на сервере в докере:
+Установить панель [[Заметки/Self-hosting. 3X-UI\|3x-ui]] на сервере в докере:
 
 ```shell
 git clone https://github.com/MHSanaei/3x-ui.git

@@ -6,7 +6,7 @@
 
 ---
 
-Для отключения окна авторизации Nextloud для использования внешней авторизации (например [[Заметки/Провайдер авторизации Authentik\|Authentik]]) выполнить команду:
+Для отключения окна авторизации Nextloud для использования внешней авторизации (например [[Заметки/Self-hosting. Authentik\|Authentik]]) выполнить команду:
 ```shell
 sudo -u www-data php var/www/nextcloud/occ config:app:set --value=0 user_oidc allow_multiple_user_backends
 ```

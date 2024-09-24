@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка ssh для не root пользователя Linux.md","permalink":"/komandy-i-nastrojki/nastrojka-ssh-dlya-ne-root-polzovatelya-linux/","updated":"2024-09-03T16:01:49+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка ssh для не root пользователя Linux.md","permalink":"/komandy-i-nastrojki/nastrojka-ssh-dlya-ne-root-polzovatelya-linux/","updated":"2024-09-24T22:29:54+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
