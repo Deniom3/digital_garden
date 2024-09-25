@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-docker-base-images-gui/","created":"2024-09-15 00:11","updated":"2024-09-24T23:53:33+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-docker-base-images-gui/","created":"2024-09-15 00:11","updated":"2024-09-25T00:18:12+03:00"}
 ---
 
 Проект позволяет выполнить установку любой программы по Linux внутри docker образа и предоставить доступ к программе через vnc или браузер. Проект предоставляет набор базовых перенастроенных образов docker.
