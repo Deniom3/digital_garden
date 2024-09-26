@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-modal-form/","created":"2024-08-23","updated":"2024-09-24T00:47:34+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-modal-form/","created":"2024-08-23","updated":"2024-09-26T02:12:09+03:00"}
 ---
 
 Плагин отправляется тем, кто активно заполняет frontmatter, использует святую троицу Templater / DataView / QuickAdd и всегда рад сэкономить секунду-другую. 
@@ -14,7 +14,7 @@
 ◽️*bonus-инфа* 
 [Modal Form с подробной инструкцией](https://github.com/danielo515/obsidian-modal-form) под настройку для каждого из товарищей 
 
-- [/] Попробовать плагин ➕ 2024-08-24
+- [x] Попробовать плагин Modal Form ➕ 2024-08-24 ✅ 2024-09-26
 
 Альтернативные варианты:
 - [[Заметки/Заполнение полей заметки через модальные окна в шаблоне\|Заполнение полей заметки через модальные окна в шаблоне]]

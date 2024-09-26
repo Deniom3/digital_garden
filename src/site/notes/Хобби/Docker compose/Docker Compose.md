@@ -7,12 +7,12 @@
 | Название                                                                 | Программа                                                                                                               |
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | [[Хобби/Docker compose/Adguard ertxpoer\|Adguard ertxpoer]]           | <ul><li>adguard-exporter</li></ul>                                                                                      |
-| [[Хобби/Docker compose/Caddy\|Caddy]]                                 | caddy                                                                                                                   |
 | [[Хобби/Docker compose/Authentik\|Authentik]]                         | <ul><li>authentik</li></ul>                                                                                             |
-| [[Хобби/Docker compose/CalibreWeb\|CalibreWeb]]                       | <ul><li>calibre-web</li></ul>                                                                                           |
+| [[Хобби/Docker compose/Caddy\|Caddy]]                                 | caddy                                                                                                                   |
 | [[Хобби/Docker compose/Cloudflare Tunel\|Cloudflare Tunel]]           | <ul><li>cloudflared</li></ul>                                                                                           |
-| [[Хобби/Docker compose/CouchDB\|CouchDB]]                             | <ul><li>couchdb</li></ul>                                                                                               |
+| [[Хобби/Docker compose/CalibreWeb\|CalibreWeb]]                       | <ul><li>calibre-web</li></ul>                                                                                           |
 | [[Хобби/Docker compose/CrowdSec\|CrowdSec]]                           | <ul><li>crowdsec</li><li>traefik-crowdsec-bouncer</li></ul>                                                             |
+| [[Хобби/Docker compose/CouchDB\|CouchDB]]                             | <ul><li>couchdb</li></ul>                                                                                               |
 | [[Хобби/Docker compose/Dockge\|Dockge]]                               | <ul><li>dockge</li></ul>                                                                                                |
 | [[Хобби/Docker compose/Fail2ban\|Fail2ban]]                           | <ul><li>fail2ban</li></ul>                                                                                              |
 | [[Хобби/Docker compose/GitTea\|GitTea]]                               | <ul><li>gitea</li></ul>                                                                                                 |
@@ -30,11 +30,11 @@
 | [[Хобби/Docker compose/SmtpToTelegram\|SmtpToTelegram]]               | SmtpToTelegram                                                                                                          |
 | [[Хобби/Docker compose/Telegraf-nut\|Telegraf-nut]]                   | <ul><li>telegraf</li></ul>                                                                                              |
 | [[Хобби/Docker compose/Telegraf-openwrt\|Telegraf-openwrt]]           | <ul><li>telegraf</li></ul>                                                                                              |
-| [[Хобби/Docker compose/Telegraf\|Telegraf]]                           | <ul><li>telegraf</li></ul>                                                                                              |
 | [[Хобби/Docker compose/Traefik\|Traefik]]                             | Traefik                                                                                                                 |
 | [[Хобби/Docker compose/Uptime Kuma\|Uptime Kuma]]                     | <ul><li>Uptime Kuma</li></ul>                                                                                           |
 | [[Хобби/Docker compose/Vaultwarden\|Vaultwarden]]                     | vaultwarden                                                                                                             |
-| [[Хобби/Docker compose/Wallos\|Wallos]]                               | Wallos                                                                                                                  |
+| [[Хобби/Docker compose/Telegraf\|Telegraf]]                           | <ul><li>telegraf</li></ul>                                                                                              |
 | [[Хобби/Docker compose/Watchtower\|Watchtower]]                       | <ul><li>watchtower</li></ul>                                                                                            |
+| [[Хобби/Docker compose/Wallos\|Wallos]]                               | Wallos                                                                                                                  |
 
 { .block-language-dataview}
