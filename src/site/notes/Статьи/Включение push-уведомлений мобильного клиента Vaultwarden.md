@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/vklyuchenie-push-uvedomlenij-mobilnogo-klienta-vaultwarden/","created":"2024-08-20-00-36-42","updated":"2024-09-24T19:36:08+03:00"}
+{"dg-publish":true,"permalink":"/stati/vklyuchenie-push-uvedomlenij-mobilnogo-klienta-vaultwarden/","created":"2024-08-20-00-36-42","updated":"2024-09-29T16:18:50+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]

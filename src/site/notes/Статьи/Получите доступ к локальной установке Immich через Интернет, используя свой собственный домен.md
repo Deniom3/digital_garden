@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/poluchite-dostup-k-lokalnoj-ustanovke-immich-cherez-internet-ispolzuya-svoj-sobstvennyj-domen/","created":"2024-08-15-01-34-41","updated":"2024-09-26T11:16:57+03:00"}
+{"dg-publish":true,"permalink":"/stati/poluchite-dostup-k-lokalnoj-ustanovke-immich-cherez-internet-ispolzuya-svoj-sobstvennyj-domen/","created":"2024-08-15-01-34-41","updated":"2024-09-29T16:22:33+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
