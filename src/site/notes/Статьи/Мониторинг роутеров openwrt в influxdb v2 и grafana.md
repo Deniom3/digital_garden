@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-routerov-openwrt-v-influxdb-v2-i-grafana/","updated":"2024-09-23T23:50:26+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-routerov-openwrt-v-influxdb-v2-i-grafana/","updated":"2024-09-29T00:09:10+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]  [[Статьи/Оглавление моих статей\|мои статьи]] 

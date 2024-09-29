@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/perenos-sushhestvuyushhej-nastrojki-proxmox-na-novyj-disk-s-izmeneniem-razmerov-razdelov-izmenenie-razmerov-diskov-proxmox/","updated":"2024-09-23T23:49:37+03:00"}
+{"dg-publish":true,"permalink":"/stati/perenos-sushhestvuyushhej-nastrojki-proxmox-na-novyj-disk-s-izmeneniem-razmerov-razdelov-izmenenie-razmerov-diskov-proxmox/","updated":"2024-09-29T00:07:43+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]] [[Статьи/Оглавление моих статей\|мои статьи]] 

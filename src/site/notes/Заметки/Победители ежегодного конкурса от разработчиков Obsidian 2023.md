@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/pobediteli-ezhegodnogo-konkursa-ot-razrabotchikov-obsidian-2023/","created":"2024-06-30","updated":"2024-09-03T16:33:39+03:00"}
+{"dg-publish":true,"permalink":"/zametki/pobediteli-ezhegodnogo-konkursa-ot-razrabotchikov-obsidian-2023/","created":"2024-06-30","updated":"2024-09-27T13:28:53+03:00"}
 ---
-
-**Forwarded from [Про Obsidian на русском](https://t.me/obsidianru/266)**
 
 ![photo_1556265868_7 - 20240630024717583.jpg](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/Telegram/photo_1556265868_7%20-%2020240630024717583.jpg)
 
@@ -19,8 +17,7 @@
 [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections)
 
 **Номинация Новая тема**
-[
-🏆 Border](https://github.com/Akifyss/obsidian-border) Чистая и легко настраиваемая тема для Obsidian. Но походу дико тормозная на текущий момент(
+[Border](https://github.com/Akifyss/obsidian-border) Чистая и легко настраиваемая тема для Obsidian. Но походу дико тормозная на текущий момент(
 [Flexoki](https://github.com/kepano/flexoki-obsidian) Сам еще не тестил, но глядя на имя автора, обязательно уделю ей внимание
 [Tokyo Night](https://github.com/tcmmichaelb139/obsidian-tokyonight)
 
