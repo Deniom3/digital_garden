@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-sostoyaniya-routerov-keenetic-v-influxdb-v2-i-grafana/","updated":"2024-09-29T00:08:49+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-sostoyaniya-routerov-keenetic-v-influxdb-v2-i-grafana/","updated":"2024-10-01T12:18:44+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]  [[Статьи/Оглавление моих статей\|мои статьи]] 
 > [!urls]- Заметки по статье
->  
+>  [[Хобби/Docker compose/Keenetic-monitoring\|Keenetic-monitoring]]
+>  [[Заметки/Self-hosting. Keenetic monitoring\|Self-hosting. Keenetic monitoring]]
 
 ---
 Это третья часть о мониторинге домашней системы с использованием influxdb и grafana первая часть про общую настройку в [[Статьи/Мониторинг proxmox с использованием InfluxDB v2 и Grafana\|Мониторинг proxmox с использованием InfluxDB v2 и Grafana]] и вторая часть про мониторинг proxmox [[Статьи/Мониторинг proxmox с использованием InfluxDB v2 и Grafana\|Мониторинг proxmox с использованием InfluxDB v2 и Grafana]].

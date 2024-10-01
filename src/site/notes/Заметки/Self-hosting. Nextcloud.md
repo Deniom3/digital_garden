@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-nextcloud/","created":"2024-07-03 23:30","updated":"2024-09-24T22:49:54+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-nextcloud/","created":"2024-07-03 23:30","updated":"2024-10-01T20:30:31+03:00"}
 ---
 
 Комплекс докер программ для организации частного облака аналога Google документы имеет огромное количество плагинов и дополнительного софта от организации библиотеки фотографий до звонков и т.д.
@@ -56,6 +56,7 @@ volumes:
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Сервер Nextcloud\|Сервер Nextcloud]]
 > [[Статьи/Развертываем облачное хранилище NextCloud AIO на Windows в Docker для дома\|Развертываем облачное хранилище NextCloud AIO на Windows в Docker для дома]]
 
 > [!info]-

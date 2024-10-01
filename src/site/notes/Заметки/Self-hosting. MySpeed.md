@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-my-speed/","created":"2024-09-16 22:22","updated":"2024-09-24T23:14:53+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-my-speed/","created":"2024-09-16 22:22","updated":"2024-10-01T20:28:07+03:00"}
 ---
 
 Программа MySpeed предназначена для автоматического измерения скорости интернета с удобной визуализацией и простой настройкой. Имеет простой и красивый дашборд и точку интеграции с prometheus.
@@ -79,6 +79,7 @@ networks:
 > - [[Заметки/Self-hosting. Prometheus\|Prometheus]]
 > - [[Заметки/Self-hosting. Grafana\|Grafana]]
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
 
 > [!info]-
 > Примечание:: Тестирование скорости интернета со статистикой и панелью

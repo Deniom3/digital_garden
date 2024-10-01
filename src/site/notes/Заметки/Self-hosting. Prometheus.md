@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-prometheus/","created":"2024-09-10 23:51","updated":"2024-09-24T23:13:57+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-prometheus/","created":"2024-09-10 23:51","updated":"2024-10-01T20:31:30+03:00"}
 ---
 
 Универсальная система сбора и обработки метрик для организации систем мониторинга различных программ и компьютерных систем. Сбор показателей выполняется по принципу что каждый сервис публикует о себе информацию а Prometheus периодически их опрашивает.
@@ -18,8 +18,8 @@
 ![[monitor_services.json]]
 
 > [!idea] Настройки
-> - [[Заметки/Сбор данных о докер контейнерах для мониторинга с использованием cadvisor\|Сбор данных о докер контейнерах для мониторинга с использованием cadvisor]]
-> - [[Заметки/Данные о системе с использованием node exporter\|Данные о системе с использованием node exporter]]
+> - [[Заметки/Self-hosting. Cadvisor\|Self-hosting. Cadvisor]]
+> - [[Заметки/Self-hosting. Nodeexpoeter\|Self-hosting. Nodeexpoeter]]
 > - [[Заметки/Настройка объема хранимых данных для Prometheus\|Настройка объема хранимых данных для Prometheus]]
 > - [[Заметки/Настройка мониторинга Uptime Kuma\|Настройка мониторинга Uptime Kuma]]
 > - [[Заметки/Мониторинг OpenWRT с использованием Prometheus\|Мониторинг OpenWRT с использованием Prometheus]]
@@ -27,12 +27,13 @@
 > - [[Хобби/Команды и настройки/Установка node exporter как служба\|Настройка мониторинга хоста proxmox]]
 > - [[Заметки/Мониторинг traefik через Prometheus\|Мониторинг traefik через Prometheus]]
 > - [[Заметки/Мониторинг Crowdsec с использованием Prometheus\|Мониторинг Crowdsec с использованием Prometheus]]
-> - [[Заметки/Мониторинг AdguardHome с использованием Prometheus\|Мониторинг AdguardHome с использованием Prometheus]]
+> - [[Заметки/Self-hosting. Adguard exporter\|Self-hosting. Adguard exporter]]
 > - [[Заметки/Self-hosting. MySpeed#Настройка мониторинга через Prometheus\|Тестирование скорости интернета через MySpeed]]
 
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
 > - [[Заметки/Self-hosting. Grafana\|Grafana]]
 
 > [!info]-

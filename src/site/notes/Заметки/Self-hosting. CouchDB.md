@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-couch-db/","created":"2024-09-16 00:40","updated":"2024-09-24T23:12:41+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-couch-db/","created":"2024-09-16 00:40","updated":"2024-10-01T19:54:07+03:00"}
 ---
 
 Легковесная и простая база данных с веб интерфейсом.
@@ -56,6 +56,7 @@ services:
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Сервер Main\|Сервер Main]]
 
 > [!info]-
 > Примечание:: Легковесная база данных. Для синхронизации заметок Obsidian

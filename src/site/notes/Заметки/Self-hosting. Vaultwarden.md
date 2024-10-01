@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-vaultwarden/","created":"2024-07-03 19:56","updated":"2024-09-24T22:27:13+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-vaultwarden/","created":"2024-07-03 19:56","updated":"2024-10-01T20:37:31+03:00"}
 ---
 
 Удобный Self-hosting менеджер паролей, не официальный форк менеджера паролей Bitwarden для личной установки. Совместим со всеми версиями Bitwarden приложения. 
@@ -51,6 +51,7 @@ services:
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Сервер Main\|Сервер Main]]
 > - [[Статьи/Настройка локального менеджера паролей Vaultwarden\|Настройка локального менеджера паролей Vaultwarden]]
 
 > [!info]-

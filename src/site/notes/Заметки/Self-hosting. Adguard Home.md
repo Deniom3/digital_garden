@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-adguard-home/","created":"2024-07-04 00:59","updated":"2024-09-24T22:27:25+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-adguard-home/","created":"2024-07-04 00:59","updated":"2024-10-01T21:49:06+03:00"}
 ---
 
 Локальный и быстрый DNS сервер с возможностью гибкой настройки вышестоящих серверов DNS. Можно делать перезапись DNS записей и выполнять блокировку по спискам (для блокировки рекламы или доступа к сайтам). Имеет функционал DHCP сервера и удобный интерфейс мониторинга.
@@ -9,6 +9,7 @@
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Keenetic\|Keenetic]]
 > - [[Хобби/Команды и настройки/Управление Adguard Home\|Управление Adguard Home]]
 > - [[Хобби/Конфиги/Adguard Home Keenetic\|Adguard Home Keenetic]]
 > - [[Статьи/Обход блокировок Adguard Keenetic\|Обход блокировок Adguard Keenetic]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-virtual-environment/","created":"2024-07-03 20:11","updated":"2024-09-24T22:47:57+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-virtual-environment/","created":"2024-07-03 20:11","updated":"2024-10-01T20:33:42+03:00"}
 ---
 
 Открытая система виртуализации с удобным веб интерфейсом и большим количеством возможностей.
@@ -13,6 +13,7 @@
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Proxmox\|Proxmox]]
 > - [[Статьи/Мониторинг proxmox с использованием InfluxDB v2 и Grafana\|Мониторинг proxmox с использованием InfluxDB v2 и Grafana]]
 > - [[Статьи/Перенос существующей настройки proxmox на новый диск с изменением размеров разделов. Изменение размеров дисков proxmox\|Перенос существующей настройки proxmox на новый диск с изменением размеров разделов. Изменение размеров дисков proxmox]]
 > - [[Статьи/Запуск Proxmox Backup Server (PBS) на Windows или NAS. Организация синхронизации бэкапов между PBS\|Запуск Proxmox Backup Server (PBS) на Windows или NAS. Организация синхронизации бэкапов между PBS]]

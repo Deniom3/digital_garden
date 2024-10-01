@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-prowlarr/","created":"2024-07-13 23:56","updated":"2024-09-24T23:07:41+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-prowlarr/","created":"2024-07-13 23:56","updated":"2024-10-01T20:32:50+03:00"}
 ---
 
 Универсальный индексатор торрентов для поиска сразу по нескольким сайтам размещения торрентов. Реализован в рамках системы arr по аналогии с [[Заметки/Self-hosting. Sonarr\|Sonarr]] и [[Заметки/Self-hosting. Radarr\|Radarr]], основное преимущество перед [[Заметки/Self-hosting. Jackett\|jackett]] в том что автоматически интегрируется в arr приложения через api а так же имеет более удобный и функциональный интерфейс. Есть возможность поиска и запуска загрузки торрентов на прямую из индексатора.
@@ -13,6 +13,7 @@
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+> - [[Хобби/Домашняя лаборатория/Сервер Media\|Сервер Media]]
 > - [[Заметки/Self-hosting. FlareSolverr\|Self-hosting. FlareSolverr]]
 
 > [!info]-

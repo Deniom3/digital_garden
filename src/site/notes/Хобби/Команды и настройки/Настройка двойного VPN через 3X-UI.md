@@ -41,7 +41,7 @@ docker compose up -d
 ![Настройка двойного VPN через 3X-UI-9.png|600](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B2%D0%BE%D0%B9%D0%BD%D0%BE%D0%B3%D0%BE%20VPN%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%203X-UI-9.png)
 # Создание wg подключения
 
-Создать новое [[Заметки/VPN Wireguard\|wireguard]] подключение 
+Создать новое [[Заметки/Self-hosting. Wireguard\|wireguard]] подключение 
 ![Настройка двойного VPN через 3X-UI-3.png|600](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B2%D0%BE%D0%B9%D0%BD%D0%BE%D0%B3%D0%BE%20VPN%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%203X-UI-3.png)
 > [!attention]
 > Для корректной маршрутизации обязательно включить Sniffing.

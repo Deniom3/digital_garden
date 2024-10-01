@@ -1,0 +1,27 @@
+---
+{"dg-publish":true,"dg-path":"Docker compose/Mosquitto.md","permalink":"/docker-compose/mosquitto/","tags":[""],"updated":"2024-10-01T21:14:42+03:00"}
+---
+
+Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
+
+---
+
+```yaml
+services:
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto:1.5.11
+    restart: unless-stopped
+    privileged: true
+    volumes:
+      - ./config:/mosquitto/config
+      - ./data:/mosquitto/data
+      - ./log:/mosquitto/log
+      - ./certs:/mosquitto/certs
+    environment:
+      - TZ=Europe/Moscow
+    network_mode: host
+    logging:
+      driver: none
+
+```
