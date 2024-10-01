@@ -9,7 +9,7 @@
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
-> - [[Хобби/Домашняя лаборатория/Keenetic\|Keenetic]]
+> - [[Хобби/Домашняя лаборатория/Роутер Keenetic\|Роутер Keenetic]]
 > - [[Хобби/Команды и настройки/Управление Adguard Home\|Управление Adguard Home]]
 > - [[Хобби/Конфиги/Adguard Home Keenetic\|Adguard Home Keenetic]]
 > - [[Статьи/Обход блокировок Adguard Keenetic\|Обход блокировок Adguard Keenetic]]

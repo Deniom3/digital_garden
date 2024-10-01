@@ -61,8 +61,8 @@ services:
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
-> - [[Хобби/Домашняя лаборатория/Proxmox\|Proxmox]]
-> - [[Хобби/Домашняя лаборатория/DeniomPC\|DeniomPC]]
+> - [[Хобби/Домашняя лаборатория/PC Proxmox\|PC Proxmox]]
+> - [[Хобби/Домашняя лаборатория/PC DeniomPC\|PC DeniomPC]]
 > - [[Статьи/Запуск Proxmox Backup Server (PBS) на Windows или NAS. Организация синхронизации бэкапов между PBS\|Запуск Proxmox Backup Server (PBS) на Windows или NAS. Организация синхронизации бэкапов между PBS]]
 > - [[Статьи/Резервное копирование с помощью Proxmox Backup Server (PBS). Делаем правильные бэкапы\|Резервное копирование с помощью Proxmox Backup Server (PBS). Делаем правильные бэкапы]]
 
