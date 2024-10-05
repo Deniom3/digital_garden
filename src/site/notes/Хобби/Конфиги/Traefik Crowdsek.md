@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Traefik Crowdsek.md","permalink":"/konfigi/traefik-crowdsek/","updated":"2024-10-05T17:46:24+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Traefik Crowdsek.md","permalink":"/konfigi/traefik-crowdsek/","updated":"2024-10-06T00:46:58+03:00"}
 ---
 
 Позволяет использовать [[Заметки/Self-hosting. CrowdSec\|crowdsek]] вместе с [[Заметки/Self-hosting. Traefik\|Traefik]]. Необходимо создать отдельный файл в папке `traefik/dynamic`
