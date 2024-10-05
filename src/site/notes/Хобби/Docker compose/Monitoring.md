@@ -1,10 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Monitoring.md","permalink":"/docker-compose/monitoring/","updated":"2024-09-17T21:13:33+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Monitoring.md","permalink":"/docker-compose/monitoring/","updated":"2024-10-06T01:00:31+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
----
 ```yaml
 services:
   influxdb:

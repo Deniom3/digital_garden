@@ -1,20 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-nextcloud/","created":"2024-07-03 23:30","updated":"2024-10-01T20:30:31+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/NextloudAIO.md","permalink":"/docker-compose/nextloud-aio/","updated":"2024-10-06T01:02:17+03:00"}
 ---
-
-Комплекс докер программ для организации частного облака аналога Google документы имеет огромное количество плагинов и дополнительного софта от организации библиотеки фотографий до звонков и т.д.
-
-Имеет WebDav клиент для работы с облаком который позволяет синхронизировать файлы на устройстве с облаком. Скачать можно тут: [Download and install Nextcloud](https://nextcloud.com/install/)
-Единственный адекватный вариант запуска из всех мною опробованных это NextloudAIO. Устанавливается как комплекс docker контейнеров с отдельным интерфейсом администрирования и обновления. 
-
-Репозиторий проекта: [GitHub - nextcloud/all-in-one: 📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance.](https://github.com/nextcloud/all-in-one)
-
-### Пример docker compose файла:
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/docker-compose/nextloud-aio/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
 
 
 ```yaml
@@ -46,15 +32,3 @@ volumes:
   nextcloud_aio_mastercontainer:
     name: nextcloud_aio_mastercontainer # This line is not allowed to be changed as otherwise the built-in backup solution will not work
 ```
-
-</div></div>
-
-
----
-> [!urls]- Упоминания:
-> - [[Служебное/Self-hosting программы\|Self-hosting программы]]
-> - [[Хобби/Домашняя лаборатория/Сервер Nextcloud\|Сервер Nextcloud]]
-> [[Статьи/Развертываем облачное хранилище NextCloud AIO на Windows в Docker для дома\|Развертываем облачное хранилище NextCloud AIO на Windows в Docker для дома]]
-
-> [!info]-
-> Примечание:: Персональное облако файлов

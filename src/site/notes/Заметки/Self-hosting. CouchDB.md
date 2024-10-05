@@ -12,9 +12,7 @@
 
 
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
----
 ```yaml
 services:
   couchdb-obsidian-livesync:

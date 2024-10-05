@@ -1,13 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Caddy.md","permalink":"/docker-compose/caddy/","updated":"2024-09-24T23:19:50+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Caddy.md","permalink":"/docker-compose/caddy/","updated":"2024-10-06T00:57:55+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
-Подобно разобрано в [[Статьи/Настройка реверс прокси Caddy и Fail2Ban в docker\|статье]]
-
-Настройки проксирования указываются в [[Хобби/Конфиги/Caddyfile\|файле]]
 
 ```yml
 services:
@@ -31,3 +25,8 @@ services:
       - ./logs:/logs
       - ./Caddyfile:/etc/caddy/Caddyfile  
 ```
+
+> [!note]-
+> Подобно разобрано в [[Статьи/Настройка реверс прокси Caddy и Fail2Ban в docker\|статье]]
+> 
+> Настройки проксирования указываются в [[Хобби/Конфиги/Caddyfile\|файле]]

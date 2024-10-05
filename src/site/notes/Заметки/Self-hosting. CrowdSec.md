@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-crowd-sec/","created":"2024-07-31 22:40","updated":"2024-10-06T00:48:21+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-crowd-sec/","created":"2024-07-31 22:40","updated":"2024-10-06T00:53:32+03:00"}
 ---
 
 Файрволл для защиты серверов, альтернатива [[Заметки/Self-hosting. Fail2Ban\|Fail2Ban]]. Наиболее простой способ интеграции в связке с [[Заметки/Self-hosting. Traefik\|Traefik]] необходимо использовать конфигурацию [[Хобби/Конфиги/Traefik Crowdsek\|Traefik Crowdsek]].
@@ -50,15 +50,6 @@ docker exec crowdsec cscli decisions delete --ip <ip>
 
 
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
-Предназначен для использования в связке с [[Заметки/Self-hosting. Traefik\|Traefik]]
-
-Для подключения к Traefik bouncer необходимо сгенерировать токен ключ командой:
-```shell
-docker exec crowdsec cscli bouncers add bouncer-traefik
-```
 
 ```yaml
 services:
@@ -211,6 +202,11 @@ experimental:
 ```
 
 `version` - необходимо изменять руками, нет возможности использовать latest.
+
+Для подключения к Traefik bouncer необходимо сгенерировать LAPI_KEY командой:
+```shell
+docker exec crowdsec cscli bouncers add bouncer-traefik
+```
 
 И добавить промежуточную обработку:
 

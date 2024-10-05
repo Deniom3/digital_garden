@@ -24,10 +24,6 @@
 
 
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
-Подробно разобрано в [[Статьи/Запуск Proxmox Backup Server (PBS) на Windows или NAS. Организация синхронизации бэкапов между PBS\|статье]]
 
 ```yaml
 version: '2.1'

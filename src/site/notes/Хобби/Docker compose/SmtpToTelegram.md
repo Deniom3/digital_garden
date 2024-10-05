@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/SmtpToTelegram.md","permalink":"/docker-compose/smtp-to-telegram/","updated":"2024-09-24T23:33:56+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/SmtpToTelegram.md","permalink":"/docker-compose/smtp-to-telegram/","updated":"2024-10-06T01:02:38+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
 
 ```yaml
 version: '3'

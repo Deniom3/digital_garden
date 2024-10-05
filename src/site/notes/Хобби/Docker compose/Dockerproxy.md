@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Dockerproxy.md","permalink":"/docker-compose/dockerproxy/","tags":[""],"updated":"2024-10-06T00:16:08+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Dockerproxy.md","permalink":"/docker-compose/dockerproxy/","updated":"2024-10-06T00:58:41+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
 
 ```yaml
 services:

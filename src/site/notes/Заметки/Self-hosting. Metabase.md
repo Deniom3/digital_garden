@@ -13,15 +13,6 @@
 
 
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
-Предназначен для использования в связке с [[Заметки/Self-hosting. Traefik\|Traefik]]
-
-Для подключения к Traefik bouncer необходимо сгенерировать токен ключ командой:
-```shell
-docker exec crowdsec cscli bouncers add bouncer-traefik
-```
 
 ```yaml
 services:

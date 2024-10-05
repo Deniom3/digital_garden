@@ -17,9 +17,6 @@
 
 
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
 
 ```yaml
 version: '3'

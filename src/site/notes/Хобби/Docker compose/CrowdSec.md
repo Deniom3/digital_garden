@@ -1,16 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/CrowdSec.md","permalink":"/docker-compose/crowd-sec/","updated":"2024-10-06T00:25:19+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/CrowdSec.md","permalink":"/docker-compose/crowd-sec/","updated":"2024-10-06T00:59:28+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
-Предназначен для использования в связке с [[Заметки/Self-hosting. Traefik\|Traefik]]
-
-Для подключения к Traefik bouncer необходимо сгенерировать токен ключ командой:
-```shell
-docker exec crowdsec cscli bouncers add bouncer-traefik
-```
 
 ```yaml
 services:

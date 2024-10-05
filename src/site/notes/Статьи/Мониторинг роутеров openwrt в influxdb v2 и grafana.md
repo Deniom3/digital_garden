@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-routerov-openwrt-v-influxdb-v2-i-grafana/","updated":"2024-09-29T00:09:10+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-routerov-openwrt-v-influxdb-v2-i-grafana/","updated":"2024-10-06T01:04:50+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]  [[Статьи/Оглавление моих статей\|мои статьи]] 
 > [!urls]- Заметки по статье
->  
+>  [[Хобби/Docker compose/Telegraf-openwrt\|Telegraf-openwrt]]
+>  [[Хобби/Конфиги/Telegraf OpenWrt\|Telegraf OpenWrt]]
 
 ---
 ## **Вступление**

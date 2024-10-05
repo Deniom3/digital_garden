@@ -1,10 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Monitoring Node.md","permalink":"/docker-compose/monitoring-node/","updated":"2024-09-17T21:13:03+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Monitoring Node.md","permalink":"/docker-compose/monitoring-node/","updated":"2024-10-06T01:00:19+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
----
 Стек предназначен для запуска на удаленной машине для сбора данных мониторинга о хост системе и докер контейнерах:
 
 ```yaml

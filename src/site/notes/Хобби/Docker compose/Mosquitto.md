@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Mosquitto.md","permalink":"/docker-compose/mosquitto/","tags":[""],"updated":"2024-10-01T21:14:42+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Mosquitto.md","permalink":"/docker-compose/mosquitto/","updated":"2024-10-06T01:00:44+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
 
 ```yaml
 services:

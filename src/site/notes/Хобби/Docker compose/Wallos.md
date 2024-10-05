@@ -1,10 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Wallos.md","permalink":"/docker-compose/wallos/","updated":"2024-09-24T23:27:18+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Wallos.md","permalink":"/docker-compose/wallos/","updated":"2024-10-06T01:05:42+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
----
 ```yaml
 version: '3.0'
 

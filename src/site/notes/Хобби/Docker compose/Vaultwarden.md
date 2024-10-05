@@ -1,10 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Vaultwarden.md","permalink":"/docker-compose/vaultwarden/","updated":"2024-09-24T19:35:05+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Vaultwarden.md","permalink":"/docker-compose/vaultwarden/","updated":"2024-10-06T01:05:14+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
----
 ```yaml
 services:
   vaultwarden:

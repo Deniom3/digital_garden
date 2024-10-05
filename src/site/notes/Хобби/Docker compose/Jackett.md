@@ -1,10 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Jackett.md","permalink":"/docker-compose/jackett/","updated":"2024-09-24T23:23:20+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Jackett.md","permalink":"/docker-compose/jackett/","updated":"2024-10-06T00:59:52+03:00"}
 ---
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
----
 ```yaml
 services:
   jackett:

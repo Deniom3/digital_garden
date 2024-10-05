@@ -17,12 +17,6 @@
 
 
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
-
----
-Подобно разобрано в [[Статьи/Настройка реверс прокси Caddy и Fail2Ban в docker\|статье]]
-
-Настройки для работы с Caddy приведены в конфиг [[Хобби/Конфиги/Fail2Ban\|файле]] 
 
 ```yaml
 version: "3.9"
@@ -43,6 +37,12 @@ version: "3.9"
       - /docker/caddy/logs/access.log:/docker/caddy/logs/access.log:ro
     restart: unless-stopped
 ```
+
+> [!note]-
+> Подобно разобрано в [[Статьи/Настройка реверс прокси Caddy и Fail2Ban в docker\|статье]]
+> 
+> Настройки для работы с Caddy приведены в конфиг [[Хобби/Конфиги/Fail2Ban\|файле]] 
+> 
 
 
 </div></div>

@@ -117,9 +117,7 @@ experimental:
 
 
 
-Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
 
----
 Обязательно надо настроить файлы конфигурации [[Хобби/Конфиги/Traefik\|Traefik]]
 
 ```yaml
