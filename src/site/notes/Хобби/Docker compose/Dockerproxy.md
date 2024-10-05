@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Dockerproxy.md","permalink":"/docker-compose/dockerproxy/","tags":[""],"updated":"2024-10-01T12:04:13+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Dockerproxy.md","permalink":"/docker-compose/dockerproxy/","tags":[""],"updated":"2024-10-06T00:16:08+03:00"}
 ---
 
 Назад:: [[Хобби/Docker compose/Docker Compose\|список шаблонов]]
@@ -12,6 +12,7 @@ services:
     image: ghcr.io/tecnativa/docker-socket-proxy:latest
     container_name: dockerproxy
     environment:
+	  - INFO=1 # Для работы Crowdsek
       - CONTAINERS=1 # Allow access to viewing containers
       - SERVICES=1 # Allow access to viewing services (necessary when using Docker Swarm)
       - TASKS=1 # Allow access to viewing tasks (necessary when using Docker Swarm)

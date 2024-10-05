@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Traefik.md","permalink":"/konfigi/traefik/","updated":"2024-09-14T23:51:09+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Traefik.md","permalink":"/konfigi/traefik/","updated":"2024-10-05T17:36:27+03:00"}
 ---
 
 
@@ -12,7 +12,7 @@ entryPoints:
     address: ":80"
     http:
       middlewares:
-        - crowdsec-bouncer@file
+        - crowdsec@file
       redirections:
         entryPoint:
           to: https
@@ -21,7 +21,7 @@ entryPoints:
     address: ":443"
     http:
       middlewares:
-        - crowdsec-bouncer@file
+        - crowdsec@file
   metrics:
     address: ":8082"
 
@@ -49,4 +49,10 @@ log:
   filePath: "/var/log/traefik/traefik.log"
 accessLog:
   filePath: "/var/log/traefik/access.log"
+
+experimental:
+  plugins:
+    crowdsec-bouncer-traefik-plugin:
+      moduleName: "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin"
+      version: "v1.3.4-beta1"
 ```

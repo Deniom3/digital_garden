@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Обновление LXC контейнеров Proxmox.md","permalink":"/komandy-i-nastrojki/obnovlenie-lxc-kontejnerov-proxmox/","updated":"2024-09-08T00:59:21+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Обновление LXC контейнеров Proxmox.md","permalink":"/komandy-i-nastrojki/obnovlenie-lxc-kontejnerov-proxmox/","updated":"2024-10-02T19:54:05+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]

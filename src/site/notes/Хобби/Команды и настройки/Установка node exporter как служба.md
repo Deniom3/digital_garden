@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2024-09-24T22:30:42+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2024-10-03T17:48:29+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
@@ -48,6 +48,11 @@ User=node_exporter
 Group=node_exporter
 Type=simple
 ExecStart=/usr/local/bin/node_exporter
+Nice=-10
+#CPUShares=512
+#MemoryLimit=100M
+Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-dockerproxy/","created":"2024-10-01 12:01","updated":"2024-10-01T20:39:13+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-dockerproxy/","created":"2024-10-01 12:01","updated":"2024-10-06T00:17:24+03:00"}
 ---
 
 Позволяет получить удаленный доступ к данным docker для управления и получения сведений о контейнерах.
@@ -23,6 +23,7 @@ services:
     image: ghcr.io/tecnativa/docker-socket-proxy:latest
     container_name: dockerproxy
     environment:
+	  - INFO=1 # Для работы Crowdsek
       - CONTAINERS=1 # Allow access to viewing containers
       - SERVICES=1 # Allow access to viewing services (necessary when using Docker Swarm)
       - TASKS=1 # Allow access to viewing tasks (necessary when using Docker Swarm)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение размера диска для LXC контейнера Proxmox.md","permalink":"/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/","updated":"2024-09-03T16:10:37+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение размера диска для LXC контейнера Proxmox.md","permalink":"/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/","updated":"2024-10-02T02:08:03+03:00"}
 ---
 
 Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
@@ -29,7 +29,7 @@ nano /etc/pve/lxc/<ID_VM>.conf
 
 Где `<ID_VM> `- номер контейнера/виртуальной машины в proxmox
     `<Size>` - целевой размер диска
-     `<SizeOld>` - старый размер диска
+    `<SizeOld>` - старый размер диска
 
 После изменения размера необходимо выполнить бэкап системы, удалить и восстановить из бэкапа виртуальную машину для корректной работы proxmox.
 ## Увеличение диска
