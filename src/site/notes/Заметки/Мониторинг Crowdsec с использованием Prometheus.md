@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/monitoring-crowdsec-s-ispolzovaniem-prometheus/","created":"2024-09-14 01:20","updated":"2024-10-06T00:46:27+03:00"}
+{"dg-publish":true,"permalink":"/zametki/monitoring-crowdsec-s-ispolzovaniem-prometheus/","created":"2024-09-14 01:20","updated":"2024-10-06T19:33:04+03:00"}
 ---
 
 [[Заметки/Self-hosting. CrowdSec\|CrowdSec]] поддерживает из коробки публикацию метрик в формате prometheus. Объем публикуемых данных достаточно скудный и позволяет получить мало информации.
@@ -56,4 +56,4 @@ prometheus:
 > - [[Заметки/Self-hosting. CrowdSec\|CrowdSec]]
 
 > [!todo]-
-> - [<] Изучить настройку мониторинга Crowdsec с использованием [[Статьи/Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana\|Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana]]➕ 2024-09-14
+> - [/] Изучить настройку мониторинга Crowdsec с использованием [[Статьи/Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana\|Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana]] ➕ 2024-09-14

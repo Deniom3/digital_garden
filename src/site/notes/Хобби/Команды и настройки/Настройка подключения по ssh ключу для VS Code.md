@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка подключения по ssh ключу для VS Code.md","permalink":"/komandy-i-nastrojki/nastrojka-podklyucheniya-po-ssh-klyuchu-dlya-vs-code/","updated":"2024-09-06T02:12:48+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка подключения по ssh ключу для VS Code.md","permalink":"/komandy-i-nastrojki/nastrojka-podklyucheniya-po-ssh-klyuchu-dlya-vs-code/","updated":"2024-10-06T02:52:02+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
+
 
 ---
 ## Генерация ssh ключа в виндовс

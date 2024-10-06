@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка реверс прокси на роутере Keenetic на свой домен.md","permalink":"/komandy-i-nastrojki/nastrojka-revers-proksi-na-routere-keenetic-na-svoj-domen/","updated":"2024-09-03T16:11:55+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка реверс прокси на роутере Keenetic на свой домен.md","permalink":"/komandy-i-nastrojki/nastrojka-revers-proksi-na-routere-keenetic-na-svoj-domen/","updated":"2024-10-06T02:51:59+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]
+
 
 ---
 Для добавления реверс прокси с использованием своего домена можно воспользоваться web cli или через ssh следующими командами

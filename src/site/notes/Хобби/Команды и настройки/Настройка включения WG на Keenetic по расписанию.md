@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка включения WG на Keenetic по расписанию.md","permalink":"/komandy-i-nastrojki/nastrojka-vklyucheniya-wg-na-keenetic-po-raspisaniyu/","updated":"2024-09-03T16:10:58+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка включения WG на Keenetic по расписанию.md","permalink":"/komandy-i-nastrojki/nastrojka-vklyucheniya-wg-na-keenetic-po-raspisaniyu/","updated":"2024-10-06T02:55:07+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]
-
----
 Настройка выполняется через web cli 
 
 ```shell

@@ -59,6 +59,7 @@ services:
 
 
 
+
 ```conf
 [global_tags]
 [agent]

@@ -1,9 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Обновление LXC контейнеров Proxmox.md","permalink":"/komandy-i-nastrojki/obnovlenie-lxc-kontejnerov-proxmox/","updated":"2024-10-02T19:54:05+03:00"}
----
-
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
+{"dg-publish":true,"dg-path":"Команды и настройки/Обновление LXC контейнеров Proxmox.md","permalink":"/komandy-i-nastrojki/obnovlenie-lxc-kontejnerov-proxmox/","updated":"2024-10-06T02:52:36+03:00"}
 ---
 
 Скрипт выполняет обновление всех выбранных контейнеров LXC. 

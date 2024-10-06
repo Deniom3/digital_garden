@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка подключения к серверу по SSH с использованием ключа.md","permalink":"/komandy-i-nastrojki/nastrojka-podklyucheniya-k-serveru-po-ssh-s-ispolzovaniem-klyucha/","updated":"2024-09-03T16:04:39+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка подключения к серверу по SSH с использованием ключа.md","permalink":"/komandy-i-nastrojki/nastrojka-podklyucheniya-k-serveru-po-ssh-s-ispolzovaniem-klyucha/","updated":"2024-10-06T02:51:57+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Для создания и отправки ключей так же можно [[Заметки/Создание и отправка SSH ключа в Termius\|воспользоваться программой Termius.]]
 
 Для того чтобы сгенерировать пары ключей выполните команду на сервере:

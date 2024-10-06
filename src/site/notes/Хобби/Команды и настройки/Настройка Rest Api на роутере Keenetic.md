@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка Rest Api на роутере Keenetic.md","permalink":"/komandy-i-nastrojki/nastrojka-rest-api-na-routere-keenetic/","updated":"2024-09-03T16:12:11+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка Rest Api на роутере Keenetic.md","permalink":"/komandy-i-nastrojki/nastrojka-rest-api-na-routere-keenetic/","updated":"2024-10-06T02:55:19+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 На роутерах Keenetic есть rest api с которого можно получать актуальную информацию по роутеру. Стандартно api доступен на 79 порту роутера но закрыт файрволлом. Для доступа необходимо добавить переадресацию 79 порта на любой другой (в данном примере 81).
 
 ![Настройка Rest Api на роутере Keenetic.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Rest%20Api%20%D0%BD%D0%B0%20%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%B5%20Keenetic.png)

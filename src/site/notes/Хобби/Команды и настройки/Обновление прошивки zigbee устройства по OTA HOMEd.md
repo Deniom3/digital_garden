@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Обновление прошивки zigbee устройства по OTA HOMEd.md","permalink":"/komandy-i-nastrojki/obnovlenie-proshivki-zigbee-ustrojstva-po-ota-hom-ed/","updated":"2024-09-03T16:12:47+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Обновление прошивки zigbee устройства по OTA HOMEd.md","permalink":"/komandy-i-nastrojki/obnovlenie-proshivki-zigbee-ustrojstva-po-ota-hom-ed/","updated":"2024-10-06T02:52:32+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|К списку команд]]
-
----
 Для обновления:
 - Скачать файл прошивки OTA и положить его на координатор по пути `/usr/share/ota` который будет указан в команде обновления.
 - Разместить прошиваемое устройство максимально близко к координатору.

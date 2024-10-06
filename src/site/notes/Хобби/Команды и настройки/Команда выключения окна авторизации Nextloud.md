@@ -1,9 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Команда выключения окна авторизации Nextloud.md","permalink":"/komandy-i-nastrojki/komanda-vyklyucheniya-okna-avtorizaczii-nextloud/","updated":"2024-09-03T16:10:43+03:00"}
----
-
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
+{"dg-publish":true,"dg-path":"Команды и настройки/Команда выключения окна авторизации Nextloud.md","permalink":"/komandy-i-nastrojki/komanda-vyklyucheniya-okna-avtorizaczii-nextloud/","updated":"2024-10-06T02:54:54+03:00"}
 ---
 
 Для отключения окна авторизации Nextloud для использования внешней авторизации (например [[Заметки/Self-hosting. Authentik\|Authentik]]) выполнить команду:

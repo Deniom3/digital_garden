@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Домашняя лаборатория/Роутер Keenetic.md","permalink":"/domashnyaya-laboratoriya/router-keenetic/","updated":"2024-10-01T22:14:51+03:00"}
+{"dg-publish":true,"dg-path":"Домашняя лаборатория/Роутер Keenetic.md","permalink":"/domashnyaya-laboratoriya/router-keenetic/","updated":"2024-10-06T13:41:40+03:00"}
 ---
 
 Основной роутер домашней лаборатории Keenetic Hopper.
@@ -23,4 +23,4 @@
 > Примечание:: Основной роутер
 
 > [!todo]-
-> - [<] Изучить настройку мониторинга через SNMP: [Настройка SNMP-сервера – Keenetic](https://help.keenetic.com/hc/ru/articles/115001198769-Настройка-SNMP-сервера) ➕ 2024-10-01
+> - [-] Изучить настройку мониторинга через SNMP: [Настройка SNMP-сервера – Keenetic](https://help.keenetic.com/hc/ru/articles/115001198769-Настройка-SNMP-сервера) ➕ 2024-10-01 ❌ 2024-10-06

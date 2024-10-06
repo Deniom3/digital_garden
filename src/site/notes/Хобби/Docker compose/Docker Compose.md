@@ -38,5 +38,7 @@
 | [[Хобби/Docker compose/Wallos\|Wallos]]                               | <ul><li>Wallos</li></ul>                                                                                                |
 | [[Хобби/Docker compose/Traefik\|Traefik]]                             | <ul><li>Traefik</li></ul>                                                                                               |
 | [[Хобби/Docker compose/Uptime Kuma\|Uptime Kuma]]                     | <ul><li>Uptime Kuma</li></ul>                                                                                           |
+| [[Хобби/Docker compose/VictoriaMetrics\|VictoriaMetrics]]             | <ul><li>VictoriaMetrics</li></ul>                                                                                       |
+| [[Хобби/Docker compose/MetaBase\|MetaBase]]                           | <ul><li>Metabase</li></ul>                                                                                              |
 
 { .block-language-dataview}

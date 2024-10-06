@@ -1,9 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка samba.md","permalink":"/komandy-i-nastrojki/nastrojka-samba/","updated":"2024-09-24T22:29:45+03:00"}
----
-
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка samba.md","permalink":"/komandy-i-nastrojki/nastrojka-samba/","updated":"2024-10-06T02:55:13+03:00"}
 ---
 
 Установка samba

@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Мониторинг системных показателей Keenetic в Home Assistant.md","permalink":"/komandy-i-nastrojki/monitoring-sistemnyh-pokazatelej-keenetic-v-home-assistant/","updated":"2024-09-03T16:10:54+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Мониторинг системных показателей Keenetic в Home Assistant.md","permalink":"/komandy-i-nastrojki/monitoring-sistemnyh-pokazatelej-keenetic-v-home-assistant/","updated":"2024-10-06T02:55:10+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Пример для получения системных показателей роутера используя [[Хобби/Команды и настройки/Настройка Rest Api на роутере Keenetic\|rest api keenetic]].
 
 ```yaml

@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка ротации логов Trefik.md","permalink":"/komandy-i-nastrojki/nastrojka-rotaczii-logov-trefik/","updated":"2024-10-05T18:07:56+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка ротации логов Trefik.md","permalink":"/komandy-i-nastrojki/nastrojka-rotaczii-logov-trefik/","updated":"2024-10-06T02:51:54+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Ротация логов выполняется с помощью встроенной программы `logrotate` для ротации необходимо создать файл с настройками.
 
 ```shell

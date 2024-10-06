@@ -1,9 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Очистка версий файлов в Nextcloud AIO.md","permalink":"/komandy-i-nastrojki/ochistka-versij-fajlov-v-nextcloud-aio/","updated":"2024-09-03T16:13:20+03:00"}
----
-
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
+{"dg-publish":true,"dg-path":"Команды и настройки/Очистка версий файлов в Nextcloud AIO.md","permalink":"/komandy-i-nastrojki/ochistka-versij-fajlov-v-nextcloud-aio/","updated":"2024-10-06T02:52:48+03:00"}
 ---
 
 Версии файлов хранятся в папке пользователя на смонтированном диске в папке `files_versions` 

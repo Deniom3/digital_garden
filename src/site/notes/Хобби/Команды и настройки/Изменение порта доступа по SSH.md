@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение порта доступа по SSH.md","permalink":"/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/","updated":"2024-09-03T16:04:02+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение порта доступа по SSH.md","permalink":"/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/","updated":"2024-10-06T02:51:25+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Для изменения порта доступа (по умолчанию 22) для SSH необходимо скорректировать файл
 ```shell
 nano /etc/ssh/sshd_config

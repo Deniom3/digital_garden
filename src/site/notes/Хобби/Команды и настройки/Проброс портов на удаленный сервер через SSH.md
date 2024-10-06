@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Проброс портов на удаленный сервер через SSH.md","permalink":"/komandy-i-nastrojki/probros-portov-na-udalennyj-server-cherez-ssh/","tags":[""],"updated":"2024-09-29T18:19:41+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Проброс портов на удаленный сервер через SSH.md","permalink":"/komandy-i-nastrojki/probros-portov-na-udalennyj-server-cherez-ssh/","tags":[""],"updated":"2024-10-06T02:53:08+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 ## Базовый проброс выполняется командой: 
 ```shell
 ssh -R <Local_Port_Service>:localhost:<Remote_Port> <User>@<Server_IP> -i /home/path_to_home_dir/.ssh/private_key -N

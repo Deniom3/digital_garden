@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка двойного VPN через 3X-UI.md","permalink":"/komandy-i-nastrojki/nastrojka-dvojnogo-vpn-cherez-3-x-ui/","updated":"2024-09-03T16:11:27+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка двойного VPN через 3X-UI.md","permalink":"/komandy-i-nastrojki/nastrojka-dvojnogo-vpn-cherez-3-x-ui/","updated":"2024-10-06T02:55:16+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 # Получение SSL сертификата
 
 Получить сертификат используя [[Хобби/Команды и настройки/Получение SSL сертификата через Certbot dns chellenge cloudflare\|Certbot dns chellenge]] 

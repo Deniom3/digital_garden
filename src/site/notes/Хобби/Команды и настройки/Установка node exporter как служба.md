@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2024-10-03T17:48:29+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2024-10-06T02:51:14+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Система сбора данных мониторинга node exporter может быть установлена как служба для этого необходимо выполнить следующие действия.
 
 > [!info]

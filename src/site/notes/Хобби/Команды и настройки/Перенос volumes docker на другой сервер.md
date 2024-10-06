@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Перенос volumes docker на другой сервер.md","permalink":"/komandy-i-nastrojki/perenos-volumes-docker-na-drugoj-server/","updated":"2024-09-14T02:39:25+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Перенос volumes docker на другой сервер.md","permalink":"/komandy-i-nastrojki/perenos-volumes-docker-na-drugoj-server/","updated":"2024-10-06T02:52:59+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Некоторые контейнеры docker требуют для работы использовать виртуальные папки volumes вместо обычного монтирования (например Grafana, Prometheus). Обычно это задается таким образом 
 ```yaml
 ...

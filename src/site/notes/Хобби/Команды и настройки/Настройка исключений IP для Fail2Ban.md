@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка исключений IP для Fail2Ban.md","permalink":"/komandy-i-nastrojki/nastrojka-isklyuchenij-ip-dlya-fail2-ban/","updated":"2024-09-03T16:11:32+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка исключений IP для Fail2Ban.md","permalink":"/komandy-i-nastrojki/nastrojka-isklyuchenij-ip-dlya-fail2-ban/","updated":"2024-10-06T02:52:25+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Сделать это можно, отредактировав файл jail.local:
 
 ```

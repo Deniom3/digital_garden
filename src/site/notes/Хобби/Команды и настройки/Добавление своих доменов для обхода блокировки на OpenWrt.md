@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Добавление своих доменов для обхода блокировки на OpenWrt.md","permalink":"/komandy-i-nastrojki/dobavlenie-svoih-domenov-dlya-obhoda-blokirovki-na-open-wrt/","updated":"2024-09-03T16:10:19+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Добавление своих доменов для обхода блокировки на OpenWrt.md","permalink":"/komandy-i-nastrojki/dobavlenie-svoih-domenov-dlya-obhoda-blokirovki-na-open-wrt/","updated":"2024-10-06T02:54:35+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Используется при реализации метода [[Хобби/Команды и настройки/Настройка обхода блокировок на роутере с OpenWrt\|обхода блокировок по списку на OpenWrt]] 
 ## Изменения файлов конфигурации по SSH
 

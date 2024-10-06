@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка и настройка брандмауэра UFW.md","permalink":"/komandy-i-nastrojki/ustanovka-i-nastrojka-brandmauera-ufw/","updated":"2024-09-03T16:14:29+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка и настройка брандмауэра UFW.md","permalink":"/komandy-i-nastrojki/ustanovka-i-nastrojka-brandmauera-ufw/","updated":"2024-10-06T02:51:10+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Устанавливаем UFW
 ```shell
 apt install ufw

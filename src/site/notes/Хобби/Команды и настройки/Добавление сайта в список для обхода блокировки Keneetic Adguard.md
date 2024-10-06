@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Добавление сайта в список для обхода блокировки Keneetic Adguard.md","permalink":"/komandy-i-nastrojki/dobavlenie-sajta-v-spisok-dlya-obhoda-blokirovki-keneetic-adguard/","updated":"2024-09-03T16:10:13+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Добавление сайта в список для обхода блокировки Keneetic Adguard.md","permalink":"/komandy-i-nastrojki/dobavlenie-sajta-v-spisok-dlya-obhoda-blokirovki-keneetic-adguard/","updated":"2024-10-06T02:54:41+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Для добавления сайта в список для обхода необходимо внести изменения в файл по пути:
 
 ```shell

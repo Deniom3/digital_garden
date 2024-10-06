@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка Certbot с плагином cloudflare dns.md","permalink":"/komandy-i-nastrojki/ustanovka-certbot-s-plaginom-cloudflare-dns/","updated":"2024-09-03T16:14:38+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка Certbot с плагином cloudflare dns.md","permalink":"/komandy-i-nastrojki/ustanovka-certbot-s-plaginom-cloudflare-dns/","updated":"2024-10-06T02:51:17+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Стандартная установка Certbot выполняется без установки плагинов для получения ssl через dns chelenge. Для установки плагинов необходимо устанавливать через pip.
 
 ```shell

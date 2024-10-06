@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение размера диска для LXC контейнера Proxmox.md","permalink":"/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/","updated":"2024-10-02T02:08:03+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение размера диска для LXC контейнера Proxmox.md","permalink":"/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/","updated":"2024-10-06T02:54:44+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 ## Уменьшение диска
 
 Уменьшение размера диска опасная операция и может привести к потери данных на ужимаемом диске. Перед началом операции обязательно надо сделать бэкап.
