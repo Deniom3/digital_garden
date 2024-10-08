@@ -56,4 +56,4 @@ prometheus:
 > - [[Заметки/Self-hosting. CrowdSec\|CrowdSec]]
 
 > [!todo]-
-> - [/] Изучить настройку мониторинга Crowdsec с использованием [[Статьи/Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana\|Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana]] ➕ 2024-09-14
+> - [x] Изучить настройку мониторинга Crowdsec с использованием [[Статьи/Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana\|Анализ киберугроз с помощью Crowdsec, VictoriaMetrics и Grafana]] ➕ 2024-09-14 ✅ 2024-10-06
