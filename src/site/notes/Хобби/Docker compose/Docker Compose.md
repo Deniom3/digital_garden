@@ -40,5 +40,7 @@
 | [[Хобби/Docker compose/Uptime Kuma\|Uptime Kuma]]                     | <ul><li>Uptime Kuma</li></ul>                                                                                           |
 | [[Хобби/Docker compose/VictoriaMetrics\|VictoriaMetrics]]             | <ul><li>VictoriaMetrics</li></ul>                                                                                       |
 | [[Хобби/Docker compose/MetaBase\|MetaBase]]                           | <ul><li>Metabase</li></ul>                                                                                              |
+| [[Хобби/Docker compose/Loki\|Loki]]                                   | <ul><li>loki</li></ul>                                                                                                  |
+| [[Хобби/Docker compose/Alloy\|Alloy]]                                 | <ul><li>alloy</li></ul>                                                                                                 |
 
 { .block-language-dataview}

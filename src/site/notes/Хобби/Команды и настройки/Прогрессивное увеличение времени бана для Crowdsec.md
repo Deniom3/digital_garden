@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Прогрессивное увеличение времени бана для Crowdsec.md","permalink":"/komandy-i-nastrojki/progressivnoe-uvelichenie-vremeni-bana-dlya-crowdsec/","tags":[""],"updated":"2024-10-09T00:43:21+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Прогрессивное увеличение времени бана для Crowdsec.md","permalink":"/komandy-i-nastrojki/progressivnoe-uvelichenie-vremeni-bana-dlya-crowdsec/","tags":[""],"updated":"2024-10-09T00:45:06+03:00"}
 ---
 
 
