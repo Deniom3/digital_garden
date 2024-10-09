@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-alloy/","tags":[""],"created":"2024-10-09 01:10","updated":"2024-10-09T19:54:04+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-alloy/","tags":[""],"created":"2024-10-09 01:10","updated":"2024-10-10T01:58:36+03:00"}
 ---
 
 Программа из стека [[Заметки/Self-hosting. Grafana\|Grafana]] предназначена для сбора и обработки логов с разных источников и передачи их в Loki.
@@ -42,12 +42,15 @@ networks:
 
 
 Настройка:
-- [[Заметки/Сбор логов с роутера Keenetic для Grafana\|Сбор логов с роутера Keenetic для Grafana]]
+- [[Заметки/Сбор логов с роутеров Keenetic и OpenWrt для Grafana\|Сбор логов с роутеров Keenetic и OpenWrt для Grafana]]
+- [[Заметки/Сбор логов linux и proxmox для Grafana\|Сбор логов linux и proxmox для Grafana]]
+- [[Заметки/Сбор логов docker контейнеров для Grafana\|Сбор логов docker контейнеров для Grafana]]
 
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
  > - [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
+ > - [[Заметки/Self-hosting. Grafana Loki\|Self-hosting. Grafana Loki]]
 
 > [!description]- Примечание
 > Примечание:: Сбор и обработка данных логов

@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/monitoring-proxmox-cherez-prometheus/","created":"2024-09-11 00:50","updated":"2024-09-12T21:03:28+03:00"}
+{"dg-publish":true,"permalink":"/zametki/monitoring-proxmox-cherez-prometheus/","created":"2024-09-11 00:50","updated":"2024-10-10T00:48:44+03:00"}
 ---
+
 
 > [!note]
 > Существующие решения собирают меньше данных чем предоставляет сам proxmox при использовании influx. Так как нет возможности отказаться от использования influx из за роутеров keenetic нет смысла переходить и на более слабое решение.

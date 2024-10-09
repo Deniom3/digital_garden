@@ -1,10 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка Fail2Ban для защиты SSH.md","permalink":"/komandy-i-nastrojki/nastrojka-fail2-ban-dlya-zashhity-ssh/","updated":"2024-09-03T16:04:18+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка Fail2Ban для защиты SSH.md","permalink":"/komandy-i-nastrojki/nastrojka-fail2-ban-dlya-zashhity-ssh/","updated":"2024-10-09T21:32:13+03:00"}
 ---
 
-Возврат:: [[Хобби/Команды и настройки/Справочник команд и настроек\|к списку команд]]
-
----
 Для установки и включения выполняем команды:
 
 ```shell
