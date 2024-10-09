@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-victoria-metrics/","created":"2024-10-06 22:59","updated":"2024-10-06T23:53:51+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-victoria-metrics/","created":"2024-10-06 22:59","updated":"2024-10-09T19:53:15+03:00"}
 ---
 
 Программа позволяет собирать данные мониторинга используя api и передавать их для дальнейшего использования в формате prometheus
@@ -36,5 +36,5 @@ services:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
  >- [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Сбор и обработка данных мониторинга

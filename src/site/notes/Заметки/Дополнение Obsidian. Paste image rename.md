@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-paste-image-rename/","created":"2024-07-13 14:50","updated":"2024-09-23T22:43:12+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-paste-image-rename/","created":"2024-07-13 14:50","updated":"2024-10-09T19:50:56+03:00"}
 ---
 
 Автоматически переименовывает файлы вложений которые добавляются в заметку перетягиванием.
@@ -10,7 +10,7 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Переименование вложений по заметке
 
 > [!todo]-

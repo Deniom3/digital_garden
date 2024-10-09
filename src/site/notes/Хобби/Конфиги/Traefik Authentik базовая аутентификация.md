@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Traefik Authentik базовая аутентификация.md","permalink":"/konfigi/traefik-authentik-bazovaya-autentifikacziya/","updated":"2024-09-02T01:09:52+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Traefik Authentik базовая аутентификация.md","permalink":"/konfigi/traefik-authentik-bazovaya-autentifikacziya/","updated":"2024-10-09T21:27:21+03:00"}
 ---
 
 Настройки [[Заметки/Self-hosting. Traefik\|Traefik]] для работы с [[Заметки/Self-hosting. Authentik\|Authentik]] отвечают за передачу данных авторизации для анализа. Необходимо создать отдельный файл в папке `traefik/dynamic`

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-omnisearch/","created":"2024-07-09 14:31","updated":"2024-09-23T22:34:01+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-omnisearch/","created":"2024-07-09 14:31","updated":"2024-10-09T19:51:01+03:00"}
 ---
 
 Поисковая система по контексту заметок, имеет гибкую настройку и дополнительное расширение для браузера. Может выполнять поиск по вложениям картинок и документов с использованием дополнения [[Заметки/Дополнение Obsidian. Text Extractor\|text extractor]].
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Расширенный поиск по содержимому

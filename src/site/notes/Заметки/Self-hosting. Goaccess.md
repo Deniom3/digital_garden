@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-goaccess/","created":"2024-09-24 23:43","updated":"2024-09-27T01:19:39+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-goaccess/","created":"2024-09-24 23:43","updated":"2024-10-09T19:53:45+03:00"}
 ---
 
 Анализатор журналов доступа в реальном времени с интерфейсом просмотра.
@@ -10,7 +10,7 @@
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Анализатор сетевых журналов доступа
 
 > [!todo]-

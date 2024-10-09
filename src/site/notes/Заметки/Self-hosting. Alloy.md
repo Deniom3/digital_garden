@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-alloy/","tags":[""],"created":"2024-10-09 01:10","updated":"2024-10-09T01:14:07+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-alloy/","tags":[""],"created":"2024-10-09 01:10","updated":"2024-10-09T19:54:04+03:00"}
 ---
 
 Программа из стека [[Заметки/Self-hosting. Grafana\|Grafana]] предназначена для сбора и обработки логов с разных источников и передачи их в Loki.
@@ -49,5 +49,5 @@ networks:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
  > - [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Сбор и обработка данных логов

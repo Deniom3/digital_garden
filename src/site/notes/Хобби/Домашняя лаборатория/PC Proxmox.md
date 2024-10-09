@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Домашняя лаборатория/PC Proxmox.md","permalink":"/domashnyaya-laboratoriya/pc-proxmox/","updated":"2024-10-01T22:16:02+03:00"}
+{"dg-publish":true,"dg-path":"Домашняя лаборатория/PC Proxmox.md","permalink":"/domashnyaya-laboratoriya/pc-proxmox/","updated":"2024-10-09T19:48:08+03:00"}
 ---
 
 Основной сервер домашней лаборатории, на базе мини PC Beelink Mini S.
@@ -19,5 +19,5 @@
 > [!urls]- Упоминания:
 > - [[Хобби/Домашняя лаборатория/Структура домашней лаборатории\|Структура домашней лаборатории]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Основной сервер домашней лаборатории

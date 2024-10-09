@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Проброс портов на удаленный сервер через SSH.md","permalink":"/komandy-i-nastrojki/probros-portov-na-udalennyj-server-cherez-ssh/","tags":[""],"updated":"2024-10-06T02:53:08+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Проброс портов на удаленный сервер через SSH.md","permalink":"/komandy-i-nastrojki/probros-portov-na-udalennyj-server-cherez-ssh/","tags":[""],"updated":"2024-10-09T19:47:49+03:00"}
 ---
 
 ## Базовый проброс выполняется командой: 
@@ -68,5 +68,5 @@ systemctl enable autossh
 ---
 > [!urls]- Упоминания:
 
-> [!info]-
+> [!description]- Примечание
 > Примечание::  Проброс портов через SSH

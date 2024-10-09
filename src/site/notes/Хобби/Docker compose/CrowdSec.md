@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/CrowdSec.md","permalink":"/docker-compose/crowd-sec/","updated":"2024-10-06T23:46:02+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/CrowdSec.md","permalink":"/docker-compose/crowd-sec/","updated":"2024-10-09T18:14:11+03:00"}
 ---
 
 

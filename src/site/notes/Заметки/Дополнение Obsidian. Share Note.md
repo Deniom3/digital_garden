@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-share-note/","created":"2024-09-10 21:27","updated":"2024-09-23T22:53:49+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-share-note/","created":"2024-09-10 21:27","updated":"2024-10-09T19:50:50+03:00"}
 ---
 
 Позволяет поделиться заметками по ссылками. Заметки хранятся в зашифрованном на сервере, но есть возможность развернуть в режиме self hosted.
@@ -16,5 +16,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Поделиться заметкой по ссылке

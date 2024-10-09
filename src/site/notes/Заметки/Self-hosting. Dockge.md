@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-dockge/","created":"2024-09-08 02:23","updated":"2024-10-01T20:08:31+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-dockge/","created":"2024-09-08 02:23","updated":"2024-10-09T19:53:51+03:00"}
 ---
 
 Удобный менеджер для запуска и управления docker compose из веб интерфейса. Имеет функции агента с возможностью подключения одной панели к другой и возможность преобразования команд docker run.
@@ -55,5 +55,5 @@ services:
 > - [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
 > - [[Хобби/Домашняя лаборатория/Сервер Gateway\|Сервер Gateway]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Управление docker compose стеками через web

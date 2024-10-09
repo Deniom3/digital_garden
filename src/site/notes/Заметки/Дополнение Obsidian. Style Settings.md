@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-style-settings/","created":"2024-07-13 14:55","updated":"2024-09-23T22:44:05+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-style-settings/","created":"2024-07-13 14:55","updated":"2024-10-09T19:50:46+03:00"}
 ---
 
 Позволяет выполнять гибкую настройку дизайна отдельных элементов Obsidian. Работает в связке с другими дополнениями и расширяет возможности персонализации.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Настройка всего дизайна Obsidian

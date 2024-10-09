@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Alloy Keenetic.md","permalink":"/konfigi/alloy-keenetic/","tags":[""],"updated":"2024-10-09T01:18:52+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Alloy Keenetic.md","permalink":"/konfigi/alloy-keenetic/","tags":[""],"updated":"2024-10-09T19:59:37+03:00"}
 ---
 
 
@@ -36,10 +36,9 @@ loki.write "local" {
     external_labels = {}
 }
 ```
-
 ---
 > [!urls]- Упоминания:
 > [[Заметки/Self-hosting. Alloy\|Self-hosting. Alloy]]
 
-> [!info]-
+> [!description]-
 > Примечание::  Сбор логов Keenetic

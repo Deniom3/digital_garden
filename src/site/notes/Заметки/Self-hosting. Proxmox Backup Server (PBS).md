@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-backup-server-pbs/","created":"2024-07-03 20:03","updated":"2024-10-01T20:34:04+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-backup-server-pbs/","created":"2024-07-03 20:03","updated":"2024-10-09T19:53:28+03:00"}
 ---
 
 Это система организации хранения резервных копий виртуальных машин и LXC контейнеров для системы виртуализации [[Заметки/Self-hosting. Proxmox Virtual Environment\|proxmox]]. Позволяет удобно и компактно хранить резервные копии в виде чанков в которых сохраняется изменение данных а не создается полная копия.
@@ -62,5 +62,5 @@ services:
 > - [[Статьи/Запуск Proxmox Backup Server (PBS) на Windows или NAS. Организация синхронизации бэкапов между PBS\|Запуск Proxmox Backup Server (PBS) на Windows или NAS. Организация синхронизации бэкапов между PBS]]
 > - [[Статьи/Резервное копирование с помощью Proxmox Backup Server (PBS). Делаем правильные бэкапы\|Резервное копирование с помощью Proxmox Backup Server (PBS). Делаем правильные бэкапы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Система резервного копирования VM для Proxmox

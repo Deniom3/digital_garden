@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-file-explorer-count/","created":"2024-07-15 20:27","updated":"2024-09-23T22:52:17+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-file-explorer-count/","created":"2024-07-15 20:27","updated":"2024-10-09T19:51:21+03:00"}
 ---
 
 Позволяет настроить вывод количества файлов вложенных в папки в менеджере файлов Obsidian.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Количество файлов в папке

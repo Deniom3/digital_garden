@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-thunderbird-v-docker/","created":"2024-09-14 23:56","updated":"2024-09-24T23:25:28+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-thunderbird-v-docker/","created":"2024-09-14 23:56","updated":"2024-10-09T19:53:21+03:00"}
 ---
 
 Почтовый клиент Thunderbird является удобным автономным клиентом для работы с почтой на локальном компьютере. Установка как Docker образ не является официальным способом развертывания. Решения реализовано с помошью веб VNC
@@ -15,5 +15,5 @@
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Почтовый клиент

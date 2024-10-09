@@ -107,7 +107,7 @@ experimental:
 Измененный файл docker compose для запуска 
 
 
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/docker-compose/traefik/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 <div class="markdown-embed-title">
 
@@ -139,11 +139,10 @@ services:
       - CF_DNS_API_TOKEN=<CF_DNS_API_TOKEN>
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /home/deniom/docker/traefik/traefik.yml:/traefik.yml:ro
-      - /home/deniom/docker/traefik/acme.json:/acme.json
-      - /home/deniom/docker/traefik/logs:/var/log/traefik
-      - /home/deniom/docker/traefik/dynamic:/config:ro
+      - ./traefik.yml:/traefik.yml:ro
+      - ./acme.json:/acme.json
+      - ./logs:/var/log/traefik
+      - ./dynamic:/config:ro
 
 networks:
   proxy:

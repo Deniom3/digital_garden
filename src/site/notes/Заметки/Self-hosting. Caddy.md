@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-caddy/","created":"2024-07-03 19:51","updated":"2024-09-24T23:22:07+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-caddy/","created":"2024-07-03 19:51","updated":"2024-10-09T19:53:59+03:00"}
 ---
 
 Просто http сервер для публикации сайтов и организации реверс прокси. Для настройки используется файл конфигурации Caddyfile с json описанием сайтов. Имеет большое количество модулей и расширений, может гибко настраиваться.
@@ -304,5 +304,5 @@ influxdb.{env.DOMAIN} {
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 > - [[Статьи/Настройка реверс прокси Caddy и Fail2Ban в docker\|Настройка реверс прокси Caddy и Fail2Ban в docker]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Легкий реверс прокси

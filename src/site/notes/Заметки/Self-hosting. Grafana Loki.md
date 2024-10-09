@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-grafana-loki/","created":"2024-09-14 02:48","updated":"2024-10-09T01:41:55+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-grafana-loki/","created":"2024-09-14 02:48","updated":"2024-10-09T19:53:47+03:00"}
 ---
 
 Позволяет выполнять сбор данных логов для дальнейшего анализа с различных систем.
@@ -54,7 +54,7 @@ networks:
 > - [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
 > - [[Статьи/Настраиваем дашборд Grafana для точек доступа Keenetic\|Настраиваем дашборд Grafana для точек доступа Keenetic]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Сбор и обработка логов
 
 > [!todo]-

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-link-favicons/","created":"2024-07-13 14:48","updated":"2024-09-23T22:42:40+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-link-favicons/","created":"2024-07-13 14:48","updated":"2024-10-09T19:51:05+03:00"}
 ---
 
 При вставке внешних ссылок перед ссылкой добавляет мини иконку сайта как на страницах в интернете.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Вставка иконок сайтов возле ссылки

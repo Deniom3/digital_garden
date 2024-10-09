@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-self-hosted-live-sync/","created":"2024-09-14 03:00","updated":"2024-09-25T16:23:31+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-self-hosted-live-sync/","created":"2024-09-14 03:00","updated":"2024-10-09T19:50:52+03:00"}
 ---
 
 Дополнение предназначено для синхронизации заметок Obsidian в реальном времени с размещением на собственном сервере.
@@ -29,5 +29,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Динамическая синхронизация заметок

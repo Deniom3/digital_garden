@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-shortcuts-extender/","created":"2024-07-09 14:38","updated":"2024-09-23T22:35:22+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-shortcuts-extender/","created":"2024-07-09 14:38","updated":"2024-10-09T19:50:48+03:00"}
 ---
 
 Позволяет легко использовать спец символы и заголовки при работе с русской раскладкой. 
@@ -12,5 +12,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Символы без изменения раскладки

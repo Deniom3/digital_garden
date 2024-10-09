@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-smart-second-brain/","tags":["🤖"],"created":"2024-07-19","updated":"2024-09-23T22:52:48+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-smart-second-brain/","tags":["🤖"],"created":"2024-07-19","updated":"2024-10-09T19:50:38+03:00"}
 ---
 
 
@@ -33,5 +33,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Подключение LLM к Obsidian

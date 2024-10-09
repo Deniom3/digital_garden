@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-global-search-and-replace/","created":"2024-07-13 14:45","updated":"2024-09-23T22:42:16+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-global-search-and-replace/","created":"2024-07-13 14:45","updated":"2024-10-09T19:51:10+03:00"}
 ---
 
 Дополнение позволяет пройти поиском с заменой по всем заметкам в базе. Использую ситуативно при пересмотре структуры свойств заметок.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Глобальный поиск и замена

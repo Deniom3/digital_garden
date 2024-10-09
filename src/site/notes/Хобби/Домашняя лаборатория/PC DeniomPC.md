@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Домашняя лаборатория/PC DeniomPC.md","permalink":"/domashnyaya-laboratoriya/pc-deniom-pc/","updated":"2024-10-01T22:15:24+03:00"}
+{"dg-publish":true,"dg-path":"Домашняя лаборатория/PC DeniomPC.md","permalink":"/domashnyaya-laboratoriya/pc-deniom-pc/","updated":"2024-10-09T19:48:07+03:00"}
 ---
 
 Основной рабочий компьютер под управлением Windows 11.
@@ -17,5 +17,5 @@
 > [!urls]- Упоминания:
 > - [[Хобби/Домашняя лаборатория/Структура домашней лаборатории\|Структура домашней лаборатории]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Основной рабочий компьютер

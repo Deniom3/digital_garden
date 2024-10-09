@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-mosquitto/","created":"2024-10-01 21:14","updated":"2024-10-01T21:18:12+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-mosquitto/","created":"2024-10-01 21:14","updated":"2024-10-09T19:53:38+03:00"}
 ---
 
 Программа предназначена для приемки и хранения mqtt сообщений. Протокол используется в рамках системы умного дома для устройств.
@@ -46,7 +46,7 @@ services:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 > - [[Хобби/Домашняя лаборатория/Сервер Main\|Сервер Main]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Mqtt сервер для умного дома
 
 > [!todo]-

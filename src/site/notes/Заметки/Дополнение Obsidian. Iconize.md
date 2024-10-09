@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-iconize/","created":"2024-07-13 15:16","updated":"2024-09-23T22:48:21+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-iconize/","created":"2024-07-13 15:16","updated":"2024-10-09T19:51:06+03:00"}
 ---
 
 Позволяет устанавливать иконки на папки и файлы.
@@ -14,5 +14,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Установка иконок на папку или заметку

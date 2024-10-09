@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-glances/","created":"2024-07-19 00:46","updated":"2024-09-24T23:25:15+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-glances/","created":"2024-07-19 00:46","updated":"2024-10-09T19:53:45+03:00"}
 ---
 
 > [!note]
@@ -11,7 +11,7 @@
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Отслеживания нагрузки и ОЗУ через web
 
 > [!todo]-

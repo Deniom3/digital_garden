@@ -48,12 +48,11 @@ loki.write "local" {
     external_labels = {}
 }
 ```
-
 ---
 > [!urls]- Упоминания:
 > [[Заметки/Self-hosting. Alloy\|Self-hosting. Alloy]]
 
-> [!info]-
+> [!description]-
 > Примечание::  Сбор логов Keenetic
 
 

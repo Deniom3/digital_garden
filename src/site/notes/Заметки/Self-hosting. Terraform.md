@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-terraform/","created":"2024-09-24 23:40","updated":"2024-09-24T23:53:20+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-terraform/","created":"2024-09-24 23:40","updated":"2024-10-09T19:53:13+03:00"}
 ---
 
 Программа позволяет организовать автоматизации по развертывания сервисов.
@@ -12,7 +12,7 @@
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Автоматизация развертывания программ
 
 > [!todo]-

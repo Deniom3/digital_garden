@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-kinopoisk/","created":"2024-07-09 14:25","updated":"2024-09-23T22:32:21+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-kinopoisk/","created":"2024-07-09 14:25","updated":"2024-10-09T19:51:07+03:00"}
 ---
 
 Плагин выполняет поиск фильмов и сериалов из неофициальной базы кинописка по Api. 
@@ -14,5 +14,5 @@ Api Key Kinopoisk (лимит 200 запросов в день) хранится
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Заметка по имени фильма или сериала

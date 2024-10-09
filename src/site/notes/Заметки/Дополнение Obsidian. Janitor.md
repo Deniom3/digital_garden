@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-janitor/","created":"2024-07-09 14:29","updated":"2024-09-23T22:33:19+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-janitor/","created":"2024-07-09 14:29","updated":"2024-10-09T19:51:04+03:00"}
 ---
 
 Дополнение позволяет легко находить объекты вложения в obsidian которые не используются в заметках.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Очистка неиспользуемых вложений

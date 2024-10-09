@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-obsidian-tasks/","created":"2024-07-06 17:47","updated":"2024-09-23T22:29:49+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-obsidian-tasks/","created":"2024-07-06 17:47","updated":"2024-10-09T19:51:02+03:00"}
 ---
 
 Дополнение имеет огромный функционал по организации задачи чек листов в обсидиан. Есть встроенная система запросов и выборок данных по задачам.
@@ -17,5 +17,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Задачи в Obsidian

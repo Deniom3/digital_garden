@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Домашняя лаборатория/Сервер HomeAssistant.md","permalink":"/domashnyaya-laboratoriya/server-home-assistant/","updated":"2024-10-01T21:20:43+03:00"}
+{"dg-publish":true,"dg-path":"Домашняя лаборатория/Сервер HomeAssistant.md","permalink":"/domashnyaya-laboratoriya/server-home-assistant/","updated":"2024-10-09T19:48:02+03:00"}
 ---
 
 Сервер умного дома. Выполняет управление всеми автоматизациями и датчиками относящимися к системе умного дома.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Хобби/Домашняя лаборатория/Структура домашней лаборатории\|Структура домашней лаборатории]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Сервер умного дома

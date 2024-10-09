@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-jackett/","created":"2024-09-02 01:20","updated":"2024-09-24T23:22:44+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-jackett/","created":"2024-09-02 01:20","updated":"2024-10-09T19:53:42+03:00"}
 ---
 
 Универсальный индексатор торрент трекеров для поиска файлов по нескольким сайтам размещения торрентов.
@@ -45,5 +45,5 @@ services:
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Индексатор торрент трекеров

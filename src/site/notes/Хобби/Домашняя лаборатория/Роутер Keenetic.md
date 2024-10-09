@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Домашняя лаборатория/Роутер Keenetic.md","permalink":"/domashnyaya-laboratoriya/router-keenetic/","updated":"2024-10-06T13:41:40+03:00"}
+{"dg-publish":true,"dg-path":"Домашняя лаборатория/Роутер Keenetic.md","permalink":"/domashnyaya-laboratoriya/router-keenetic/","updated":"2024-10-09T19:48:05+03:00"}
 ---
 
 Основной роутер домашней лаборатории Keenetic Hopper.
@@ -19,7 +19,7 @@
 > [!urls]- Упоминания:
 > - [[Хобби/Домашняя лаборатория/Структура домашней лаборатории\|Структура домашней лаборатории]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Основной роутер
 
 > [!todo]-

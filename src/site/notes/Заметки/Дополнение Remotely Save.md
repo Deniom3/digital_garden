@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-remotely-save/","created":"2024-07-13 15:06","updated":"2024-09-23T22:45:46+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-remotely-save/","created":"2024-07-13 15:06","updated":"2024-10-09T19:50:41+03:00"}
 ---
 
 Настраивает автоматическую отправку в любое облако например через WebDav.
@@ -12,5 +12,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Автоматическая отправка в облако

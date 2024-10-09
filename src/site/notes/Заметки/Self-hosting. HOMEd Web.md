@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-hom-ed-web/","created":"2024-10-01 22:22","updated":"2024-10-01T22:24:29+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-hom-ed-web/","created":"2024-10-01 22:22","updated":"2024-10-09T19:53:42+03:00"}
 ---
 
 Легковесный веб интерфейс для взаимодействия с системой умного дома HOMEd
@@ -42,5 +42,5 @@ frontend=/usr/share/homed-web
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 > - [[Хобби/Домашняя лаборатория/Роутер Perenio\|Роутер Perenio]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Веб интерфейс для управления системой HOMEd

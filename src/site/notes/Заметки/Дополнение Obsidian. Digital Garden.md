@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-digital-garden/","created":"2024-09-05 00:57","updated":"2024-09-23T22:53:11+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-digital-garden/","created":"2024-09-05 00:57","updated":"2024-10-09T19:51:08+03:00"}
 ---
 
 Дополнение предназначено для публикации заметок Obsidian как простой блог. Основным преимуществом является встроенное преобразование запросов dataview и легкое развертывание с использованием github ci.
@@ -26,5 +26,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Публикация заметок в блог

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Loki.md","permalink":"/konfigi/loki/","tags":[""],"updated":"2024-10-09T00:55:37+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Loki.md","permalink":"/konfigi/loki/","tags":[""],"updated":"2024-10-09T19:54:13+03:00"}
 ---
 
 
@@ -44,5 +44,5 @@ schema_config:
 > [!urls]- Упоминания:
 > [[Заметки/Self-hosting. Grafana Loki\|Self-hosting. Grafana Loki]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание::  Сбор логов для Grafana

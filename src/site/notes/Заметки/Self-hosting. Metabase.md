@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-metabase/","created":"2024-10-05 17:04","updated":"2024-10-06T23:49:17+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-metabase/","created":"2024-10-05 17:04","updated":"2024-10-09T19:53:38+03:00"}
 ---
 
 Система гибкой визуализации на основе баз данных с легкой и гибкой настройкой.
@@ -44,5 +44,5 @@ services:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 > - [[Хобби/Домашняя лаборатория/Сервер Gateway\|Сервер Gateway]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Визуализация баз данных в отчеты

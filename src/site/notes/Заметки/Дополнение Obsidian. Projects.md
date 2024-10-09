@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-projects/","created":"2024-07-10 01:22","updated":"2024-09-23T22:27:08+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-projects/","created":"2024-07-10 01:22","updated":"2024-10-09T19:50:54+03:00"}
 ---
 
 Очень сильный инструмент для работы с однотипными заметками на основе метаданных.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Обработка заметок по свойствам

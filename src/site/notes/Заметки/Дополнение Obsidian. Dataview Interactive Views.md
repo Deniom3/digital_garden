@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-dataview-interactive-views/","created":"2024-09-24 23:58","updated":"2024-09-25T00:01:32+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-dataview-interactive-views/","created":"2024-09-24 23:58","updated":"2024-10-09T19:51:14+03:00"}
 ---
 
 Плагин позволяет настраивать вывод результатов запросов Dataview, разделять их на страницы и устанавливать динамические фильтры и сортировки.
@@ -13,5 +13,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Гибкая настройка вывода результатов запросов DataView

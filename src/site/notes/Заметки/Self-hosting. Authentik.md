@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-authentik/","created":"2024-07-19 00:35","updated":"2024-10-01T20:21:32+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-authentik/","created":"2024-07-19 00:35","updated":"2024-10-09T19:54:00+03:00"}
 ---
 
 Провайдер единой централизованной аутентификации. Позволяет организовать единое окно входа для всех сервисов.
@@ -36,7 +36,7 @@
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 > - [[Хобби/Домашняя лаборатория/Сервер Gateway\|Сервер Gateway]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Провайдер единой авторизации SSO
 
 > [!todo]-

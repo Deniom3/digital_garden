@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-banners/","created":"2024-07-13 14:57","updated":"2024-09-23T22:44:28+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-banners/","created":"2024-07-13 14:57","updated":"2024-10-09T19:51:18+03:00"}
 ---
 
 Позволяет добавлять картинки в шапку заметки, удобно использовать для дашбордов и MOC заметок.
@@ -12,5 +12,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Вставка картинки в шапку заметки

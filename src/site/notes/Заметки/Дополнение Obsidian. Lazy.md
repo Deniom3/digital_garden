@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-lazy/","created":"2024-09-10 21:43","updated":"2024-09-23T22:54:05+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-lazy/","created":"2024-09-10 21:43","updated":"2024-10-09T19:51:06+03:00"}
 ---
 
 Плагин позволяет установить задержку запуска для дополнений Obsidian. Использование плагина позволяет ускорить запуск обсидиана.
@@ -13,5 +13,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Отложенный запуск дополнений

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-network-ups-tools-nut/","created":"2024-07-03 22:06","updated":"2024-10-01T20:29:56+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-network-ups-tools-nut/","created":"2024-07-03 22:06","updated":"2024-10-09T19:53:33+03:00"}
 ---
 
 Решения для управления источниками бесперебойного питания. Позволяет выполнять сетевое и локальное управление и мониторинг состояния устройств которые имеют USB или Ethernet интерфейс подключения.
@@ -19,7 +19,7 @@
 > - [[Статьи/Monitor a UPS attached to a Windows machine\|Monitor a UPS attached to a Windows machine]]
 > [[Статьи/Настраиваем централизованное управление электропитанием в сети при помощи NUT\|Настраиваем централизованное управление электропитанием в сети при помощи NUT]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Управление устройствами бесперебойного питания
 > 
 

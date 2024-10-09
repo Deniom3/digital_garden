@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-list-callouts/","created":"2024-07-01","updated":"2024-09-23T22:29:08+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-list-callouts/","created":"2024-07-01","updated":"2024-10-09T19:51:03+03:00"}
 ---
 
 Продолжаем наводить красоту. Плагин List Callouts: иконка + заливка строки цветом, которые через хоткей в одно движение можно вставить **в строку списка**. 
@@ -27,6 +27,6 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Быстрые Callouts в списке
 

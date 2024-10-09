@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-advanced-tables/","created":"2024-07-10 01:31","updated":"2024-09-23T22:39:09+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-advanced-tables/","created":"2024-07-10 01:31","updated":"2024-10-09T19:51:20+03:00"}
 ---
 
 Дополнение для более гибкой работы с таблицами в Obsidian
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Работа с таблицами

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-auto-link-title/","created":"2024-07-13 15:00","updated":"2024-09-23T22:44:53+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-auto-link-title/","created":"2024-07-13 15:00","updated":"2024-10-09T19:51:18+03:00"}
 ---
 
 Позволяет автоматически при вставке внешней ссылки подставлять в ее имя название страницы из интернета.
@@ -10,5 +10,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Вставка заголовка сайта по ссылке

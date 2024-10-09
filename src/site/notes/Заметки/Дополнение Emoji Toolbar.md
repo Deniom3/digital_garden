@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-emoji-toolbar/","created":"2024-07-10 01:18","updated":"2024-09-23T22:36:58+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-emoji-toolbar/","created":"2024-07-10 01:18","updated":"2024-10-09T19:51:19+03:00"}
 ---
 
 Дополнение добавляет дополнительное меню выбора эмодзи. 
@@ -13,5 +13,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Меню эмодзи

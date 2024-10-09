@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-note-refactor/","created":"2024-07-13 15:28","updated":"2024-09-23T22:51:58+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-note-refactor/","created":"2024-07-13 15:28","updated":"2024-10-09T19:51:04+03:00"}
 ---
 
 Дополнение позволяет выполнять разделение заметки на отдельные подзаметки с гибкой настройкой разбиения.
@@ -12,5 +12,5 @@
 > [!urls]- Упоминания:
 > - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Разделение заметок

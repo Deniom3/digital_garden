@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-wallos/","created":"2024-07-01","updated":"2024-09-24T23:27:51+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-wallos/","created":"2024-07-01","updated":"2024-10-09T19:53:12+03:00"}
 ---
 
 Интересное приложение по отслеживанию расходов и отслеживанию подписок
@@ -43,7 +43,7 @@ services:
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Отслеживание финансов и подписок
 
 > [!todo]-

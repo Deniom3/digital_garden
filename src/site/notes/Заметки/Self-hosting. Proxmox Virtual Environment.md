@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-virtual-environment/","created":"2024-07-03 20:11","updated":"2024-10-01T20:33:42+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-virtual-environment/","created":"2024-07-03 20:11","updated":"2024-10-09T19:53:27+03:00"}
 ---
 
 Открытая система виртуализации с удобным веб интерфейсом и большим количеством возможностей.
@@ -22,5 +22,5 @@
 > - [[Статьи/Резервное копирование с помощью Proxmox Backup Server (PBS). Делаем правильные бэкапы\|Резервное копирование с помощью Proxmox Backup Server (PBS). Делаем правильные бэкапы]]
 > 
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Система виртуализации

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-calibre-web/","created":"2024-07-04 01:26","updated":"2024-10-01T20:22:03+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-calibre-web/","created":"2024-07-04 01:26","updated":"2024-10-09T19:53:55+03:00"}
 ---
 
 Позволяет организовать личную библиотеку электронных книг с возможностью поделиться и разделения доступа по тегам.
@@ -40,5 +40,5 @@ services:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 > - [[Хобби/Домашняя лаборатория/Сервер Main\|Сервер Main]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Электронная библиотека книг

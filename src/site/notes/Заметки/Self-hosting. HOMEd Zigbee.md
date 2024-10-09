@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-hom-ed-zigbee/","created":"2024-10-01 22:18","updated":"2024-10-01T22:23:40+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-hom-ed-zigbee/","created":"2024-10-01 22:18","updated":"2024-10-09T19:53:44+03:00"}
 ---
 
 Легковесная программа для подключения устройств умного дома работающих на базе zigbee 3.0. Для взаимодействия между элементами системы и умным домом используется протокол mqtt.
@@ -70,5 +70,5 @@ zigbee=false
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 > - [[Хобби/Домашняя лаборатория/Роутер Perenio\|Роутер Perenio]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: Подключение zigbee устройств к умному дому

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-amnezia-wg/","created":"2024-09-28 23:55","updated":"2024-10-01T21:50:36+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-amnezia-wg/","created":"2024-09-28 23:55","updated":"2024-10-09T19:53:58+03:00"}
 ---
 
 Проект форк от основной версии [[Заметки/Self-hosting. Wireguard\|Wireguard]] имеет более защищенный вариант маскировки от анализаторов трафика что обеспечивает бесперебойную работу в случаи блокировок основных протоколов.
@@ -19,5 +19,5 @@
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
 
-> [!info]-
+> [!description]- Примечание
 > Примечание:: VPN Wireguard с дополнительной маскировкой от DPI
