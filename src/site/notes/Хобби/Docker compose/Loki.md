@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Loki.md","permalink":"/docker-compose/loki/","tags":[""],"updated":"2024-10-09T00:53:22+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Loki.md","permalink":"/docker-compose/loki/","tags":[""],"updated":"2024-10-10T20:03:37+03:00"}
 ---
 
 
@@ -13,14 +13,15 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./loki-config.yml:/etc/loki/loki-config.yaml
-      - loki_data:/tmp/loki/
+      - loki_data:/loki
     networks:
       - monitoring
     labels:
       org.label-schema.group: monitoring
-
+    restart: unless-stopped
+    
 volumes:
-  loki_data: {}
+  loki_data:
 networks:
   monitoring:
     name: monitoring

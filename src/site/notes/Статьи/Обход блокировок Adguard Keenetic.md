@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/obhod-blokirovok-adguard-keenetic/","updated":"2024-09-29T00:09:32+03:00"}
+{"dg-publish":true,"permalink":"/stati/obhod-blokirovok-adguard-keenetic/","updated":"2024-10-11T18:16:39+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]

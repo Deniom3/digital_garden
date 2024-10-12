@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Обновление HOMEd Zigbee из песочницы разработки.md","permalink":"/komandy-i-nastrojki/obnovlenie-hom-ed-zigbee-iz-pesochniczy-razrabotki/","updated":"2024-10-06T02:51:55+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Обновление HOMEd Zigbee из песочницы разработки.md","permalink":"/komandy-i-nastrojki/obnovlenie-hom-ed-zigbee-iz-pesochniczy-razrabotki/","updated":"2024-10-11T01:04:53+03:00"}
 ---
 
 Для обновления на предрелизную версию из песочницы разработки выполнить следующие команды:

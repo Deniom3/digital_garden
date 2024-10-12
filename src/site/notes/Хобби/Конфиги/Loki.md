@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Loki.md","permalink":"/konfigi/loki/","tags":[""],"updated":"2024-10-09T19:54:13+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Loki.md","permalink":"/konfigi/loki/","tags":[""],"updated":"2024-10-10T19:26:43+03:00"}
 ---
 
 
@@ -8,36 +8,61 @@ auth_enabled: false
 
 server:
   http_listen_port: 3100
-  grpc_listen_port: 9096
+  grpc_listen_port: 9095
 
-common:
-  instance_addr: 127.0.0.1
-  path_prefix: /tmp/loki
-  storage:
-    filesystem:
-      chunks_directory: /tmp/loki/chunks
-      rules_directory: /tmp/loki/rules
-  replication_factor: 1
-  ring:
-    kvstore:
-      store: inmemory
-
-query_range:
-  results_cache:
-    cache:
-      embedded_cache:
-        enabled: true
-        max_size_mb: 100
+ingester:
+  wal:
+    dir: "/tmp/wal"
+  lifecycler:
+    address: 127.0.0.1
+    ring:
+      kvstore:
+        store: inmemory
+      replication_factor: 1
+  chunk_idle_period: 5m
+  chunk_retain_period: 30s
+  chunk_target_size: 1536000
+  chunk_block_size: 262144
 
 schema_config:
   configs:
-    - from: 2020-10-24
+    - from: 2023-01-01
       store: tsdb
       object_store: filesystem
-      schema: v12
+      schema: v13
       index:
         prefix: index_
         period: 24h
+
+storage_config:
+  tsdb_shipper:
+    active_index_directory: /loki/index
+    cache_location: /loki/index_cache
+    cache_ttl: 24h
+
+compactor:
+  working_directory: /loki/compactor
+
+limits_config:
+  reject_old_samples: true
+  reject_old_samples_max_age: 168h
+
+chunk_store_config:
+
+table_manager:
+  retention_deletes_enabled: true
+  retention_period: 168h
+
+ruler:
+  storage:
+    type: local
+    local:
+      directory: /loki/rules
+  rule_path: /loki/rules
+  ring:
+    kvstore:
+      store: inmemory
+  enable_api: true
 ```
 
 ---
