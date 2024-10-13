@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/monitoring-udalennogo-servera-v-grafana/","created":"2024-10-13 20:34","updated":"2024-10-13T21:15:28+03:00"}
+{"dg-publish":true,"permalink":"/zametki/monitoring-udalennogo-servera-v-grafana/","created":"2024-10-13 20:34","updated":"2024-10-13T21:20:07+03:00"}
 ---
 
 Для организации мониторинга используется стек программ [[Заметки/Self-hosting. Nodeexpoeter\|Nodeexporter]] + [[Заметки/Self-hosting. Cadvisor\|Cadvisor]] + [[Заметки/Self-hosting. Alloy\|Alloy]]. А так же [[Заметки/Self-hosting. Uptime Kuma\|Uptime Kuma]] для внешнего мониторинга и уведомлений в случае потери связи с основным сервером. Сбор данных выполняет [[Заметки/Self-hosting. Prometheus\|Prometheus]] и [[Заметки/Self-hosting. Grafana Loki\|Loki]]. 
@@ -191,216 +191,13 @@ networks:
 > По умолчанию если не задать параметры в `.env` для авторизации используются `admin:admin`
 
 Для получения шифрованного пароля можно воспользоваться встроенным шифрованием caddy:
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/komandy-i-nastrojki/shifrovanie-parolya-dlya-basicauth-caddy/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-
 
 ```shell
 docker exec caddy caddy hash-password --plaintext <Password>
 ```
 
 > [!attention] Важно
-> При использовании в докере необходимо экранировать все символы `---
-{"dg-publish":true,"permalink":"/zametki/monitoring-udalennogo-servera-v-grafana/","created":"2024-10-13 20:34","updated":"2024-10-13T21:15:28+03:00"}
----
-
-Для организации мониторинга используется стек программ [[Заметки/Self-hosting. Nodeexpoeter\|Nodeexporter]] + [[Заметки/Self-hosting. Cadvisor\|Cadvisor]] + [[Заметки/Self-hosting. Alloy\|Alloy]]. А так же [[Заметки/Self-hosting. Uptime Kuma\|Uptime Kuma]] для внешнего мониторинга и уведомлений в случае потери связи с основным сервером. Сбор данных выполняет [[Заметки/Self-hosting. Prometheus\|Prometheus]] и [[Заметки/Self-hosting. Grafana Loki\|Loki]]. 
-
-Для объединения и защиты стека базовой аутентификацией используется [[Заметки/Self-hosting. Caddy\|Caddy]]. Для связи с основным сервером мониторинга [[Заметки/Self-hosting. Prometheus\|Prometheus]] и [[Заметки/Self-hosting. Grafana Loki\|Loki]] можно использовать как прямую публикацию портов в интернете так и использование vpn сети. 
-
-> [!bug]
-> В текущем виде dockerproxy без based auth так как не удалось полноценно подключить alloy с базовой аутентификацией. Надо или доработать конфигурацию или поменять подход и на сервере удаленном запустить alloy а на локальном опубликовать в открытом виде api loki.
-
-## Настройка удаленного сервера
-
-В предложенной реализации Alloy подключается к удаленному [[Заметки/Self-hosting. Dockerproxy\|Dockerproxy]] для сбора логов, если это не требуется необходимо удалить публикацию порта 2375 в caddy, полное удаление из стека не рекомендуется так как используется для [[Заметки/Self-hosting. Uptime Kuma\|Uptime Kuma]].
-### Пример docker compose
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/docker-compose/remote-server-monitoring/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-
-```yaml
-services:
-  # Мониторинг хоста
-  nodeexporter:
-    image: prom/node-exporter:latest
-    container_name: nodeexporter
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - /proc:/host/proc:ro
-      - /sys:/host/sys:ro
-      - /:/rootfs:ro
-    command:
-      - --path.procfs=/host/proc
-      - --path.rootfs=/rootfs
-      - --path.sysfs=/host/sys
-      - --collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($|/)
-    restart: unless-stopped
-    expose:
-      - 9100
-    networks:
-      monitor-net:
-        ipv4_address: 10.2.1.6
-    labels:
-      org.label-schema.group: monitoring
-  # Мониторинг контейнеров
-  cadvisor:
-    image: gcr.io/cadvisor/cadvisor:latest
-    container_name: cadvisor
-    privileged: true
-    devices:
-      - /dev/kmsg:/dev/kmsg
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - /:/rootfs:ro
-      - /var/run:/var/run:ro
-      - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
-      - /cgroup:/cgroup:ro
-    restart: unless-stopped
-    expose:
-      - 8080
-    networks:
-      monitor-net:
-        ipv4_address: 10.2.1.2
-    labels:
-      org.label-schema.group: monitoring
-  # Для Alloy и Uptime Kuma
-  dockerproxy:
-    image: ghcr.io/tecnativa/docker-socket-proxy:latest
-    container_name: dockerproxy
-    environment:
-      - INFO=1
-      - CONTAINERS=1 
-      - SERVICES=1 
-      - TASKS=1 
-      - POST=0
-      - NETWORKS=1 
-    expose:
-      - 2375
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    security_opt:
-      - no-new-privileges:true
-    restart: unless-stopped
-    networks:
-      monitor-net:
-        ipv4_address: 10.2.1.3
-    labels:
-      org.label-schema.group: monitoring
-  # Отслеживания доступности сервисов
-  uptime-kuma:
-    image: louislam/uptime-kuma:latest
-    container_name: uptime-kuma
-    volumes:
-      - ./uptime-kuma:/app/data
-      - /etc/localtime:/etc/localtime:ro
-    expose:
-      - 3001
-    restart: unless-stopped
-    networks:
-      monitor-net:
-        ipv4_address: 10.2.1.4
-    labels:
-      org.label-schema.group: monitoring
-  # Прокси
-  caddy:
-    image: caddy:latest
-    container_name: caddy
-    ports:
-      - "3001:3001" # uptime-kuma
-      - "8090:8090" # cadvisor
-      - "9100:9100" # nodeexporter
-      - "2375:2375" # dockerproxy
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - ./Caddyfile:/etc/caddy/Caddyfile 
-    environment:
-      - ADMIN_USER=${ADMIN_USER:-admin}
-      - ADMIN_PASSWORD_HASH=${ADMIN_PASSWORD_HASH:-$2a$14$1l.IozJx7xQRVmlkEQ32OeEEfP5mRxTpbDTCTcXRqn19gXD8YK1pO}
-    restart: unless-stopped
-    labels:
-      org.label-schema.group: monitoring
-    networks:
-      monitor-net:
-      private_network:
-        ipv4_address: 10.2.0.130
-
-networks:
-  monitor-net:
-    name: monitoring
-    ipam:
-      driver: default
-      config:
-        - subnet: 10.2.1.0/24
-  private_network:
-    name: dwg_private_network
-    external: true
-```
-
-
-</div></div>
-
-
-### Конфигурация Caddy
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/konfigi/remote-server-monitoring-caddyfile/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-
-```shell
-:3001 {
-    reverse_proxy 10.2.1.4:3001  
-}
-
-:8090 {
-    basicauth {
-        {$ADMIN_USER} {$ADMIN_PASSWORD_HASH}
-    }    
-    reverse_proxy 10.2.1.2:8080
-}
-
-:2375 {
-    reverse_proxy 10.2.1.3:2375
-}
-
-:9100 {
-    basicauth {
-        {$ADMIN_USER} {$ADMIN_PASSWORD_HASH}
-    }
-    reverse_proxy 10.2.1.6:9100
-}
-
-```
-
----
-> [!urls]- Упоминания:
-
-> [!description]- Примечание
-> Примечание::  Параметры проксирования стека мониторинга
-
-
-</div></div>
-
-
-> [!note]
-> По умолчанию если не задать параметры в `.env` для авторизации используются `admin:admin`
-
-Для получения шифрованного пароля можно воспользоваться встроенным шифрованием caddy:
- заменой на `$` 
-
-</div></div>
-
+> При использовании в докере необходимо экранировать все символы `$` заменой на `$$` 
 
 ### Настройка Uptime Kuma
 
@@ -432,12 +229,6 @@ networks:
 
 Для доступа между сетями docker при использовании ufw необходимо выполнить команды:
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/komandy-i-nastrojki/nastrojka-marshruta-mezhdu-setyami-docker-v-ufw/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-
 ```sh
 # Включение ufw для docker
 sudo ufw default allow routed
@@ -448,10 +239,6 @@ sudo ufw allow out on docker0
 sudo ufw allow from 10.2.0.0/24 to 10.2.1.0/24
 sudo ufw allow from 10.2.1.0/24 to 10.2.0.0/24
 ```
-
-</div></div>
-
-
 ## Настройка основного сервера мониторинга
 
 Для работы мониторинга [[Заметки/Self-hosting. Prometheus\|Prometheus]] и [[Заметки/Self-hosting. Alloy\|Alloy]] с сервера мониторинга должны иметь доступ к портам Caddy в vpn сети или до самого сервера если опубликовано в интернете.
