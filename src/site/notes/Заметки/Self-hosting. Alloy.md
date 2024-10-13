@@ -14,12 +14,13 @@
 
 
 ```yaml
+services:
   alloy:
     image: grafana/alloy:latest
     container_name: alloy
     volumes:
+      - /etc/localtime:/etc/localtime:ro
       - ./config.alloy:/etc/alloy/config.alloy
-      - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
       - 12345:12345
       - 1514:1514/tcp
@@ -30,6 +31,7 @@
       - monitoring
     labels:
       org.label-schema.group: monitoring
+    restart: unless-stopped
 
 networks:
   monitoring:

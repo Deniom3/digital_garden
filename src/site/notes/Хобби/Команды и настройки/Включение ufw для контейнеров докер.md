@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Включение ufw для контейнеров докер.md","permalink":"/komandy-i-nastrojki/vklyuchenie-ufw-dlya-kontejnerov-doker/","updated":"2024-10-06T02:53:46+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Включение ufw для контейнеров докер.md","permalink":"/komandy-i-nastrojki/vklyuchenie-ufw-dlya-kontejnerov-doker/","updated":"2024-10-13T21:01:51+03:00"}
 ---
 
 В последних версиях докер ufw не работает корректно, необходимо вносить изменения в конфиг файлы.

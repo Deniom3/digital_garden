@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/sbor-logov-docker-kontejnerov-dlya-grafana/","created":"2024-10-10 00:27","updated":"2024-10-10T00:50:08+03:00"}
+{"dg-publish":true,"permalink":"/zametki/sbor-logov-docker-kontejnerov-dlya-grafana/","created":"2024-10-10 00:27","updated":"2024-10-13T11:08:59+03:00"}
 ---
 
 Сбор логов с docker контейнеров выполняется с использованием [[Заметки/Self-hosting. Alloy\|Alloy]] и [[Заметки/Self-hosting. Dockerproxy\|Dockerproxy]]  с дальнейшей обработкой и передачей в [[Заметки/Self-hosting. Grafana Loki\|Loki]]. 

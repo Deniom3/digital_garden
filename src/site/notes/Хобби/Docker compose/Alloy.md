@@ -1,15 +1,16 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Alloy.md","permalink":"/docker-compose/alloy/","tags":[""],"updated":"2024-10-09T01:12:52+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Alloy.md","permalink":"/docker-compose/alloy/","tags":[""],"updated":"2024-10-13T01:00:13+03:00"}
 ---
 
 
 ```yaml
+services:
   alloy:
     image: grafana/alloy:latest
     container_name: alloy
     volumes:
+      - /etc/localtime:/etc/localtime:ro
       - ./config.alloy:/etc/alloy/config.alloy
-      - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
       - 12345:12345
       - 1514:1514/tcp
@@ -20,6 +21,7 @@
       - monitoring
     labels:
       org.label-schema.group: monitoring
+    restart: unless-stopped
 
 networks:
   monitoring:
