@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Получение SSL сертификата через Certbot dns chellenge cloudflare.md","permalink":"/komandy-i-nastrojki/poluchenie-ssl-sertifikata-cherez-certbot-dns-chellenge-cloudflare/","updated":"2024-10-06T02:50:24+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Получение SSL сертификата через Certbot dns chellenge cloudflare.md","permalink":"/komandy-i-nastrojki/poluchenie-ssl-sertifikata-cherez-certbot-dns-chellenge-cloudflare/","updated":"2024-10-22T10:42:04+03:00"}
 ---
 
 Создать новый домен третьего уровня для панели в cloudflare.
