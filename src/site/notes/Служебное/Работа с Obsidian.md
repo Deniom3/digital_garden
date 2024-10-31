@@ -23,4 +23,5 @@
 > - [x] Изучить репу [GitHub - efemkay/obsidian-modular-css-layout: CSS Layout hack for Obsidian.md](https://github.com/efemkay/obsidian-modular-css-layout?tab=readme-ov-file) ✅ 2024-10-12
 > - [b] Учебник: Как создать книжную полку в Obsidian.md – The Buccaneer's Bounty https://thebuccaneersbounty.wordpress.com/2021/08/21/tutorial-how-to-create-a-bookshelf-in-obsidian/
 > - [-] Попробовать плагин Share Note для обсидиан в варианте self hosted ❌ 2024-08-30
+> - [<] Подготовить шаблон для заметок по сериям сериала
 

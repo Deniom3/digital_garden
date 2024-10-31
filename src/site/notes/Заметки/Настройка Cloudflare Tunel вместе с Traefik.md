@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/nastrojka-cloudflare-tunel-vmeste-s-traefik/","created":"2024-08-18 01:15","updated":"2024-09-03T16:37:23+03:00"}
+{"dg-publish":true,"permalink":"/zametki/nastrojka-cloudflare-tunel-vmeste-s-traefik/","created":"2024-08-18 01:15","updated":"2024-10-25T13:00:53+03:00"}
 ---
 
 Для переадресации запросов через [[Заметки/Self-hosting. Cloudflare Tunel\|Self-hosting. Cloudflare Tunel]]  на внутренний [[Заметки/Self-hosting. Traefik\|Traefik]] необходимо выполнить дополнительные настройки для передачи заголовков. 

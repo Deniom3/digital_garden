@@ -259,7 +259,7 @@ scrape_configs:
       username: admin
       password: admin
     static_configs:
-      - targets: [ 10.2.0.130:9100]
+      - targets: [ 10.2.0.130:8090]
 ```
 ### Настройки для Alloy
 
