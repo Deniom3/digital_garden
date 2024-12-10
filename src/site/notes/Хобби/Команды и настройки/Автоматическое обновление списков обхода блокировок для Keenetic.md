@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Автоматическое обновление списков обхода блокировок для Keenetic.md","permalink":"/komandy-i-nastrojki/avtomaticheskoe-obnovlenie-spiskov-obhoda-blokirovok-dlya-keenetic/","updated":"2024-10-06T02:53:47+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Автоматическое обновление списков обхода блокировок для Keenetic.md","permalink":"/komandy-i-nastrojki/avtomaticheskoe-obnovlenie-spiskov-obhoda-blokirovok-dlya-keenetic/","updated":"2024-11-07T03:08:07+03:00"}
 ---
 
 ### Скрипт загрузки

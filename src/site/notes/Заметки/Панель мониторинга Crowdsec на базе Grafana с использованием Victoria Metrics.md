@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/panel-monitoringa-crowdsec-na-baze-grafana-s-ispolzovaniem-victoria-metrics/","created":"2024-10-06 23:30","updated":"2024-10-06T23:58:17+03:00"}
+{"dg-publish":true,"permalink":"/zametki/panel-monitoringa-crowdsec-na-baze-grafana-s-ispolzovaniem-victoria-metrics/","created":"2024-10-06 23:30","updated":"2024-12-08T12:07:03+03:00"}
 ---
 
 Программа [[Заметки/Self-hosting. Victoria Metrics\|Victoria Metrics]] позволяет организовать легкий сбор данных о события блокировки используя POST уведомления которые генерирует crowdsec. И легко связать их с панелью мониторинга на базе Grafana. Основным преимуществом является легкая масштабируемость данного варианта настройки.
