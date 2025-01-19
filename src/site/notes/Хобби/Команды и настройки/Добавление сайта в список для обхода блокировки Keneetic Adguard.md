@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Добавление сайта в список для обхода блокировки Keneetic Adguard.md","permalink":"/komandy-i-nastrojki/dobavlenie-sajta-v-spisok-dlya-obhoda-blokirovki-keneetic-adguard/","updated":"2024-10-06T02:54:41+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Добавление сайта в список для обхода блокировки Keneetic Adguard.md","permalink":"/komandy-i-nastrojki/dobavlenie-sajta-v-spisok-dlya-obhoda-blokirovki-keneetic-adguard/","updated":"2025-01-11T15:44:33+03:00"}
 ---
 
 Для добавления сайта в список для обхода необходимо внести изменения в файл по пути:
