@@ -6,7 +6,7 @@
 > [!urls]- Заметки по статье
 > - [[Заметки/Self-hosting. SmtpToTelegram\|Self-hosting. SmtpToTelegram]]
 > - [[Хобби/Домашняя лаборатория/PC Proxmox\|PC Proxmox]]
-> - [[Заметки/Отправка уведомлений из proxmox в telegram\|Отправка уведомлений из proxmox в telegram]]
+> - [[Заметки/Отправка уведомлений из proxmox в telegram с использованием Webhook\|Отправка уведомлений из proxmox в telegram с использованием Webhook]]
 
 ---
 Это небольшая заметка о том как буквально за 10 минут организовать пересылку уведомлений из системы Proxmox VE  в телеграмм.
