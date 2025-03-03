@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2024-09-29T00:06:59+03:00"}
+{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2025-03-03T16:14:07+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]] [[Статьи/Оглавление моих статей\|мои статьи]] 
 > [!urls]- Заметки по статье
 > - [[Заметки/Self-hosting. SmtpToTelegram\|Self-hosting. SmtpToTelegram]]
 > - [[Хобби/Домашняя лаборатория/PC Proxmox\|PC Proxmox]]
+> - [[Заметки/Отправка уведомлений из proxmox в telegram\|Отправка уведомлений из proxmox в telegram]]
 
 ---
 Это небольшая заметка о том как буквально за 10 минут организовать пересылку уведомлений из системы Proxmox VE  в телеграмм.
