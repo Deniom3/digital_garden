@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2025-03-03T16:14:07+03:00"}
+{"dg-publish":true,"permalink":"/stati/uvedomleniya-proxmox-v-telegram-bota-i-pochtu-za-10-minut/","updated":"2025-03-03T16:25:17+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]] [[Статьи/Оглавление моих статей\|мои статьи]] 

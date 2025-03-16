@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Автоматическое обновление списков обхода блокировок для Keenetic.md","permalink":"/komandy-i-nastrojki/avtomaticheskoe-obnovlenie-spiskov-obhoda-blokirovok-dlya-keenetic/","updated":"2024-11-07T03:08:07+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Автоматическое обновление списков обхода блокировок для Keenetic.md","permalink":"/komandy-i-nastrojki/avtomaticheskoe-obnovlenie-spiskov-obhoda-blokirovok-dlya-keenetic/","updated":"2025-03-07T13:20:36+03:00"}
 ---
 
 ### Скрипт загрузки
@@ -45,7 +45,7 @@ if [ -f "$LOCAL_FILE" ]; then
         site=$(echo "$site" | tr -d '\r')
         # Пропускаем пустые строки
         [ -z "$site" ] && continue
-        echo "$site/bypass" >> $OUTPUT_FILE
+        echo "$site/bypass,bypass6" >> $OUTPUT_FILE
     done < $LOCAL_FILE
 else
     echo "Локальный файл $LOCAL_FILE не найден"
@@ -57,7 +57,7 @@ while IFS= read -r site || [ -n "$site" ]; do
     site=$(echo "$site" | tr -d '\r')
     # Пропускаем пустые строки
     [ -z "$site" ] && continue
-    echo "$site/bypass" >> $OUTPUT_FILE
+    echo "$site/bypass,bypass6" >> $OUTPUT_FILE
 done < $TEMP_FILE
 
 # Удаляем временный файл

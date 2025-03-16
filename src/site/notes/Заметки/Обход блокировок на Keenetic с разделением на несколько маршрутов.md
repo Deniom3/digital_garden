@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/obhod-blokirovok-na-keenetic-s-razdeleniem-na-neskolko-marshrutov/","created":"2024-09-01 20:38","updated":"2024-11-07T13:20:49+03:00"}
+{"dg-publish":true,"permalink":"/zametki/obhod-blokirovok-na-keenetic-s-razdeleniem-na-neskolko-marshrutov/","created":"2024-09-01 20:38","updated":"2025-03-12T22:15:16+03:00"}
 ---
 
 Является доработанным вариантом [[Статьи/Обход блокировок Adguard Keenetic\|; Обход блокировок Adguard Keenetic]]
