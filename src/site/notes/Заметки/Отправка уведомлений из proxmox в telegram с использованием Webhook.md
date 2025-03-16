@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/otpravka-uvedomlenij-iz-proxmox-v-telegram-s-ispolzovaniem-webhook/","created":"2025-03-03 16:05","updated":"2025-03-16T18:52:52+03:00"}
+{"dg-publish":true,"permalink":"/zametki/otpravka-uvedomlenij-iz-proxmox-v-telegram-s-ispolzovaniem-webhook/","created":"2025-03-03 16:05","updated":"2025-03-16T19:21:36+03:00"}
 ---
 
 Для отправки уведомлений из [[Заметки/Self-hosting. Proxmox Virtual Environment\|Proxmox]] в телеграмм можно использовать функционал Webhook. Подробная документация приведена по [ссылке](https://proxmox.deniom.ru:8006/pve-docs/chapter-notifications.html#notification_targets_webhook). 
