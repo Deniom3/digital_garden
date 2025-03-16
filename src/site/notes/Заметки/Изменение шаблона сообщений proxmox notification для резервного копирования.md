@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/izmenenie-shablona-soobshhenij-proxmox-notification-dlya-rezervnogo-kopirovaniya/","created":"2025-03-16 18:50","updated":"2025-03-16T18:52:32+03:00"}
+{"dg-publish":true,"permalink":"/zametki/izmenenie-shablona-soobshhenij-proxmox-notification-dlya-rezervnogo-kopirovaniya/","created":"2025-03-16 18:50","updated":"2025-03-16T18:58:01+03:00"}
 ---
 
 Шаблон сообщения используемый для отправки сообщения о резервном копировании хранится в файле по пути: 

@@ -16,7 +16,7 @@ URL: `https://api.telegram.org/bot{{secrets.api_key}}/sendMessage`
 {
   "chat_id": "{{secrets.chat_id}}",
   "message_thread_id": "{{secrets.thread_id}}",
-  "text": "<pre>{{escape message}}</pre>",
+  "text": "<b>{{ title }}</b>\n<pre>{{ escape message }}</pre>",
   "parse_mode": "HTML"
 }
 ```
