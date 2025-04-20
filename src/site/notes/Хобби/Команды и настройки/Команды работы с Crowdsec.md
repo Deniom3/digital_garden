@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec/","updated":"2024-10-06T23:41:29+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec/","updated":"2025-04-05T16:05:10+03:00"}
 ---
 
 Для получения статуса системы:

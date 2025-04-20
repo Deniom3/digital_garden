@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-metabase/","created":"2024-10-05 17:04","updated":"2024-10-09T19:53:38+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-metabase/","created":"2024-10-05 17:04","updated":"2025-04-20T20:25:48+03:00"}
 ---
 
 Система гибкой визуализации на основе баз данных с легкой и гибкой настройкой.

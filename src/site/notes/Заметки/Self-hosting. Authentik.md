@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-authentik/","created":"2024-07-19 00:35","updated":"2024-10-09T19:54:00+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-authentik/","created":"2024-07-19 00:35","updated":"2025-04-20T20:55:19+03:00"}
 ---
 
 Провайдер единой централизованной аутентификации. Позволяет организовать единое окно входа для всех сервисов.
@@ -18,6 +18,7 @@
 > [!idea] Настройки приложений
 > - Самые распространенные описаны в документации [authentik](https://docs.goauthentik.io/integrations/)
 > - [[Заметки/Проксирование всех доменов через Authentik\|Проксирование всех доменов через Authentik]]
+> - [[Заметки/Настройка защиты конкретного домена через authentik traefik\|Настройка защиты конкретного домена через authentik traefik]]
 > - [[Заметки/Доступ к Vaultwarden через Authentik\|Vaultwarden]]
 > - [[Заметки/Настройка Based Aut в Authentik\|Настройка Based Aut в Authentik]]
 > - OAuth2/OpenID на примере portainer [Portainer | authentik](https://docs.goauthentik.io/integrations/services/portainer/)

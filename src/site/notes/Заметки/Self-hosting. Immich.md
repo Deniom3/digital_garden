@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-immich/","created":"2024-07-05 00:37","updated":"2025-01-19T17:15:37+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-immich/","created":"2024-07-05 00:37","updated":"2025-03-23T00:24:16+03:00"}
 ---
 
 Программа для хранения фотографий и их обработки. Имеет возможно преобразования фотографий и видео, распознание лиц и разметка по геолокации.
@@ -8,6 +8,9 @@
 Репозиторий: [GitHub - immich-app/immich: High performance self-hosted photo and video management solution.](https://github.com/immich-app/immich)
 
 Документация: [Introduction | Immich](https://immich.app/docs/overview/introduction)
+
+> [!bug]
+> В последних версиях проксирование авторизации через aithentik приводит к проблемам авторизации для мобильных приложений. Можно использовать только authentik для внешней авторизации без прослойки в traefik.
 
 ### Пример docker compose файла:
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Модификация интерефейса Proxmox VE для вывода температуры.md","permalink":"/komandy-i-nastrojki/modifikacziya-interefejsa-proxmox-ve-dlya-vyvoda-temperatury/","updated":"2024-12-15T14:22:12+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Модификация интерефейса Proxmox VE для вывода температуры.md","permalink":"/komandy-i-nastrojki/modifikacziya-interefejsa-proxmox-ve-dlya-vyvoda-temperatury/","updated":"2025-03-25T23:56:34+03:00"}
 ---
 
 Для вывода информации о температуре процессора и дисков в интерфейс proxmox можно воспользоваться следующей модификацией:

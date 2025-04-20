@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/zapusk-proxmox-backup-server-pbs-na-windows-ili-nas-organizacziya-sinhronizaczii-bekapov-mezhdu-pbs/","updated":"2024-10-06T01:01:40+03:00"}
+{"dg-publish":true,"permalink":"/stati/zapusk-proxmox-backup-server-pbs-na-windows-ili-nas-organizacziya-sinhronizaczii-bekapov-mezhdu-pbs/","updated":"2025-04-16T01:58:26+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]] [[Статьи/Оглавление моих статей\|мои статьи]] 

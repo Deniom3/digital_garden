@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-wireguard/","created":"2024-07-04 01:22","updated":"2024-10-09T19:53:08+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-wireguard/","created":"2024-07-04 01:22","updated":"2025-04-20T20:27:14+03:00"}
 ---
 
 Программа и протокол организации VPN. Очень быстро работает но легко блокируется. Поддерживается почти всеми устройствами в том числе роутерами. Легко настраивается.

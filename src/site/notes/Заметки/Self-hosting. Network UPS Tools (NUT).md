@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-network-ups-tools-nut/","created":"2024-07-03 22:06","updated":"2024-10-09T19:53:33+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-network-ups-tools-nut/","created":"2024-07-03 22:06","updated":"2025-04-20T20:26:03+03:00"}
 ---
 
 Решения для управления источниками бесперебойного питания. Позволяет выполнять сетевое и локальное управление и мониторинг состояния устройств которые имеют USB или Ethernet интерфейс подключения.

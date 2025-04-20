@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-traefik/","created":"2024-08-03 14:44","updated":"2024-10-09T21:25:36+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-traefik/","created":"2024-08-03 14:44","updated":"2025-04-20T20:32:09+03:00"}
 ---
 
 Многофункциональный реверс прокси со сложной системой динамических и статических настроек. Имеет большое количество примеров и различных интеграций. Предназначен в первую очередь для использования в динамических системах на базе docker контейнеров.
@@ -82,6 +82,7 @@ networks:
 > - [[Хобби/Конфиги/Traefik Authentik\|Traefik Authentik]]
 > - [[Хобби/Конфиги/Traefik Nextcloud\|Traefik Nextcloud]]
 > - [[Хобби/Конфиги/Traefik Authentik базовая аутентификация\|Traefik Authentik базовая аутентификация]]
+> - [[Хобби/Конфиги/Traefik Remnaweve\|Traefik Remnaweve]]
 
 > [!warning]
 > Метки докера и динамическая конфигурация взаимоисключающие настройки. Надежнее использовать динамическую конфигурацию.
