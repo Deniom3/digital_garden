@@ -88,7 +88,7 @@ create_archive() {
 upload_to_nextcloud() {
     log "☁️ Копирование $ARCHIVE_PATH на Nextcloud..."
     curl -T ${ARCHIVE_PATH} -u ${NEXTCLOUD_USER}:${NEXTCLOUD_PASS} {$BACKUP_DIR_URL}/${ARCHIVE_NAME}
-	log "✅ Архив отправлен на Nextloud: {$BACKUP_DIR_URL}/${ARCHIVE_NAME}"
+	log "✅ Архив отправлен на Nextloud: $BACKUP_DIR_URL/${ARCHIVE_NAME}"
 }
 
 # Ротация бэкапов
@@ -155,7 +155,7 @@ main() {
     log "🧹 Очистка локальной директории $LOCAL_TMP_DIR..."
     rm -rf "$LOCAL_TMP_DIR"/* || log "⚠️ Не удалось очистить $LOCAL_TMP_DIR."
 	
-	send_telegram "✅ Создана резервная копия: {$BACKUP_DIR_URL}/${ARCHIVE_NAME}"
+	send_telegram "✅ Создана [резервная копия]($BACKUP_DIR_URL/$ARCHIVE_NAME) настроек роутера."
 	
     log "=== ✅ Завершено ==="
 }
