@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/rezervnoe-kopirovanie-routera-keenetik/","created":"2025-04-22 21:58","updated":"2025-04-23T01:51:40+03:00"}
+{"dg-publish":true,"permalink":"/zametki/rezervnoe-kopirovanie-routera-keenetik/","created":"2025-04-22 21:58","updated":"2025-04-23T02:08:43+03:00"}
 ---
 
 ### Описание
@@ -248,6 +248,12 @@ rotate_backups() {
 > [!bug] Важно
 > Реализация rclone на роутере очень сильно нагружает систему что может привести к сбою работы других программ, лучше использовать curl.
 
+### Восстановление
+
+В архиве содержится 3 файла:
+`config_*` - настройки роутера
+`firmware-*` - прошивка роутера
+`entware_backup_*.tar.gz` - архив для установки Entware со всеми внесенными изменениями, для восстановления на новый носитель положить в папку install вместо установочного Entware.
 
 ---
 > [!urls]- Упоминания:
