@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/nastrojka-dostupa-k-repozitoriyam-gitea-po-ssh/","created":"2025-05-05 02:22","updated":"2025-05-05T19:35:50+03:00"}
+{"dg-publish":true,"permalink":"/zametki/nastrojka-dostupa-k-repozitoriyam-gitea-po-ssh/","created":"2025-05-05 02:22","updated":"2025-05-05T19:36:35+03:00"}
 ---
 
 Преимуществом подключения по ssh к репозиторию является то что не надо проходить авторизацию по паролю или использовать в адреса в явном виде токен доступа что обеспечивает дополнительную безопасность.

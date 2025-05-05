@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/yadro-proksi-xray-core/","created":"2024-07-04 15:59","updated":"2025-04-23T19:06:21+03:00"}
+{"dg-publish":true,"permalink":"/zametki/yadro-proksi-xray-core/","created":"2024-07-04 15:59","updated":"2025-05-05T21:07:19+03:00"}
 ---
 
 Программа с открытым исходным кодом для организации прокси подключений с маскировками для обхода блокировок.
@@ -7,6 +7,8 @@
 Xray не является классическим VPN, но имеет значительно больше возможности и ограничений. Организация полноценной VPN сети для связи устройств через него не возможна обычными методами.
 
 Репозиторий проекта: [GitHub - XTLS/Xray-core: Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.](https://github.com/XTLS/Xray-core)
+
+Конструктор конфигурации (разработан под xkeen): [[Заметки/Конструктор конфигурации xray\|Конструктор конфигурации xray]]
 
 ---
 #### Упоминания:
