@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/avtorizacziya-gitea-po-tokenu/","created":"2025-05-05 02:16","updated":"2025-05-05T02:21:34+03:00"}
+{"dg-publish":true,"permalink":"/zametki/avtorizacziya-gitea-po-tokenu/","created":"2025-05-05 02:16","updated":"2025-05-05T18:30:04+03:00"}
 ---
 
 Для подключения к закрытому репозиторию gitea необходимо использовать вариант подключения с токеном или авторизацию по ssh.
