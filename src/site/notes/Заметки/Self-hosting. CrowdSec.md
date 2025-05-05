@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/zametki/self-hosting-crowd-sec/","created":"2024-07-31 22:40","updated":"2024-10-09T19:53:54+03:00"}
 ---
 
-Файрволл для защиты серверов, альтернатива [[Заметки/Self-hosting. Fail2Ban\|Fail2Ban]]. Наиболее простой способ интеграции в связке с [[Заметки/Self-hosting. Traefik\|Traefik]] необходимо использовать конфигурацию [[Хобби/Конфиги/Traefik Crowdsek\|Traefik Crowdsek]].
+Файрволл для защиты серверов, альтернатива [[Заметки/Self-hosting. Fail2Ban\|Fail2Ban]]. Наиболее простой способ интеграции в связке с [[Заметки/Self-hosting. Traefik\|Traefik]] необходимо использовать конфигурацию [[Хобби/Конфиги/Traefik Crowdsec\|Traefik Crowdsec]].
 
 Сайт:  [CrowdSec | Curated Threat Intelligence Powered by the Crowd](https://www.crowdsec.net/)
 
@@ -50,7 +50,7 @@ networks:
 
 
 Основные настройки описаны отдельно:
-- [[Хобби/Команды и настройки/Команды работы с Crowdsec\|Команды работы с Crowdsec]]
+- [[Хобби/Команды и настройки/Команды работы с Crowdsec в docker\|Команды работы с Crowdsec в docker]]
 - [[Хобби/Команды и настройки/Прогрессивное увеличение времени бана для Crowdsec\|Прогрессивное увеличение времени бана для Crowdsec]]
 - [[Заметки/Настройка Crowdsec в связке с Traefik\|Настройка Crowdsec в связке с Traefik]]
 - [[Заметки/Защита отдельных программ в docker с использованием Crowdsec\|Защита отдельных программ в docker с использованием Crowdsec]]

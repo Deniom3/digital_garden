@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение порта доступа по SSH.md","permalink":"/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/","updated":"2024-10-06T02:51:25+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение порта доступа по SSH.md","permalink":"/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/","updated":"2025-05-05T01:33:04+03:00"}
 ---
 
 Для изменения порта доступа (по умолчанию 22) для SSH необходимо скорректировать файл
@@ -9,10 +9,11 @@ nano /etc/ssh/sshd_config
 
 Необходимо закомментировать или добавить строку, заменив 22 на нужный порт.
 ```shell
-Port 22
+Port 222
 ```
 
-После перезагрузить SSH сервер
+После перезапустить службу
 ```shell
-service sshd restart
+sudo systemctl daemon-reload
+sudo service ssh restart
 ```
