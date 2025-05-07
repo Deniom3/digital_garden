@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-fork-smtp-to-telegram/","created":"2024-09-01 01:00","updated":"2025-05-05T22:34:25+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-fork-smtp-to-telegram/","created":"2024-09-01 01:00","updated":"2025-05-07T19:23:07+03:00"}
 ---
 
 Для отправки сообщений в телеграмм в конкретную тему супергруппы (форума) необходимо использовать форк версию.
@@ -7,6 +7,8 @@
 Изменение приведено тут: [Add support for chat topics · Issue #57 · KostyaEsmukov/smtp\_to\_telegram · GitHub](https://github.com/KostyaEsmukov/smtp_to_telegram/issues/57)
 
 Готовый репозиторий размещен в моем github [GitHub - Deniom3/smtp\_to\_telegram: A simple program that listens for SMTP and forwards all incoming Email messages to Telegram](https://github.com/Deniom3/smtp_to_telegram)
+
+### Для сборки локально
 
 1. Клонировать репозиторий
 ```

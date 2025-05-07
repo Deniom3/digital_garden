@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/rezervnoe-kopirovanie-routera-keenetik/","created":"2025-04-22 21:58","updated":"2025-04-23T02:11:33+03:00"}
+{"dg-publish":true,"permalink":"/zametki/rezervnoe-kopirovanie-routera-keenetik/","created":"2025-04-22 21:58","updated":"2025-05-06T15:19:45+03:00"}
 ---
 
 ### Описание
