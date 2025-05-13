@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Remote Server Monitoring Caddyfile.md","permalink":"/konfigi/remote-server-monitoring-caddyfile/","tags":[""],"updated":"2024-10-13T20:30:56+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Remote Server Monitoring Caddyfile.md","permalink":"/konfigi/remote-server-monitoring-caddyfile/","tags":[""],"updated":"2025-05-13T21:55:24+03:00"}
 ---
 
 
@@ -26,6 +26,12 @@
     reverse_proxy 10.2.1.6:9100
 }
 
+:2112 {
+    basicauth {
+        {$ADMIN_USER} {$ADMIN_PASSWORD_HASH}
+    }    
+    reverse_proxy 10.2.1.5:2112
+}
 ```
 
 ---

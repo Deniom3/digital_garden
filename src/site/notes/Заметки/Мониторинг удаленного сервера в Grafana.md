@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/monitoring-udalennogo-servera-v-grafana/","created":"2024-10-13 20:34","updated":"2024-10-31T15:47:30+03:00"}
+{"dg-publish":true,"permalink":"/zametki/monitoring-udalennogo-servera-v-grafana/","created":"2024-10-13 20:34","updated":"2025-05-13T21:58:23+03:00"}
 ---
 
 Для организации мониторинга используется стек программ [[Заметки/Self-hosting. Nodeexpoeter\|Nodeexporter]] + [[Заметки/Self-hosting. Cadvisor\|Cadvisor]] + [[Заметки/Self-hosting. Alloy\|Alloy]]. А так же [[Заметки/Self-hosting. Uptime Kuma\|Uptime Kuma]] для внешнего мониторинга и уведомлений в случае потери связи с основным сервером. Сбор данных выполняет [[Заметки/Self-hosting. Prometheus\|Prometheus]] и [[Заметки/Self-hosting. Grafana Loki\|Loki]]. 
@@ -7,7 +7,7 @@
 Для объединения и защиты стека базовой аутентификацией используется [[Заметки/Self-hosting. Caddy\|Caddy]]. Для связи с основным сервером мониторинга [[Заметки/Self-hosting. Prometheus\|Prometheus]] и [[Заметки/Self-hosting. Grafana Loki\|Loki]] можно использовать как прямую публикацию портов в интернете так и использование vpn сети. 
 
 > [!bug]
-> В текущем виде dockerproxy без based auth так как не удалось полноценно подключить alloy с базовой аутентификацией. Надо или доработать конфигурацию или поменять подход и на сервере удаленном запустить alloy а на локальном опубликовать в открытом виде api loki.
+> Для безопасности необходимо использовать TLS или VPN для подключения к сокету докера.
 
 ## Настройка удаленного сервера
 
@@ -20,7 +20,7 @@
 
 
 
-```yaml
+```yml
 services:
   # Мониторинг хоста
   nodeexporter:
@@ -75,13 +75,15 @@ services:
       - CONTAINERS=1 
       - SERVICES=1 
       - TASKS=1 
-      - POST=0
+      - POST=1 # Для обновления должнно быть 1 и право на запись в сокет - /var/run/docker.sock:/var/run/docker.sock
       - NETWORKS=1 
+      - VERSION=1 # wud
+      - IMAGES=1 # wud
     expose:
       - 2375
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/run/docker.sock:/var/run/docker.sock
     security_opt:
       - no-new-privileges:true
     restart: unless-stopped
@@ -105,15 +107,32 @@ services:
         ipv4_address: 10.2.1.4
     labels:
       org.label-schema.group: monitoring
+  # Мониторинг vless
+  xray-checker:
+    image: kutovoys/xray-checker
+    container_name: xray-checker
+    restart: always
+    environment:
+      - SUBSCRIPTION_URL=https://sub.deniom.ru/sub/1PXVQFK_9Ek2kmK-
+      - PROXY_CHECK_METHOD=status
+      - PROXY_STATUS_CHECK_URL=http://cp.cloudflare.com/generate_204
+    expose:
+      - 2112
+    networks:
+      monitor-net:
+        ipv4_address: 10.2.1.5
+    labels:
+      org.label-schema.group: monitoring
   # Прокси
   caddy:
     image: caddy:latest
-    container_name: caddy
+    container_name: caddy-monitoring
     ports:
       - "3001:3001" # uptime-kuma
       - "8090:8090" # cadvisor
       - "9100:9100" # nodeexporter
       - "2375:2375" # dockerproxy
+      - "2112:2112" # xray-checker
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./Caddyfile:/etc/caddy/Caddyfile 
@@ -125,8 +144,7 @@ services:
       org.label-schema.group: monitoring
     networks:
       monitor-net:
-      private_network:
-        ipv4_address: 10.2.0.130
+        ipv4_address: 10.2.1.100
 
 networks:
   monitor-net:
@@ -135,9 +153,6 @@ networks:
       driver: default
       config:
         - subnet: 10.2.1.0/24
-  private_network:
-    name: dwg_private_network
-    external: true
 ```
 
 
@@ -175,6 +190,12 @@ networks:
     reverse_proxy 10.2.1.6:9100
 }
 
+:2112 {
+    basicauth {
+        {$ADMIN_USER} {$ADMIN_PASSWORD_HASH}
+    }    
+    reverse_proxy 10.2.1.5:2112
+}
 ```
 
 ---
@@ -203,7 +224,7 @@ docker exec caddy caddy hash-password --plaintext <Password>
 
 Для работы uptime kuma с docker необходимо настроить подключение к хосту для этого необходимо перейти в `Настройки` -> `Хосты Docker` -> `Настроить Docker Host`
 ![Мониторинг удаленного сервера в Grafana.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%20%D0%B2%20Grafana.png)
-### Настройка VPN подключения
+### Настройка VPN подключения при использовании wireguard
 
 Для доступа к данным мониторинга необходимо подключить к VPN сети только Caddy путем добавления второй сети.
 

@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка crowdsec как сервис.md","permalink":"/komandy-i-nastrojki/ustanovka-crowdsec-kak-servis/","tags":[""],"updated":"2025-05-04T18:35:01+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка crowdsec как сервис.md","permalink":"/komandy-i-nastrojki/ustanovka-crowdsec-kak-servis/","tags":[""],"updated":"2025-05-11T18:16:30+03:00"}
 ---
+
+### Установка crowdsec
 
 Для установки на сервер crowdsec как сервис для защиты ssh необходимо.
 
@@ -21,6 +23,22 @@ sudo cscli collections list
 
 > [!note]
 > По умолчанию должны быть сразу обнаружены логи ssh и linux
+
+### Изменение портов
+По умолчанию используется порт 8080
+
+Изменить порт в двух файлах
+```
+nano /etc/crowdsec/config.yaml
+```
+```
+nano /etc/crowdsec/local_api_credentials.yaml
+```
+Перезапустить сервер
+```
+sudo systemctl restart crowdsec
+```
+### Установка bouncer
 
 Установка bouncer для блокировки по правилам:
 ```bash

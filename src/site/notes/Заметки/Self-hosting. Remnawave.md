@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-remnawave/","created":"2025-04-20 04:18","updated":"2025-04-20T22:30:56+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-remnawave/","created":"2025-04-20 04:18","updated":"2025-05-14T00:08:19+03:00"}
 ---
 
 Мощный инструмент для управления прокси-серверами, созданный на основе [[Заметки/Ядро прокси Xray-core\|Xray-core]], с упором на простоту и удобство использования.
@@ -145,12 +145,12 @@ JWT_AUTH_SECRET=<secret>
 JWT_API_TOKENS_SECRET=<secret>
 
 ### TELEGRAM ###
-IS_TELEGRAM_ENABLED=true
+IS_TELEGRAM_NOTIFICATIONS_ENABLED=true
 TELEGRAM_BOT_TOKEN=<secret>
-TELEGRAM_ADMIN_ID=<secret>
-NODES_NOTIFY_CHAT_ID=<secret>
-NODES_NOTIFY_THREAD_ID=<secret>
-TELEGRAM_ADMIN_THREAD_ID=<secret>
+TELEGRAM_NOTIFY_USERS_CHAT_ID=<secret>
+TELEGRAM_NOTIFY_NODES_CHAT_ID=<secret>
+TELEGRAM_NOTIFY_USERS_THREAD_ID=<secret>
+TELEGRAM_NOTIFY_NODES_THREAD_ID=<secret>
 
 ### FRONT_END ###
 FRONT_END_DOMAIN=panel.<domain>.ru
@@ -331,6 +331,9 @@ sudo bash -c "$(curl -sL https://github.com/DigneZzZ/remnawave-scripts/raw/main/
 При подключении ноды выбираются инбаунды указанные в файле конфигурации. Весь файл конфигурации передается на ноду, но работают только выбранные.
 
 Для подключения ноды к панели используется ключ шифрования который можно скопировать при создании новой ноды в панели.
+
+Про маскировку: [[Заметки/Маскировка reality под свой сайт\|Маскировка reality под свой сайт]]
+
 ### Страница подписки
 
 Вывод страницы подписки осуществляется отдельным контейнером `remnawave/subscription-page` настройки выполняются в панели. Можно изменить шаблон, предлагаемые приложения и сообщения.

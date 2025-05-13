@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Конфиги/Переменные запуска Remnaweve.md","permalink":"/konfigi/peremennye-zapuska-remnaweve/","tags":[""],"updated":"2025-04-20T22:20:13+03:00"}
+{"dg-publish":true,"dg-path":"Конфиги/Переменные запуска Remnaweve.md","permalink":"/konfigi/peremennye-zapuska-remnaweve/","tags":[""],"updated":"2025-05-13T22:04:23+03:00"}
 ---
 
 
@@ -28,12 +28,12 @@ JWT_AUTH_SECRET=<secret>
 JWT_API_TOKENS_SECRET=<secret>
 
 ### TELEGRAM ###
-IS_TELEGRAM_ENABLED=true
+IS_TELEGRAM_NOTIFICATIONS_ENABLED=true
 TELEGRAM_BOT_TOKEN=<secret>
-TELEGRAM_ADMIN_ID=<secret>
-NODES_NOTIFY_CHAT_ID=<secret>
-NODES_NOTIFY_THREAD_ID=<secret>
-TELEGRAM_ADMIN_THREAD_ID=<secret>
+TELEGRAM_NOTIFY_USERS_CHAT_ID=<secret>
+TELEGRAM_NOTIFY_NODES_CHAT_ID=<secret>
+TELEGRAM_NOTIFY_USERS_THREAD_ID=<secret>
+TELEGRAM_NOTIFY_NODES_THREAD_ID=<secret>
 
 ### FRONT_END ###
 FRONT_END_DOMAIN=panel.<domain>.ru

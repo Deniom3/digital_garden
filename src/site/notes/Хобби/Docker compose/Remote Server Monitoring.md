@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Remote Server Monitoring.md","permalink":"/docker-compose/remote-server-monitoring/","tags":[""],"updated":"2024-10-13T20:51:27+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Remote Server Monitoring.md","permalink":"/docker-compose/remote-server-monitoring/","tags":[""],"updated":"2025-05-13T21:57:21+03:00"}
 ---
 
 
-```yaml
+```yml
 services:
   # Мониторинг хоста
   nodeexporter:
@@ -58,13 +58,15 @@ services:
       - CONTAINERS=1 
       - SERVICES=1 
       - TASKS=1 
-      - POST=0
+      - POST=1 # Для обновления должнно быть 1 и право на запись в сокет - /var/run/docker.sock:/var/run/docker.sock
       - NETWORKS=1 
+      - VERSION=1 # wud
+      - IMAGES=1 # wud
     expose:
       - 2375
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/run/docker.sock:/var/run/docker.sock
     security_opt:
       - no-new-privileges:true
     restart: unless-stopped
@@ -88,15 +90,32 @@ services:
         ipv4_address: 10.2.1.4
     labels:
       org.label-schema.group: monitoring
+  # Мониторинг vless
+  xray-checker:
+    image: kutovoys/xray-checker
+    container_name: xray-checker
+    restart: always
+    environment:
+      - SUBSCRIPTION_URL=https://sub.deniom.ru/sub/1PXVQFK_9Ek2kmK-
+      - PROXY_CHECK_METHOD=status
+      - PROXY_STATUS_CHECK_URL=http://cp.cloudflare.com/generate_204
+    expose:
+      - 2112
+    networks:
+      monitor-net:
+        ipv4_address: 10.2.1.5
+    labels:
+      org.label-schema.group: monitoring
   # Прокси
   caddy:
     image: caddy:latest
-    container_name: caddy
+    container_name: caddy-monitoring
     ports:
       - "3001:3001" # uptime-kuma
       - "8090:8090" # cadvisor
       - "9100:9100" # nodeexporter
       - "2375:2375" # dockerproxy
+      - "2112:2112" # xray-checker
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./Caddyfile:/etc/caddy/Caddyfile 
@@ -108,8 +127,7 @@ services:
       org.label-schema.group: monitoring
     networks:
       monitor-net:
-      private_network:
-        ipv4_address: 10.2.0.130
+        ipv4_address: 10.2.1.100
 
 networks:
   monitor-net:
@@ -118,7 +136,4 @@ networks:
       driver: default
       config:
         - subnet: 10.2.1.0/24
-  private_network:
-    name: dwg_private_network
-    external: true
 ```

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение порта доступа по SSH.md","permalink":"/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/","updated":"2025-05-06T15:19:45+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение порта доступа по SSH.md","permalink":"/komandy-i-nastrojki/izmenenie-porta-dostupa-po-ssh/","updated":"2025-05-12T17:56:36+03:00"}
 ---
 
 Для изменения порта доступа (по умолчанию 22) для SSH необходимо скорректировать файл

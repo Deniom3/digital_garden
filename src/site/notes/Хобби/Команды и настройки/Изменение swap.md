@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение swap.md","permalink":"/komandy-i-nastrojki/izmenenie-swap/","updated":"2025-05-04T21:00:41+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение swap.md","permalink":"/komandy-i-nastrojki/izmenenie-swap/","updated":"2025-05-13T22:31:38+03:00"}
 ---
 
 Команда выполняет настройку свап раздела на сервере с использованием скрипта
