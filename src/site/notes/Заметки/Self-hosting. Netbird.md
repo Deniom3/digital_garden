@@ -35,6 +35,8 @@ NetBird объединяет в одной платформе одноранго
 2. Необходимо изменить конфигурацию провайдера в разделе перенаправление и в разделе области по аналогии со скринами ниже:
 ![Self-hosting. Netbird-1.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/Self-hosting.%20Netbird-1.png)
 ![Self-hosting. Netbird-2.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/Self-hosting.%20Netbird-2.png)
+3. Указать пользователя Netbird в приложении 
+![Self-hosting. Netbird-5.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/Self-hosting.%20Netbird-5.png)
 
 Данные для `NETBIRD_AUTH_OIDC_CONFIGURATION_ENDPOINT` указаны в поле провайдера `URL-адрес конфигурации OpenID`.
 #### Пример файла конфигурации:
