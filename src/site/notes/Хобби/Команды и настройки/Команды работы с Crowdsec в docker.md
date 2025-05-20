@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec в docker.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec-v-docker/","updated":"2025-05-04T18:34:39+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec в docker.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec-v-docker/","updated":"2025-05-18T20:15:18+03:00"}
 ---
 
 Для получения статуса системы:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Remote Server Monitoring.md","permalink":"/docker-compose/remote-server-monitoring/","tags":[""],"updated":"2025-05-13T21:57:21+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Remote Server Monitoring.md","permalink":"/docker-compose/remote-server-monitoring/","tags":[""],"updated":"2025-05-20T17:47:15+03:00"}
 ---
 
 
@@ -96,7 +96,7 @@ services:
     container_name: xray-checker
     restart: always
     environment:
-      - SUBSCRIPTION_URL=https://sub.deniom.ru/sub/1PXVQFK_9Ek2kmK-
+      - SUBSCRIPTION_URL=
       - PROXY_CHECK_METHOD=status
       - PROXY_STATUS_CHECK_URL=http://cp.cloudflare.com/generate_204
     expose:

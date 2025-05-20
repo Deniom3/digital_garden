@@ -113,7 +113,7 @@ services:
     container_name: xray-checker
     restart: always
     environment:
-      - SUBSCRIPTION_URL=https://sub.deniom.ru/sub/1PXVQFK_9Ek2kmK-
+      - SUBSCRIPTION_URL=
       - PROXY_CHECK_METHOD=status
       - PROXY_STATUS_CHECK_URL=http://cp.cloudflare.com/generate_204
     expose:
