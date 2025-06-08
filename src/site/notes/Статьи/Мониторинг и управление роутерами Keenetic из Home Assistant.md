@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/monitoring-i-upravlenie-routerami-keenetic-iz-home-assistant/","updated":"2024-09-05T19:12:23+03:00"}
+{"dg-publish":true,"permalink":"/stati/monitoring-i-upravlenie-routerami-keenetic-iz-home-assistant/","updated":"2025-05-24T01:59:16+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]]
