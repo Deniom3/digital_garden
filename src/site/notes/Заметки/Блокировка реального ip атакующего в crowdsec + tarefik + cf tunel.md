@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/blokirovka-realnogo-ip-atakuyushhego-v-crowdsec-tarefik-cf-tunel/","created":"2025-06-09 00:05","updated":"2025-06-09T01:35:35+03:00"}
+{"dg-publish":true,"permalink":"/zametki/blokirovka-realnogo-ip-atakuyushhego-v-crowdsec-tarefik-cf-tunel/","created":"2025-06-09 00:05","updated":"2025-06-09T01:48:04+03:00"}
 ---
 
 При использование защиты [[Заметки/Self-hosting. CrowdSec\|CrowdSec]] в связке с проксирование cloudflare или [[Заметки/Self-hosting. Cloudflare Tunel\|Cloudflare Tunel]]  возникает проблема с баном не атакующего клиента а вышестоящего прокси. 
