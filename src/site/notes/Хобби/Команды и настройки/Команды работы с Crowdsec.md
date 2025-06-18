@@ -1,34 +1,39 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec/","updated":"2024-10-06T23:41:29+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec/","updated":"2025-06-03T15:24:57+03:00"}
 ---
 
 Для получения статуса системы:
 ```shell
-docker exec crowdsec cscli metrics
+cscli metrics
 ```
 
 Список заблокированных
 ```shell
-docker exec crowdsec cscli decisions list
+cscli decisions list
 ```
 
 Ручная блокировка по IP
 ```shell
-docker exec crowdsec cscli decisions add --ip <ip>
+cscli decisions add --ip <ip>
 ```
 
 Снятие блокировки
 ```shell
-docker exec crowdsec cscli decisions delete --ip <ip>
+cscli decisions delete --ip <ip>
 ```
 
 Обновление базы данных выполняется командами:
 ```sh
-docker exec crowdsec cscli hub update && docker exec crowdsec cscli hub upgrade
+cscli hub update && docker exec crowdsec cscli hub upgrade
 ```
 
 Данный процесс можно автоматизировать добавив в cron запись `crontab -e`:
 ```
-* 3 * * * docker exec crowdsec cscli hub update && docker exec crowdsec cscli hub upgrade
+* 3 * * * cscli hub update && docker exec crowdsec cscli hub upgrade
 ```
 При такой настройке обновление будет выполняться каждые три часа.
+
+
+---
+> [!urls]- Упоминания:
+> - [[Заметки/Self-hosting. CrowdSec\|CrowdSec]]

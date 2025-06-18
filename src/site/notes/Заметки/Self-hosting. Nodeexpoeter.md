@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-nodeexpoeter/","created":"2024-09-11 00:10","updated":"2024-10-09T19:53:32+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-nodeexpoeter/","created":"2024-09-11 00:10","updated":"2025-06-10T02:01:08+03:00"}
 ---
 
 Программа для сбора данных мониторинга хост системы с публикацией в web в формате prometheus. Является частью стека мониторинга prometheus.
@@ -60,7 +60,9 @@ networks: {}
 Вариант установки как служба systemctl для proxmox: [[Хобби/Команды и настройки/Установка node exporter как служба\|инструкция]]
 
 Для визуализации можно использовать панель Grafana:
+
 ![[Мониторинг систем.json]]
+
 
 ---
 > [!urls]- Упоминания:

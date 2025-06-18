@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-homepage/","created":"2024-08-24 22:38","updated":"2024-10-09T19:53:41+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-homepage/","created":"2024-08-24 22:38","updated":"2025-06-10T02:19:04+03:00"}
 ---
 
 Панель с возможностью интеграции различных сервисов и мониторинга сервисов в реальном времени.

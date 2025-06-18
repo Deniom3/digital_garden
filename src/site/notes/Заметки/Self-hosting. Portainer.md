@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-portainer/","created":"2024-10-01 21:07","updated":"2024-10-09T19:53:30+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-portainer/","created":"2024-10-01 21:07","updated":"2025-06-10T02:08:38+03:00"}
 ---
 
 Многофункциональная система управления docker контейнерами. Система позволяет работать в варианте клиент серверной архитектуры, на машину клиент устанавливается специальный агент.

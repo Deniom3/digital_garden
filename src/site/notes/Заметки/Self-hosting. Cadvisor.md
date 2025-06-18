@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-cadvisor/","created":"2024-09-10 23:59","updated":"2024-10-10T00:49:24+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-cadvisor/","created":"2024-09-10 23:59","updated":"2025-06-10T01:46:57+03:00"}
 ---
 
 Сadvisor программа для сбора данных о контейнерах виртуализации (в основном докер но поддерживает и альтернативные варианты) которая может легко интегрироваться с Prometheus. Программа предоставляет полноценный веб интерфейс для просмотра всех данных мониторинга.
@@ -79,6 +79,7 @@ networks: {}
 ## Мониторинг в Grafana
 
 Для визуализации (при развертывании стека с [[Заметки/Self-hosting. Nodeexpoeter\|Node exporter]]) можно использовать панели Grafana:
+
 ![[docker_containers.json]]
 ![[docker_host.json]]
 

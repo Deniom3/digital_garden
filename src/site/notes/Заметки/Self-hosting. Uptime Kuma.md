@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-uptime-kuma/","created":"2024-09-08 02:40","updated":"2024-10-09T19:53:11+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-uptime-kuma/","created":"2024-09-08 02:40","updated":"2025-06-10T02:13:27+03:00"}
 ---
 
 Система мониторинга сервисов на основании запросов позволяет организовать наблюдение и уведомления по статусу сервисов докер и веб сервисов.

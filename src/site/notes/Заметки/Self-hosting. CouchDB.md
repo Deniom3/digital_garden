@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-couch-db/","created":"2024-09-16 00:40","updated":"2024-10-09T19:53:56+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-couch-db/","created":"2024-09-16 00:40","updated":"2025-06-10T01:51:33+03:00"}
 ---
 
-Легковесная и простая база данных с веб интерфейсом.
+Легковесная и простая база данных с веб интерфейсом. Используется для хранения чанков заметов обсидиан при организации синхронизации в дополнении [[Заметки/Дополнение Obsidian. Self-hosted LiveSync\|Дополнение Obsidian. Self-hosted LiveSync]]
 
 Пример настройки docker compose:
 

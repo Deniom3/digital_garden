@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-calibre-web/","created":"2024-07-04 01:26","updated":"2024-10-09T19:53:55+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-calibre-web/","created":"2024-07-04 01:26","updated":"2025-06-10T01:49:49+03:00"}
 ---
 
 Позволяет организовать личную библиотеку электронных книг с возможностью поделиться и разделения доступа по тегам.

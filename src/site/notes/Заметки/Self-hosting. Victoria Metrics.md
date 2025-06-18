@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-victoria-metrics/","created":"2024-10-06 22:59","updated":"2024-10-09T19:53:15+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-victoria-metrics/","created":"2024-10-06 22:59","updated":"2025-06-10T02:14:52+03:00"}
 ---
 
 Программа позволяет собирать данные мониторинга используя api и передавать их для дальнейшего использования в формате prometheus

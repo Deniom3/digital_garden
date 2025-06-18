@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-immich/","created":"2024-07-05 00:37","updated":"2025-03-23T00:24:16+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-immich/","created":"2024-07-05 00:37","updated":"2025-06-10T01:54:52+03:00"}
 ---
 
 Программа для хранения фотографий и их обработки. Имеет возможно преобразования фотографий и видео, распознание лиц и разметка по геолокации.

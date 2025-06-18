@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec в docker.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec-v-docker/","updated":"2025-05-18T20:15:18+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec в docker.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec-v-docker/","updated":"2025-06-03T15:24:44+03:00"}
 ---
 
 Для получения статуса системы:
@@ -37,3 +37,8 @@ crontab -e
 * 3 * * * docker exec crowdsec cscli hub update && docker exec crowdsec cscli hub upgrade
 ```
 При такой настройке обновление будет выполняться каждые три часа.
+
+
+---
+> [!urls]- Упоминания:
+> - [[Заметки/Self-hosting. CrowdSec\|CrowdSec]]

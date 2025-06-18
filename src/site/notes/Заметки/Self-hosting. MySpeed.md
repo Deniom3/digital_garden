@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-my-speed/","created":"2024-09-16 22:22","updated":"2024-10-09T19:53:36+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-my-speed/","created":"2024-09-16 22:22","updated":"2025-06-10T02:00:15+03:00"}
 ---
 
 Программа MySpeed предназначена для автоматического измерения скорости интернета с удобной визуализацией и простой настройкой. Имеет простой и красивый дашборд и точку интеграции с prometheus.

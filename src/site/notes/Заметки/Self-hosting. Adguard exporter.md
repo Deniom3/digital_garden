@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-adguard-exporter/","created":"2024-09-14 23:35","updated":"2024-10-09T19:54:08+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-adguard-exporter/","created":"2024-09-14 23:35","updated":"2025-06-10T01:43:26+03:00"}
 ---
 
 У AdguardHome нет полноценного мониторинга, но есть возможность получения данных об установке через api. Для получения данных и конвертации их в представление для Prometheus можно использовать экспортер конвертер.

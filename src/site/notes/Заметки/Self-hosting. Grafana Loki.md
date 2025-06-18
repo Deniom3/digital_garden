@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-grafana-loki/","created":"2024-09-14 02:48","updated":"2024-10-12T00:54:55+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-grafana-loki/","created":"2024-09-14 02:48","updated":"2025-06-10T01:58:00+03:00"}
 ---
 
 Позволяет выполнять сбор данных логов для дальнейшего анализа с различных систем.

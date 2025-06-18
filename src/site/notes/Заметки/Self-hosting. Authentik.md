@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-authentik/","created":"2024-07-19 00:35","updated":"2025-04-20T20:55:19+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-authentik/","created":"2024-07-19 00:35","updated":"2025-06-10T01:45:50+03:00"}
 ---
 
 Провайдер единой централизованной аутентификации. Позволяет организовать единое окно входа для всех сервисов.

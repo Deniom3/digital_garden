@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/proksirovanie-vseh-domenov-cherez-authentik/","created":"2024-08-08 01:26","updated":"2024-10-12T18:42:40+03:00"}
+{"dg-publish":true,"permalink":"/zametki/proksirovanie-vseh-domenov-cherez-authentik/","created":"2024-08-08 01:26","updated":"2025-06-09T10:45:14+03:00"}
 ---
 
 Применяется для пропуска всех проектируемых [[Заметки/Self-hosting. Traefik\|Traefik]] приложений через окно аутентификации [[Заметки/Self-hosting. Authentik\|Self-hosting. Authentik]]. Для этого необходимо в настройках динамической конфигурации использовать [[Хобби/Конфиги/Traefik Authentik\|middlewares authentik]].

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-crowd-sec/","created":"2024-07-31 22:40","updated":"2024-10-09T19:53:54+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-crowd-sec/","created":"2024-07-31 22:40","updated":"2025-06-10T01:50:51+03:00"}
 ---
 
 Файрволл для защиты серверов, альтернатива [[Заметки/Self-hosting. Fail2Ban\|Fail2Ban]]. Наиболее простой способ интеграции в связке с [[Заметки/Self-hosting. Traefik\|Traefik]] необходимо использовать конфигурацию [[Хобби/Конфиги/Traefik Crowdsec\|Traefik Crowdsec]].
@@ -57,8 +57,6 @@ networks:
 - [[Заметки/Локальная панель мониторинга Crowdsec\|Локальная панель мониторинга Crowdsec]]
 - [[Заметки/Панель мониторинга Crowdsec на базе Grafana с использованием Victoria Metrics\|Панель мониторинга Crowdsec на базе Grafana с использованием Victoria Metrics]]
 - [[Заметки/Мониторинг Crowdsec с использованием Prometheus\|Мониторинг Crowdsec с использованием Prometheus]]
-
-
 
 ---
 > [!urls]- Упоминания:

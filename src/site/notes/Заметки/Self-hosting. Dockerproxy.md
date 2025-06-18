@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-dockerproxy/","created":"2024-10-01 12:01","updated":"2024-10-09T19:53:53+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-dockerproxy/","created":"2024-10-01 12:01","updated":"2025-06-10T01:53:02+03:00"}
 ---
 
 Позволяет получить удаленный доступ к данным docker для управления и получения сведений о контейнерах.

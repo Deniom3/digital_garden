@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-keenetic-monitoring/","created":"2024-10-01 12:17","updated":"2024-10-09T19:53:40+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-keenetic-monitoring/","created":"2024-10-01 12:17","updated":"2025-06-10T01:55:29+03:00"}
 ---
 
 Программа выполняет сбор данных о роутере [[Заметки/Роутеры Keenetic\|Keenetic]] предоставляемых на Rest API и преобразует их в формат Influx v2
