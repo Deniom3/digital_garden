@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка и настройка брандмауэра UFW.md","permalink":"/komandy-i-nastrojki/ustanovka-i-nastrojka-brandmauera-ufw/","updated":"2025-05-11T17:26:15+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка и настройка брандмауэра UFW.md","permalink":"/komandy-i-nastrojki/ustanovka-i-nastrojka-brandmauera-ufw/","updated":"2025-07-14T00:02:21+03:00"}
 ---
 
 Устанавливаем UFW

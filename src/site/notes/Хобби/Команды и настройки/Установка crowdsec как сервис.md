@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка crowdsec как сервис.md","permalink":"/komandy-i-nastrojki/ustanovka-crowdsec-kak-servis/","tags":[""],"updated":"2025-05-11T18:16:30+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка crowdsec как сервис.md","permalink":"/komandy-i-nastrojki/ustanovka-crowdsec-kak-servis/","tags":[""],"updated":"2025-07-14T00:53:08+03:00"}
 ---
 
 ### Установка crowdsec
@@ -62,5 +62,5 @@ crontab -e
 ```
 
 ```
-* 3 * * * sudo cscli hub update && sudo cscli hub upgrade
+0 3 * * * sudo cscli hub update && sudo cscli hub upgrade
 ```

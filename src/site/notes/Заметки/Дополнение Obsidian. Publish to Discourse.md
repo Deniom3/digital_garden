@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-publish-to-discourse/","created":"2025-06-09 01:54","updated":"2025-06-09T01:57:29+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dopolnenie-obsidian-publish-to-discourse/","created":"2025-06-09 01:54","updated":"2025-06-19T23:24:31+03:00"}
 ---
 
 Дополнение предназначено для быстрой публикации заметок Obsidian для форума на базе движка Discourse.
@@ -8,6 +8,7 @@
 
 ---
 > [!urls]- Упоминания:
+> - [[Заметки/Дополнения Obsidian\|Дополнения Obsidian]]
 
 > [!description]- Примечание
 > Примечание:: Публикация на форум

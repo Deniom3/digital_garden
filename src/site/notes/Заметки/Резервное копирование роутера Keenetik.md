@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/rezervnoe-kopirovanie-routera-keenetik/","created":"2025-04-22 21:58","updated":"2025-05-06T15:19:45+03:00"}
+{"dg-publish":true,"permalink":"/zametki/rezervnoe-kopirovanie-routera-keenetik/","created":"2025-04-22 21:58","updated":"2025-06-21T02:59:11+03:00"}
 ---
 
 ### Описание
@@ -148,9 +148,6 @@ main() {
 
     # Копирование на хранилища
     upload_to_nextcloud
-
-    # Отправка отчета
-    send_report
 
     log "🧹 Очистка локальной директории $LOCAL_TMP_DIR..."
     rm -rf "$LOCAL_TMP_DIR"/* || log "⚠️ Не удалось очистить $LOCAL_TMP_DIR."
