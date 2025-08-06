@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/nastrojka-lokalnogo-menedzhera-parolej-vaultwarden/","updated":"2025-07-18T19:38:24+03:00"}
+{"dg-publish":true,"permalink":"/stati/nastrojka-lokalnogo-menedzhera-parolej-vaultwarden/","updated":"2025-07-18T19:41:09+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]] [[Статьи/Оглавление моих статей\|мои статьи]] 

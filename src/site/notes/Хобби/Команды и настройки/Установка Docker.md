@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка Docker.md","permalink":"/komandy-i-nastrojki/ustanovka-docker/","updated":"2024-10-06T02:51:03+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка Docker.md","permalink":"/komandy-i-nastrojki/ustanovka-docker/","updated":"2025-07-18T23:17:43+03:00"}
 ---
 
 Автоматический скрипт установки Docker

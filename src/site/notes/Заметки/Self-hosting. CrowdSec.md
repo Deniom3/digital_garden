@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-crowd-sec/","created":"2024-07-31 22:40","updated":"2025-06-10T01:50:51+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-crowd-sec/","created":"2024-07-31 22:40","updated":"2025-08-06T20:56:57+03:00"}
 ---
 
 Файрволл для защиты серверов, альтернатива [[Заметки/Self-hosting. Fail2Ban\|Fail2Ban]]. Наиболее простой способ интеграции в связке с [[Заметки/Self-hosting. Traefik\|Traefik]] необходимо использовать конфигурацию [[Хобби/Конфиги/Traefik Crowdsec\|Traefik Crowdsec]].
@@ -58,6 +58,11 @@ networks:
 - [[Заметки/Панель мониторинга Crowdsec на базе Grafana с использованием Victoria Metrics\|Панель мониторинга Crowdsec на базе Grafana с использованием Victoria Metrics]]
 - [[Заметки/Мониторинг Crowdsec с использованием Prometheus\|Мониторинг Crowdsec с использованием Prometheus]]
 
+
+# Компонент AppSec — CrowdSec WAF
+[AppSec Component - CrowdSec WAF \| CrowdSec](https://doc.crowdsec.net/docs/next/appsec/intro/)
+
+
 ---
 > [!urls]- Упоминания:
 > - [[Служебное/Self-hosting программы\|Self-hosting программы]]
@@ -71,3 +76,4 @@ networks:
 > [!todo]-
 > - [x] Настроить сбор статистики для CrowdSek ✅ 2024-09-12
 >- [x] Изучить вопрос настройки плагинов под каждый сайт типа Home Assistant или Gitea ➕ 2024-09-14 ✅ 2024-10-06
+>- [ ] Изучить новую компоненту crowdsec 🔽 ➕ 2025-08-06
