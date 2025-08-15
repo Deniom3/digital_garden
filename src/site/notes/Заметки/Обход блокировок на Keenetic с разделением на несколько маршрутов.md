@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/zametki/obhod-blokirovok-na-keenetic-s-razdeleniem-na-neskolko-marshrutov/","created":"2024-09-01 20:38","updated":"2025-06-27T11:01:01+03:00"}
 ---
 
-Является доработанным вариантом [[Статьи/Обход блокировок Adguard Keenetic\|; Обход блокировок Adguard Keenetic]]
+Является доработанным вариантом [[Статьи/Раздельное туннелирование трафика Adguard Keenetic\|; Обход блокировок Adguard Keenetic]]
 Трафик разделяется на два разных туннеля по разным спискам.
 
 ---
