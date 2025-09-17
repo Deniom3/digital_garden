@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Работа с docker compose.md","permalink":"/komandy-i-nastrojki/rabota-s-docker-compose/","updated":"2024-10-06T02:50:27+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Работа с docker compose.md","permalink":"/komandy-i-nastrojki/rabota-s-docker-compose/","updated":"2025-09-10T20:08:26+03:00"}
 ---
 
 Для запуска контейнера выполнить команду в папке где размещен файл docker-compose.yml
