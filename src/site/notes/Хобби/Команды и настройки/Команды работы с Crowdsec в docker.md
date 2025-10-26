@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec в docker.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec-v-docker/","updated":"2025-06-03T15:24:44+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Команды работы с Crowdsec в docker.md","permalink":"/komandy-i-nastrojki/komandy-raboty-s-crowdsec-v-docker/","updated":"2025-10-25T19:42:25+03:00"}
 ---
 
 Для получения статуса системы:
@@ -19,7 +19,7 @@ docker exec crowdsec cscli decisions add --ip <ip>
 
 Снятие блокировки
 ```shell
-docker exec crowdsec cscli decisions delete --ip <ip>
+docker exec crowdsec cscli decisions delete --ip 
 ```
 
 Обновление базы данных выполняется командами:

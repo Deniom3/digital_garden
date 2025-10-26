@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Изменение размера диска для LXC контейнера Proxmox.md","permalink":"/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/","updated":"2025-08-25T21:27:14+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Изменение размера диска для LXC контейнера Proxmox.md","permalink":"/komandy-i-nastrojki/izmenenie-razmera-diska-dlya-lxc-kontejnera-proxmox/","updated":"2025-10-11T23:45:38+03:00"}
 ---
 
 ## Уменьшение диска

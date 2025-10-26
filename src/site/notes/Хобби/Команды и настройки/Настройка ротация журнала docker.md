@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка ротация журнала docker.md","permalink":"/komandy-i-nastrojki/nastrojka-rotacziya-zhurnala-docker/","tags":[""],"updated":"2024-12-08T14:43:33+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка ротация журнала docker.md","permalink":"/komandy-i-nastrojki/nastrojka-rotacziya-zhurnala-docker/","tags":[""],"updated":"2025-09-21T18:49:05+03:00"}
 ---
 
 По умолчанию ротация логов в докер контейнерах отключена для ее настройки необходимо внести изменения в файл:

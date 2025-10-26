@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/monitoring-udalennogo-servera-v-grafana/","created":"2024-10-13 20:34","updated":"2025-05-13T21:58:23+03:00"}
+{"dg-publish":true,"permalink":"/zametki/monitoring-udalennogo-servera-v-grafana/","created":"2024-10-13 20:34","updated":"2025-10-06T00:05:35+03:00"}
 ---
 
 Для организации мониторинга используется стек программ [[Заметки/Self-hosting. Nodeexpoeter\|Nodeexporter]] + [[Заметки/Self-hosting. Cadvisor\|Cadvisor]] + [[Заметки/Self-hosting. Alloy\|Alloy]]. А так же [[Заметки/Self-hosting. Uptime Kuma\|Uptime Kuma]] для внешнего мониторинга и уведомлений в случае потери связи с основным сервером. Сбор данных выполняет [[Заметки/Self-hosting. Prometheus\|Prometheus]] и [[Заметки/Self-hosting. Grafana Loki\|Loki]]. 
