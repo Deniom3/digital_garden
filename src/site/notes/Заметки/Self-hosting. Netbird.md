@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-netbird/","created":"2025-04-20 03:48","updated":"2025-06-10T01:59:13+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-netbird/","created":"2025-04-20 03:48","updated":"2025-10-27T02:27:05+03:00"}
 ---
 
 NetBird объединяет в одной платформе одноранговую частную сеть без необходимости настройки и централизованную систему контроля доступа, что позволяет легко создавать защищённые частные сети для вашей организации или дома.
@@ -287,9 +287,161 @@ volumes:
 </div></div>
 
 
-### Настройка реверс прокси
+### Настройка реверс прокси traefik
 
-Для реверс прокси будет использован caddy со следующими настройками
+Конфигурация для traefik
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/konfigi/traefik-netbird/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
+
+
+```shell
+http:
+  routers:
+# netbird-dashboard
+    netbird-dashboard:
+      rule: "Host(`netbird.domein.ru`)"
+      entrypoints:
+        - http   
+      middlewares:
+        - netbird-dashboard-https-redirect
+      service: netbird-dashboard
+          
+    netbird-dashboard-secure:
+      rule: "Host(`netbird.domein.ru`)"
+      entrypoints:
+        - https
+      tls:
+        certResolver: cloudflare
+      service: netbird-dashboard
+# netbird-signal
+    netbird-signal:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/signalexchange.SignalExchange/`)"
+      entrypoints:
+        - http   
+      middlewares:
+        - netbird-signal-https-redirect
+      service: netbird-signal
+
+    netbird-signal-secure:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/signalexchange.SignalExchange/`)"
+      entrypoints:
+        - https
+      service: netbird-signal
+      tls:
+        certResolver: cloudflare
+# netbird-relay
+    netbird-relay:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/relay`)"
+      entrypoints:
+        - http   
+      middlewares:
+        - netbird-relay-https-redirect
+      service: netbird-relay
+
+    netbird-relay-secure:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/relay`)"
+      entrypoints:
+        - https
+      service: netbird-relay
+      tls:
+        certResolver: cloudflare
+
+# netbird-api
+    netbird-api:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/api`)"
+      entrypoints:
+        - http   
+      middlewares:
+        - netbird-api-https-redirect
+      service: netbird-api
+
+    netbird-api-secure:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/api`)"
+      entrypoints:
+        - https
+      service: netbird-api
+      tls:
+        certResolver: cloudflare
+
+# netbird-api
+    netbird-management:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/management.ManagementService/`)"
+      entrypoints:
+        - http   
+      middlewares:
+        - netbird-management-https-redirect
+      service: netbird-management
+
+    netbird-management-secure:
+      rule: "Host(`netbird.domein.ru`) && PathPrefix(`/management.ManagementService/`)"
+      entrypoints:
+        - https
+      service: netbird-management
+      tls:
+        certResolver: cloudflare
+
+  middlewares:
+    netbird-dashboard-https-redirect:
+      redirectScheme:
+        scheme: https
+    netbird-signal-https-redirect:
+      redirectScheme:
+        scheme: https
+    netbird-relay-https-redirect:
+      redirectScheme:
+        scheme: https
+    netbird-api-https-redirect:
+      redirectScheme:
+        scheme: https
+    netbird-management-https-redirect:
+      redirectScheme:
+        scheme: https
+
+  services:
+    netbird-dashboard:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.131:8085"
+
+    netbird-signal:
+      loadBalancer:
+        servers:
+          - url: "h2c://192.168.0.131:10000"
+
+    netbird-relay:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.131:3478"
+
+    netbird-api:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.131:33073"
+
+    netbird-management:
+      loadBalancer:
+        servers:
+          - url: "h2c://192.168.0.131:33073"
+
+```
+
+---
+> [!urls]- Упоминания:
+> [[Заметки/Self-hosting. Netbird\|Self-hosting. netbird]]
+
+> [!description]- Примечание
+> Примечание::  Пример конфигурации traefik для netbird
+
+
+</div></div>
+
+
+### Настройка реверс прокси caddy
+
+Caddy со следующими настройками
 
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/docker-compose/caddy-netbird/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">

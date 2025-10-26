@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/dobavlenie-servera-retranslyatora-netbird/","created":"2025-10-26 22:49","updated":"2025-10-27T02:20:57+03:00"}
+{"dg-publish":true,"permalink":"/zametki/dobavlenie-servera-retranslyatora-netbird/","created":"2025-10-26 22:49","updated":"2025-10-27T02:22:49+03:00"}
 ---
 
 При построении self hosting сети [[Заметки/Self-hosting. Netbird\|Netbird]] может возникнуть ситуация при которой некоторые клиенты не могут связаться между собой из за особенности сети. В таких случаях используется relay сервер.
