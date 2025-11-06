@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Создание нового пользователя Linux.md","permalink":"/komandy-i-nastrojki/sozdanie-novogo-polzovatelya-linux/","updated":"2024-10-06T02:51:00+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Создание нового пользователя Linux.md","permalink":"/komandy-i-nastrojki/sozdanie-novogo-polzovatelya-linux/","updated":"2025-11-03T16:20:12+03:00"}
 ---
 
 Создание пользователя:

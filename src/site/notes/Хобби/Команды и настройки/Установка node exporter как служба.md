@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2024-10-06T02:51:14+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Установка node exporter как служба.md","permalink":"/komandy-i-nastrojki/ustanovka-node-exporter-kak-sluzhba/","updated":"2025-11-06T22:35:29+03:00"}
 ---
 
 Система сбора данных мониторинга node exporter может быть установлена как служба для этого необходимо выполнить следующие действия.
@@ -9,13 +9,13 @@
 
 Загрузка актуальной версии бинарного файла:
 ```shell
-wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.10.2/node_exporter-1.10.2.linux-amd64.tar.gz
 tar xvfz node_exporter-*.*-amd64.tar.gz
 cd node_exporter-*.*-amd64
 ```
 
 > [!note]
-> Изменить 1.8.2 на актуальную версию из [репозитория](https://github.com/prometheus/node_exporter?tab=readme-ov-file)
+> Изменить 1.10.2 на актуальную версию из [репозитория](https://github.com/prometheus/node_exporter?tab=readme-ov-file)
 
 Переместим файл в правильную папку и проверим:
 ```sh
