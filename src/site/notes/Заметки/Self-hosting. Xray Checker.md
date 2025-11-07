@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-xray-checker/","tags":[""],"created":"2025-04-20 22:14","updated":"2025-06-10T02:17:15+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-xray-checker/","tags":[""],"created":"2025-04-20 22:14","updated":"2025-11-07T10:20:29+03:00"}
 ---
 
 Xray Checker — это инструмент для мониторинга доступности прокси-серверов с поддержкой протоколов VLESS, VMess, Trojan и Shadowsocks. Он автоматически проверяет подключения через Xray Core и предоставляет показатели для Prometheus, а также конечные точки API для интеграции с системами мониторинга.

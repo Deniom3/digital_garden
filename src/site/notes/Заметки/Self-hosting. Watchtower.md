@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-watchtower/","created":"2024-07-11 21:10","updated":"2025-06-10T02:15:22+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-watchtower/","created":"2024-07-11 21:10","updated":"2025-11-07T10:20:05+03:00"}
 ---
 
 Программа для автоматического обновления docker контейнеров, выполняет отслеживание выхода обновлений и выполняет обновление с уведомлениями например в телеграмм.

@@ -50,5 +50,6 @@
 | [[Хобби/Docker compose/WUD\|WUD]]                                           | <ul><li>wud</li></ul>                                                                                                   |
 | [[Хобби/Docker compose/Xray Checker\|Xray Checker]]                         | <ul><li>xray  checker</li></ul>                                                                                         |
 | [[Хобби/Docker compose/Watchtower\|Watchtower]]                             | <ul><li>watchtower</li></ul>                                                                                            |
+| [[Хобби/Docker compose/Portainer Agent\|Portainer Agent]]                   | <ul><li>portainer agent</li></ul>                                                                                       |
 
 { .block-language-dataview}

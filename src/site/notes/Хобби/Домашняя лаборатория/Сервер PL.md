@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Домашняя лаборатория/Сервер NL.md","permalink":"/domashnyaya-laboratoriya/server-nl/","updated":"2025-11-07T10:17:46+03:00"}
+{"dg-publish":true,"dg-path":"Домашняя лаборатория/Сервер PL.md","permalink":"/domashnyaya-laboratoriya/server-pl/","updated":"2025-11-07T10:18:52+03:00"}
 ---
 
 Арендуемый сервер для размещения отдельных сервисов.

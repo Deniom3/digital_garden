@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-cloudflare-tunel/","created":"2024-08-18 01:15","updated":"2025-06-10T01:50:26+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-cloudflare-tunel/","created":"2024-08-18 01:15","updated":"2025-11-07T10:09:59+03:00"}
 ---
 
 Cloudfkare Tunel - это zerotier подключение для публикации сервисов и сайтов без использования белого ip адреса. Имеет ряд ограничений и особенностей таких как ограничение разовой передачи данных (100 Мб за файл на бесплатном плане) более низкая надежность и легкая блокируемость.

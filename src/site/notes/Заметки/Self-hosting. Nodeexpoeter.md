@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-nodeexpoeter/","created":"2024-09-11 00:10","updated":"2025-06-10T02:01:08+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-nodeexpoeter/","created":"2024-09-11 00:10","updated":"2025-11-07T10:19:53+03:00"}
 ---
 
 Программа для сбора данных мониторинга хост системы с публикацией в web в формате prometheus. Является частью стека мониторинга prometheus.
@@ -75,7 +75,7 @@ networks: {}
 > - [[Хобби/Домашняя лаборатория/Сервер Nextcloud\|Сервер Nextcloud]]
 > - [[Хобби/Домашняя лаборатория/Сервер Monitoring\|Сервер Monitoring]]
 > - [[Хобби/Домашняя лаборатория/Сервер Gateway\|Сервер Gateway]]
-> - [[Хобби/Домашняя лаборатория/Сервер Armbian\|Сервер Armbian]]
+> - [[Хобби/Домашняя лаборатория/Сервер Armbian - не используется\|Сервер Armbian - не используется]]
 
 > [!description]- Примечание
 > Примечание:: Сбор показателей системы
