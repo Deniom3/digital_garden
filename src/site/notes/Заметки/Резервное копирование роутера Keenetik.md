@@ -226,7 +226,7 @@ chmod +x /opt/usr/bin/backup
 
 Архив с результатами резервного копирования отправляются на сервер nextcloud через webdav с использованием curl.
 
-Можно заменить на использование [[Заметки/Self-hosting. rclone\|rclone]]  по примеру:
+Можно заменить на использование [[Заметки/Self-hosting. Rclone\|rclone]]  по примеру:
 ```
 # Копирование на Google Drive
 upload_to_google_drive() {

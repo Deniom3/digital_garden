@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-3-x-ui/","created":"2024-07-03 19:45","updated":"2025-11-07T10:12:33+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-3-x-ui/","created":"2024-07-03 19:45","updated":"2025-11-07T10:38:01+03:00"}
 ---
 
 Универсальная панель для настройки различных прокси соединений на базе x-ray.

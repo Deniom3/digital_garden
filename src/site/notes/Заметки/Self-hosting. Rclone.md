@@ -1,6 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/nastrojka-rclone-dlya-nextcloud/","created":"2025-06-19 02:17","updated":"2025-06-19T02:27:00+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-rclone/","tags":[""],"created":"2024-10-26 18:38","updated":"2025-11-07T10:42:27+03:00"}
 ---
+
+Rclone _("rsync для облачного хранилища")_ — это программа командной строки для синхронизации файлов и каталогов с различными облачными хранилищами и обратно.
+
+Репозиторий: [GitHub - rclone/rclone: "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files](https://github.com/rclone/rclone)
+
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/zametki/nastrojka-rclone-dlya-nextcloud/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
 
 Программа [[Заметки/Self-hosting. Rclone\|rclone]] позволяет удобно взаимодействовать с сервером [[Заметки/Self-hosting. Nextcloud\|Nextcloud]]  используя протокол webdav.
 
@@ -92,3 +102,13 @@ y/e/d>y
 ---
 > [!urls]- Упоминания:
 > - 
+
+</div></div>
+
+
+---
+> [!urls]- Упоминания:
+> - [[Служебное/Self-hosting программы\|Self-hosting программы]]
+ 
+> [!description]- Примечание
+> Примечание:: Синхронизация файлов и каталогов с разными облачными провайдерами
