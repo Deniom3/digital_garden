@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-rclone/","tags":[""],"created":"2024-10-26 18:38","updated":"2025-11-07T10:42:27+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-rclone/","tags":[""],"created":"2024-10-26 18:38","updated":"2025-11-07T10:44:00+03:00"}
 ---
 
 Rclone _("rsync для облачного хранилища")_ — это программа командной строки для синхронизации файлов и каталогов с различными облачными хранилищами и обратно.
