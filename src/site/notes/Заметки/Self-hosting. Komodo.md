@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-komodo/","tags":[""],"created":"2025-11-20 00:37","updated":"2025-11-27T00:12:24+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-komodo/","tags":[""],"created":"2025-11-20 00:37","updated":"2025-11-27T00:19:22+03:00"}
 ---
 
 Универсальный интерфейс управления docker и docker compose с гибкой возможностью управления и хранения исходных файлов, а так же возможностями автоматизации работы с контейнерами.
 
 Репозиторий: https://github.com/moghtech/komodo
+Документация: [Komodo](https://komo.do/)
 
 ![Self-hosting. Komodo.png](/img/user/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8/Self-hosting.%20Komodo.png)
 ### Пример docker compose файла:
@@ -400,6 +401,7 @@ PERIPHERY_INCLUDE_DISK_MOUNTS=/etc/hostname
 - [[Заметки/Добавление серверов в komodo\|Добавление серверов в komodo]]
 - [[Заметки/Управление docker compose в komodo\|Управление docker compose в komodo]]
 - [[Заметки/Уведомления из komodo в telegram\|Уведомления из komodo в telegram]]
+- [[Заметки/Подключение komodo к authentik\|Подключение komodo к authentik]]
 
 ---
 > [!urls]- Упоминания:
