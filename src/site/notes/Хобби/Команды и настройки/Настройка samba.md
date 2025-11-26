@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Настройка samba.md","permalink":"/komandy-i-nastrojki/nastrojka-samba/","updated":"2024-10-06T02:55:13+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Настройка samba.md","permalink":"/komandy-i-nastrojki/nastrojka-samba/","updated":"2025-11-26T18:24:23+03:00"}
 ---
 
 Установка samba
