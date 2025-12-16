@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-i-perf3-exporter/","tags":[""],"created":"2025-12-16 22:36","updated":"2025-12-17T01:03:59+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-i-perf3-exporter/","tags":[""],"created":"2025-12-16 22:36","updated":"2025-12-17T01:06:46+03:00"}
 ---
 
 Экспортер Prometheus для показателей сетевой производительности iPerf3.
@@ -52,9 +52,9 @@ services:
       # Optional: enable reverse mode
       # reverse_mode: ['true']
       # Optional: enable UDP mode
-      udp_mode: ['true']
+      #udp_mode: ['true']
       # Optional: set bitrate limit
-      bitrate: ['1G']
+      #bitrate: ['1G']
       # Optional: set test period
       period: ['5s']
     relabel_configs:
@@ -67,7 +67,7 @@ services:
 ```
 
 - В разделе `targets` указывается список серверов замеры к которым необходимо выполнять.
-- Лучше использовать `udp_mode` так как позволяет задавать параметры тестирования а не устанавливать их автоматически.
+- Лучше использовать `udp_mode` позволяет использовать udp протокол для тестирования с возможностью задавать параметры тестирования а не устанавливать их автоматически.
 - Параметр `bitrate` отвечает за предельную скорость с которой будет проводиться тест, это та максимальная скорость которую вы можете получить.
 - `period` - время за которое будет проводиться тестирование
 - `monitoring.local` - адрес `iperf3-exporter` по которому будет обращаться prometheus для выполнения замера.
