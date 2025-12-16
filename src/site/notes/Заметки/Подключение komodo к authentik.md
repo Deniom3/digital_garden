@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/podklyuchenie-komodo-k-authentik/","created":"2025-11-27 00:15","updated":"2025-11-27T00:19:10+03:00"}
+{"dg-publish":true,"permalink":"/zametki/podklyuchenie-komodo-k-authentik/","created":"2025-11-27 00:15","updated":"2025-11-27T00:20:28+03:00"}
 ---
 
 [[Заметки/Self-hosting. Komodo\|Komodo]] поддерживает авторизацию через oidc в [[Заметки/Self-hosting. Authentik\|Authentik]].

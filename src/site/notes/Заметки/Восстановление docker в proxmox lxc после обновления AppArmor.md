@@ -1,8 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/vosstanovlenie-docker-v-proxmox-lxc-posle-obnovleniya-app-armor/","tags":["📥"],"created":"2025-11-08 15:00","updated":"2025-11-08T15:12:36+03:00"}
+{"dg-publish":true,"permalink":"/zametki/vosstanovlenie-docker-v-proxmox-lxc-posle-obnovleniya-app-armor/","created":"2025-11-08 15:00","updated":"2025-12-06T20:25:03+03:00"}
 ---
 
-Обновление безопасности пакета runc на версии 1.3.2+ и 1.2.7+ изменило взаимодействие docker с ядром системы в lxc контейнерах.  Это приводит к ошибке работы docker:
+> [!hint]
+> В последних версиях пакета исправлено и фикс не требуется
+
+Обновление безопасности пакета runc на версии 1.3.2+ и 1.2.7+ изменило взаимодействие [[Заметки/Docker\|docker]] с ядром системы в lxc контейнерах в [[Заметки/Self-hosting. Proxmox Virtual Environment\|Proxmox]].  Это приводит к ошибке работы docker:
 
 ```
 Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied: unknown

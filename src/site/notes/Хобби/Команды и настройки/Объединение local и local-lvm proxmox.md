@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Объединение local и local-lvm proxmox.md","permalink":"/komandy-i-nastrojki/obedinenie-local-i-local-lvm-proxmox/","tags":[""],"updated":"2025-11-26T01:45:22+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Объединение local и local-lvm proxmox.md","permalink":"/komandy-i-nastrojki/obedinenie-local-i-local-lvm-proxmox/","tags":[""],"updated":"2025-12-09T03:07:40+03:00"}
 ---
 
 

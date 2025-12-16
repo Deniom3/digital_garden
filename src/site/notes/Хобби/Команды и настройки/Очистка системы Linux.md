@@ -1,27 +1,27 @@
 ---
-{"dg-publish":true,"dg-path":"Команды и настройки/Очистка системы Linux.md","permalink":"/komandy-i-nastrojki/ochistka-sistemy-linux/","updated":"2025-09-11T11:20:49+03:00"}
+{"dg-publish":true,"dg-path":"Команды и настройки/Очистка системы Linux.md","permalink":"/komandy-i-nastrojki/ochistka-sistemy-linux/","updated":"2025-12-04T10:21:38+03:00"}
 ---
 
 Удалить неиспользуемые пакеты из кэша
 
 ```console
- sudo apt autoclean
+ apt autoclean
 ```
 
 Очистка кэша в Ubuntu, утилиты apt:
 
 ```console
- sudo apt clean
+apt clean
 ```
 
 Удаление ненужных зависимостей:
 
 ```console
- sudo apt autoremove
+apt autoremove
 ```
 
 Удаление log
 
 ```console
-sudo journalctl --vacuum-size=1M
+journalctl --vacuum-size=1M
 ```

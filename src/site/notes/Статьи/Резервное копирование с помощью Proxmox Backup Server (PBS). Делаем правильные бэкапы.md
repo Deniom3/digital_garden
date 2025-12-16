@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stati/rezervnoe-kopirovanie-s-pomoshhyu-proxmox-backup-server-pbs-delaem-pravilnye-bekapy/","updated":"2024-09-29T00:07:21+03:00"}
+{"dg-publish":true,"permalink":"/stati/rezervnoe-kopirovanie-s-pomoshhyu-proxmox-backup-server-pbs-delaem-pravilnye-bekapy/","updated":"2025-12-10T23:27:05+03:00"}
 ---
 
 Возврат:: [[Статьи/Оглавление статей\|к списку статей]] [[Статьи/Оглавление моих статей\|мои статьи]] 

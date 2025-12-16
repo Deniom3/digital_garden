@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Docker compose/Monitoring Node.md","permalink":"/docker-compose/monitoring-node/","updated":"2024-10-12T01:29:14+03:00"}
+{"dg-publish":true,"dg-path":"Docker compose/Monitoring Node.md","permalink":"/docker-compose/monitoring-node/","updated":"2025-12-15T21:45:19+03:00"}
 ---
 
 
@@ -22,22 +22,25 @@ services:
     restart: unless-stopped
     network_mode: host
   cadvisor:
-    image: gcr.io/cadvisor/cadvisor:latest
+    image: ghcr.io/google/cadvisor:latest
     container_name: cadvisor
     privileged: true
     devices:
       - /dev/kmsg:/dev/kmsg
     volumes:
+      - /etc/localtime:/etc/localtime:ro
       - /:/rootfs:ro
       - /var/run:/var/run:ro
       - /sys:/sys:ro
       - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
       - /cgroup:/cgroup:ro
+      - /etc/machine-id:/etc/machine-id:ro
     restart: unless-stopped
     command:
 	  - '-port=8090'
     network_mode: host
-networks: {}
+
 ```
 
 > [!bug] Внимание

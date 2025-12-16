@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-backup-server-pbs/","created":"2024-07-03 20:03","updated":"2024-10-09T19:53:28+03:00"}
+{"dg-publish":true,"permalink":"/zametki/self-hosting-proxmox-backup-server-pbs/","created":"2024-07-03 20:03","updated":"2025-12-13T02:37:56+03:00"}
 ---
 
 Это система организации хранения резервных копий виртуальных машин и LXC контейнеров для системы виртуализации [[Заметки/Self-hosting. Proxmox Virtual Environment\|proxmox]]. Позволяет удобно и компактно хранить резервные копии в виде чанков в которых сохраняется изменение данных а не создается полная копия.
